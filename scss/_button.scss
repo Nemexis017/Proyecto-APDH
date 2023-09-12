@@ -21,9 +21,9 @@
 }
 .primary-btn2 {
   display: inline-block;
-  background: $title-color;
+  background: $primary-color;
   padding: 0px 48px;
-  color: $primary-color;
+  color: $title-color;
   font-size: 13px;
   font-weight: 500;
   line-height: 48px;
@@ -35,8 +35,8 @@
   cursor: pointer;
   @include transition();
   &:hover {
-    background: transparent;
-    color: $title-color;
+    background: $title-color;
+    color: $primary-color;
     border: 1px solid $title-color;
   }
 }

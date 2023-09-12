@@ -3,7 +3,7 @@
             <div class="container">
                 <!-- pantalla móvil -->
                 <a class="navbar-brand logo_h" href="index.html">
-                    <img src="img/iconos/iconoPrincipal.icon" width="40px" alt=""/>
+                    <img src="img/iconos/logoMauxi02.icon" width="60px" alt=""/>
                 </a>
                 <button
                 class="navbar-toggler"

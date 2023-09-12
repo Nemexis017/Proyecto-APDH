@@ -412,8 +412,8 @@ button:focus {
   z-index: 1;
   min-height: 900px;
   position: relative;
-  background: url(../img/banner/bannerT.jpg) no-repeat center;
-  background-color: rgba(0, 0, 0, 0.847);
+  background: url(../img/banner/imagenColegio.jpg) no-repeat center;
+  background-color: rgba(0, 0, 0, 0.797);
   background-blend-mode: soft-light;
   background-size: cover;
 }
@@ -3604,9 +3604,9 @@ h6 {
 
 .primary-btn2 {
   display: inline-block;
-  background: #002347;
+  background: #fdc632;
   padding: 0px 48px;
-  color: #fdc632;
+  color: #002347;
   font-size: 13px;
   font-weight: 500;
   line-height: 48px;
@@ -3620,8 +3620,8 @@ h6 {
   transition: all 0.3s ease 0s;
 }
 .primary-btn2:hover {
-  background: transparent;
-  color: #002347;
+  background: #002347;
+  color: #fdc632;
   border: 1px solid #002347;
 }
 

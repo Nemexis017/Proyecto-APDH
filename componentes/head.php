@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
     <!-- icono de la institucion -->
-    <link rel="icon" href="img/iconos/iconoPrincipal.icon" />
+    <link rel="icon" href="img/iconos/logoMauxi02.icon" />
 
     <title>I.E Maria Auxiliadora</title>
     <!-- Bootstrap CSS -->
