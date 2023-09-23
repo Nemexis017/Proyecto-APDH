@@ -52,7 +52,7 @@
                         <a href="forgot_password.html">Forgot password?</a>
                     </div>
                     <div class="form-group">
-                        <button class="btn btn-info btn-block" type="submit">Login</button>
+                        <a href="html/dist" class="btn btn-info btn-block" type="submit">Login</a>
                     </div>
                     <div class="social-auth-hr">
                         <span>Or login with</span>

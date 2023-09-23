@@ -1,0 +1,91 @@
+.legendLabel {
+  padding-left: 5px;
+}
+
+.flotTip {
+  border-radius: 0 !important;
+  background-color: rgb(50, 50, 50) !important;
+  border: 1px solid rgb(50, 50, 50) !important;
+  opacity: 0.8;
+  color: #fff;
+}
+
+.jqstooltip {
+  box-sizing: content-box;
+  border: 0 !important;
+}
+
+table.dataTable {
+  width: 100% !important;
+}
+
+.fc-event {
+  padding: 4px 6px;
+  background-color: #3498db;
+  color: #fff !important;
+  border: 0;
+}
+
+#external-events .ex-event {
+  padding: 5px 10px;
+  margin: 5px 0;
+  cursor: move;
+}
+
+.select2-container {
+  max-width: 100%;
+}
+
+.select2-container--default .select2-selection--multiple,
+.select2-container--default .select2-selection--single,
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+  outline: 0 !important;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  height: auto;
+}
+
+.select2-dropdown {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  line-height: 30px;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered {
+  line-height: 1.25;
+}
+
+.bootstrap-timepicker-widget .bootstrap-timepicker-hour, .bootstrap-timepicker-widget .bootstrap-timepicker-meridian, .bootstrap-timepicker-widget .bootstrap-timepicker-minute, .bootstrap-timepicker-widget .bootstrap-timepicker-second {
+  border: 0;
+  background: 0 0;
+  outline: 0 !important;
+  box-shadow: none;
+}
+
+.note-editor.note-frame {
+  border-radius: 0;
+  border-color: #ddd;
+}
+
+.note-toolbar {
+  background-color: #f2f2f2 !important;
+}
+
+.note-btn, .note-btn:hover, .open .note-btn.dropdown-toggle {
+  background-color: #fff;
+}
+
+.note-color .dropdown-menu > li > .btn-group {
+  display: table-cell !important;
+  padding: 5px;
+}
+
+.note-popover.popover {
+  display: none;
+}
+
+.jvectormap-zoomin, .jvectormap-zoomout, .jvectormap-goback {
+  background: #3498db;
+}/*# sourceMappingURL=vendors.css.map */
