@@ -37,45 +37,14 @@
               <li><a href="#">Agencies</a></li>
             </ul>
           </div>
-          <div class="col-lg-4 col-md-6 single-footer-widget">
-            <h4>Newsletter</h4>
-            <p>You can trust us. we only send promo offers,</p>
-            <div class="form-wrap" id="mc_embed_signup">
-              <form
-                target="_blank"
-                action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-                method="get"
-                class="form-inline"
-              >
-                <input
-                  class="form-control"
-                  name="EMAIL"
-                  placeholder="Your Email Address"
-                  onfocus="this.placeholder = ''"
-                  onblur="this.placeholder = 'Your Email Address'"
-                  required=""
-                  type="email"
-                />
-                <button class="click-btn btn btn-default">
-                  <span>subscribe</span>
-                </button>
-                <div style="position: absolute; left: -5000px;">
-                  <input
-                    name="b_36c4fd991d266f23781ded980_aefe40901a"
-                    tabindex="-1"
-                    value=""
-                    type="text"
-                  />
-                </div>
-
-                <div class="info"></div>
-              </form>
-            </div>
+          <div class="col-lg-4 col-md-6 single-footer-widget d-flex justify-content-center">
+            <figure>
+              <img src="img/iconos/logoMauxi02.icon" alt="escudoInstitucional" width="200px">
+            </figure>
           </div>
         </div>
         <div class="row footer-bottom d-flex justify-content-between">
-          <p class="col-lg-8 col-sm-12 footer-text m-0 text-white">
-          <div class="col-lg-4 col-sm-12 footer-social">
+          <div class="col-lg-3 col-sm-12 footer-social">
             <a href="#"><i class="ti-facebook"></i></a>
             <a href="#"><i class="ti-twitter"></i></a>
             <a href="#"><i class="ti-dribbble"></i></a>

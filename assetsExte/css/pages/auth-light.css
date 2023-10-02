@@ -10,12 +10,7 @@
 	max-width: 520px;
 	margin:0 auto;
 }
-.content form {
-	height: 430px;
-	padding: 25px 25px 25px 25px;
-	margin: 60px 10px 60px 10px;
-	background-color: #fff;
-}
+
 .login-header {margin:10px 0 20px 0;}
 .login-img {
 	display: inline-block;

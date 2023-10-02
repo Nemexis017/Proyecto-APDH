@@ -68,8 +68,22 @@ theme.
 @import "footer";
 /*---------------------------------------------------- */
 
+.font-img{
+    background-image: url(../img/fotosColegio/fotoColegio01.jpg) !important;
+    background-color: rgba(0, 0, 0, 0.708);
+    background-blend-mode: soft-light;
+    background-size: 100%;
+    background-position: 0px -60px;
+    // background-color: black !important;
+}
 
-
+.content form {
+	height: 490px;
+	padding: 25px 25px 25px 25px;
+	margin: 60px 10px 60px 10px;
+	background-color: #fff;
+	border-radius: 15px !important;
+}
 
 
 
