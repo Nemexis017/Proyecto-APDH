@@ -28,49 +28,33 @@
             </div>
         </div>
     </section>
-    <section>
-        <!-- <div class="row"> -->
-            <div class="col-4 content">
-                <form id="login-form" action="javascript:;" method="post" class="formulario">
-                    <h2 class="login-title">Acceso</h2>
-                    <div class="form-group">
-                        <div class="input-group-icon right">
-                            <div class="input-icon"><i class="fa fa-envelope"></i></div>
-                            <input class="form-control" type="email" name="email" placeholder="Usuario" autocomplete="off">
+    <section class="about_area section_gap">
+        <div class="container">
+            <div class="row h_blog_item">
+                <div class="col-lg-6">
+                    <div class="h_blog_img">
+                        <img class="img-fluid" src="img/fotosColegio/admin.png" alt="imagen_administrador" width="550px"/>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="h_blog_text">
+                        <div class="h_blog_text_inner left right ">
+                            <h4>Bienvenido al panel de administrador </h4>
+                            <p class="text-justify">
+                            Esta sección está destinada exclusivamente para directivos responsables de gestionar y 
+                            procesar información. Si eres uno de ellos, por favor, haz clic en el botón 
+                            de inicio de sesión. Si no eres un directivo, te solicitamos amablemente que regreses al inicio.
+                            </p>
+                            
+                            <a class="primary-btn" href="login.php">
+                                Iniciar Sección 
+                                <i class="ti-arrow-right ml-1"></i>
+                            </a>
                         </div>
                     </div>
-                    <div class="form-group">
-                        <div class="input-group-icon right">
-                            <div class="input-icon"><i class="fa fa-lock font-16"></i></div>
-                            <input class="form-control" type="password" name="password" placeholder="contraseña">
-                        </div>
-                    </div>
-                    <div class="form-group d-flex justify-content-between">
-                        <label class="ui-checkbox ui-checkbox-info">
-                            <input type="checkbox">
-                            <span class="input-span"></span>Remember me</label>
-                        <a href="forgot_password.html">Forgot password?</a>
-                    </div>
-                    <div class="form-group">
-                        <a href="html/dist" class="btn btn-info btn-block" type="submit">Login</a>
-                    </div>
-                    <div class="social-auth-hr">
-                        <span>Or login with</span>
-                    </div>
-                    <div class="text-center social-auth m-b-20">
-                        <a class="btn btn-social-icon btn-twitter m-r-5" href="javascript:;"><i class="fa fa-twitter"></i></a>
-                        <a class="btn btn-social-icon btn-facebook m-r-5" href="javascript:;"><i class="fa fa-facebook"></i></a>
-                        <a class="btn btn-social-icon btn-google m-r-5" href="javascript:;"><i class="fa fa-google-plus"></i></a>
-                        <a class="btn btn-social-icon btn-linkedin m-r-5" href="javascript:;"><i class="fa fa-linkedin"></i></a>
-                        <a class="btn btn-social-icon btn-vk" href="javascript:;"><i class="fa fa-vk"></i></a>
-                    </div>
-                    <div class="text-center">Not a member?
-                        <a class="color-blue" href="register.html">Create accaunt</a>
-                    </div>
-                </form>
+                </div>
             </div>
-            
-        
+        </div>
     </section>
     <footer class="footer-area section_gap">
         <?php include('componentes/footer.php')?>

@@ -2347,7 +2347,10 @@ smaller than 560
   background-color: #c7cccf !important; }
 
 .bg-silver-300 {
-  background-color: #d1d5d8 !important; }
+  /* background-image: url(../../img/fotosColegio/fotoColegio01.jpg) !important; */
+  background-color: #000 !important;
+
+}
 
 .bg-silver-200 {
   background-color: #dee1e3 !important; }

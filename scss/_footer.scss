@@ -4,7 +4,11 @@
 /* =================================== */
 
 .footer-area {
-  background: $title-color;
+  background-image: url(../img/fotosColegio/footer.jpg);
+  background-size: 100%;
+  background-blend-mode: soft-light;
+  background-color: #000000d8;
+  background-position: 0 -60px;
   .single-footer-widget {
     @media (max-width: 991px) {
       margin-bottom: 30px;

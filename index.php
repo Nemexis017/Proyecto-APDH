@@ -41,9 +41,9 @@
         <div class="row justify-content-center">
           <div class="col-lg-5">
             <div class="main_title">
-              <h2 class="mb-3">Awesome Feature</h2>
+              <h2 class="mb-3">Valores Institucionales</h2>
               <p>
-                Replenish man have thing gathering lights yielding shall you
+                "Educad a los niños, y no será necesario castigar a los hombres"
               </p>
             </div>
           </div>
@@ -51,12 +51,15 @@
         <div class="row">
           <div class="col-lg-4 col-md-6">
             <div class="single_feature">
-              <div class="icon"><span class="flaticon-student"></span></div>
+              <div class="icon d-flex justify-content-center">
+                <img src="img/fotosColegio/disciplina.png" alt=""  width="100px">
+              </div>
               <div class="desc">
-                <h4 class="mt-3 mb-2">ceidy</h4>
-                <p>
-                  One make creepeth, man bearing theira firmament won't great
-                  heaven
+                <h4 class="mt-3 mb-2">Disciplina</h4>
+                <p class="text-justify">
+                  Un entorno educativo cuidadosamente estructurado y organizado establece
+                  los cimientos esenciales para un aprendizaje efectivo y un crecimiento personal enriquecedor. La disciplina, en nuestro enfoque, va más allá de la simple conformidad con normas; 
+                  se trata de cultivar una cultura arraigada en el respeto mutuo.
                 </p>
               </div>
             </div>
@@ -64,12 +67,15 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="single_feature">
-              <div class="icon"><span class="flaticon-book"></span></div>
+              <div class="icon d-flex justify-content-center">
+                <img src="img/fotosColegio/respeto.png" alt="imgen-respeto"  width="100px">
+              </div>
               <div class="desc">
-                <h4 class="mt-3 mb-2">oscar  </h4>
-                <p>
-                  One make creepeth, man bearing theira firmament won't great
-                  heaven
+                <h4 class="mt-3 mb-2">Respeto</h4>
+                <p class="text-justify">
+                  En nuestro colegio, el respeto es un valor fundamental que se promueve con el máximo 
+                  respeto hacia todos los miembros de la comunidad educativa. Creemos firmemente que un ambiente escolar en el que se fomente el respeto mutuo es esencial 
+                  para el aprendizaje efectivo y el crecimiento personal de nuestros estudiantes.
                 </p>
               </div>
             </div>
@@ -77,12 +83,15 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="single_feature">
-              <div class="icon"><span class="flaticon-earth"></span></div>
+              <div class="icon d-flex justify-content-center">
+                <img src="img/fotosColegio/solidaridad.png" alt="imagen-solidaridad"  width="100px">
+              </div>
               <div class="desc">
-                <h4 class="mt-3 mb-2">skipper</h4>
-                <p>
-                  One make creepeth, man bearing theira firmament won't great
-                  heaven
+                <h4 class="mt-3 mb-2">Solidaridad</h4>
+                <p class="text-justify">
+                  En nuestro colegio, la solidaridad ocupa un lugar central en nuestra filosofía educativa. 
+                  Valoramos y promovemos este principio con un profundo sentido de compromiso. Creemos firmemente que 
+                  la solidaridad es una piedra angular que contribuye a crear un entorno escolar enriquecedor.
                 </p>
               </div>
             </div>
@@ -98,10 +107,7 @@
         <div class="row justify-content-center">
           <div class="col-lg-5">
             <div class="main_title">
-              <h2 class="mb-3">Our Popular Courses</h2>
-              <p>
-                Replenish man have thing gathering lights yielding shall you
-              </p>
+              <h2 class="mb-3">Los mejores momentos</h2>
             </div>
           </div>
         </div>
@@ -111,102 +117,61 @@
             <div class="owl-carousel active_course">
               <div class="single_course">
                 <div class="course_head">
-                  <img class="img-fluid" src="img/courses/c1.jpg" alt="" />
+                  <img class="img-fluid" src="img/fotosColegio/diaIdioma.jpg" alt="" />
                 </div>
                 <div class="course_content">
-                  <span class="price">$25</span>
-                  <span class="tag mb-4 d-inline-block">design</span>
-                  <h4 class="mb-3">
-                    <a href="course-details.html">Custom Product Design</a>
-                  </h4>
-                  <p>
-                    One make creepeth man bearing their one firmament won't fowl
-                    meat over sea
-                  </p>
-                  <div
-                    class="course_meta d-flex justify-content-lg-between align-items-lg-center flex-lg-row flex-column mt-4"
-                  >
-                    <div class="authr_meta">
-                      <img src="img/courses/author1.png" alt="" />
-                      <span class="d-inline-block ml-2">Cameron</span>
-                    </div>
-                    <div class="mt-lg-0 mt-3">
-                      <span class="meta_info mr-4">
-                        <a href="#"> <i class="ti-user mr-2"></i>25 </a>
-                      </span>
-                      <span class="meta_info"
-                        ><a href="#"> <i class="ti-heart mr-2"></i>35 </a></span
-                      >
-                    </div>
+                  <div class="col-12">
+                    DIA DEL IDIOMA
                   </div>
                 </div>
               </div>
 
               <div class="single_course">
+                <div class="course_head">
+                  <img class="img-fluid" src="img/fotosColegio/diaMaestro.jpg" alt="" />
+                </div>
+                <div class="course_content">
+                  <div class="col-12 row">
+                    DIA DEL MAESTRO
+                  </div>
+                </div>
+              </div>
+
+              <div class="single_course">
+                <div class="course_head">
+                  <img class="img-fluid" src="img/fotosColegio/deportivoMestros.jpg" alt="" />
+                </div>
+                <div class="course_content">
+                  <div class="col-12 row">
+                    EVENTO DEPORTIVO DE DOCENCIA
+                  </div>
+                </div>
+              </div>
+
+              <div class="single_course">
+                <div class="course_head">
+                  <img class="img-fluid" src="img/fotosColegio/basar.jpg" alt="" />
+                </div>
+                <div class="course_content">
+                  <div class="col-12 row">
+                    GRAN COMPARTIR
+                  </div>
+                </div>
+              </div>
+
+              <!-- <div class="single_course">
                 <div class="course_head">
                   <img class="img-fluid" src="img/courses/c2.jpg" alt="" />
                 </div>
                 <div class="course_content">
-                  <span class="price">$25</span>
-                  <span class="tag mb-4 d-inline-block">design</span>
-                  <h4 class="mb-3">
-                    <a href="course-details.html">Social Media Network</a>
-                  </h4>
-                  <p>
-                    One make creepeth man bearing their one firmament won't fowl
-                    meat over sea
-                  </p>
-                  <div
-                    class="course_meta d-flex justify-content-lg-between align-items-lg-center flex-lg-row flex-column mt-4"
-                  >
-                    <div class="authr_meta">
-                      <img src="img/courses/author2.png" alt="" />
-                      <span class="d-inline-block ml-2">Cameron</span>
-                    </div>
-                    <div class="mt-lg-0 mt-3">
-                      <span class="meta_info mr-4">
-                        <a href="#"> <i class="ti-user mr-2"></i>25 </a>
-                      </span>
-                      <span class="meta_info"
-                        ><a href="#"> <i class="ti-heart mr-2"></i>35 </a></span
-                      >
-                    </div>
+                  <div class="col-12 row">
+                    JESUS
                   </div>
                 </div>
-              </div>
-
-              <div class="single_course">
-                <div class="course_head">
-                  <img class="img-fluid" src="img/courses/c3.jpg" alt="" />
-                </div>
-                <div class="course_content">
-                  <span class="price">$25</span>
-                  <span class="tag mb-4 d-inline-block">design</span>
-                  <h4 class="mb-3">
-                    <a href="course-details.html">Computer Engineering</a>
-                  </h4>
-                  <p>
-                    One make creepeth man bearing their one firmament won't fowl
-                    meat over sea
-                  </p>
-                  <div
-                    class="course_meta d-flex justify-content-lg-between align-items-lg-center flex-lg-row flex-column mt-4"
-                  >
-                    <div class="authr_meta">
-                      <img src="img/courses/author3.png" alt="" />
-                      <span class="d-inline-block ml-2">Cameron</span>
-                    </div>
-                    <div class="mt-lg-0 mt-3">
-                      <span class="meta_info mr-4">
-                        <a href="#"> <i class="ti-user mr-2"></i>25 </a>
-                      </span>
-                      <span class="meta_info"
-                        ><a href="#"> <i class="ti-heart mr-2"></i>35 </a></span
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
+              </div> -->
+            </div>
+            <div class="col-12 row d-flex justify-content-sm-center">
+              <a href="#" class="primary-btn">Ver más detalles</a>
             </div>
           </div>
         </div>
@@ -221,65 +186,45 @@
           <div class="col-lg-7">
             <div class="row clock_sec clockdiv" id="clockdiv">
               <div class="col-lg-12">
-                <h1 class="mb-3">Register Now</h1>
+                <h1 class="mb-3">Estudiantes</h1>
                 <p>
-                  There is a moment in the life of any aspiring astronomer that
-                  it is time to buy that first telescope. It’s exciting to think
-                  about setting up your own viewing station.
+                  Nuestra comunidad es como un engranaje perfectamente sincronizado
+                  en el que nuestras sedes operan con precisión y eficiencia. Este ambiente de 
+                  aprendizaje contribuye a moldear y nutrir a estudiantes de alta calidad, preparándolos 
+                  para un futuro prometedor y lleno de oportunidades
                 </p>
               </div>
               <div class="col clockinner1 clockinner">
                 <h1 class="days">150</h1>
-                <span class="smalltext">Days</span>
+                <p class="smalltext">Segundaria</p>
               </div>
               <div class="col clockinner clockinner1">
-                <h1 class="hours">23</h1>
-                <span class="smalltext">Hours</span>
+                <h1 class="hours">34</h1>
+                <p class="smalltext">Primaria</p>
               </div>
               <div class="col clockinner clockinner1">
                 <h1 class="minutes">47</h1>
-                <span class="smalltext">Mins</span>
+                <p class="smalltext">Rural</p>
               </div>
               <div class="col clockinner clockinner1">
                 <h1 class="seconds">59</h1>
-                <span class="smalltext">Secs</span>
+                <p class="smalltext">Pre-Escolar</p>
               </div>
             </div>
           </div>
           <div class="col-lg-4 offset-lg-1">
             <div class="register_form">
-              <h3>Courses for Free</h3>
-              <p>It is high time for learning</p>
-              <form
-                class="form_area"
-                id="myForm"
-                action="mail.html"
-                method="post"
-              >
+              <h3>Contactanos</h3>
+              <p>Animate a participar de esta comunidad educativa</p>
+              <form class="form_area" id="myForm" action="mail.html" method="post">
                 <div class="row">
-                  <div class="col-lg-12 form_group">
-                    <input
-                      name="name"
-                      placeholder="Your Name"
-                      required=""
-                      type="text"
-                    />
-                    <input
-                      name="name"
-                      placeholder="Your Phone Number"
-                      required=""
-                      type="tel"
-                    />
-                    <input
-                      name="email"
-                      placeholder="Your Email Address"
-                      pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
-                      required=""
-                      type="email"
-                    />
+                  <div class="col-lg-12">
+                    <p><i class="fa-solid fa-phone margi"></i> +57 3112102667</p>
+                    <p><i class="fa-solid fa-envelope margi"></i> mariauxiliadora.iquira@sedhuila.gov.co</p>
+                    <p><i class="fa-solid fa-location-dot margi"></i> KR 9 # 6-30, HUILA, IQUIRA.</p>
                   </div>
                   <div class="col-lg-12 text-center">
-                    <button class="primary-btn">Submit</button>
+                    <a href="contact.php" class="primary-btn">Ver más</a>
                   </div>
                 </div>
               </form>
@@ -296,7 +241,7 @@
         <div class="row justify-content-center">
           <div class="col-lg-5">
             <div class="main_title">
-              <h2 class="mb-3">Our Expert Trainers</h2>
+              <h2 class="mb-3">titulo</h2>
               <p>
                 Replenish man have thing gathering lights yielding shall you
               </p>
@@ -402,9 +347,9 @@
         <div class="row justify-content-center">
           <div class="col-lg-5">
             <div class="main_title">
-              <h2 class="mb-3 text-white">Upcoming Events</h2>
+              <h2 class="mb-3 text-white">Jornadas Institucionales</h2>
               <p>
-                Replenish man have thing gathering lights yielding shall you
+                “La educación es el arma más poderosa para cambiar el mundo”
               </p>
             </div>
           </div>
@@ -417,14 +362,16 @@
               </div>
               <div class="event_details">
                 <div class="d-flex mb-4">
-                  <div class="date"><span>15</span> Jun</div>
+                  <div class="date">
+                    <img src="img/fotosColegio/conocimiento.png" alt="" width="50px">
+                  </div>
 
                   <div class="time-location">
                     <p>
-                      <span class="ti-time mr-2"></span> 12:00 AM - 12:30 AM
+                      <span class="ti-time mr-2"></span> 7:00 AM - 1:30 PM
                     </p>
                     <p>
-                      <span class="ti-location-pin mr-2"></span> Hilton Quebec
+                      JORNADA DIURNA
                     </p>
                   </div>
                 </div>
@@ -443,7 +390,10 @@
               </div>
               <div class="event_details">
                 <div class="d-flex mb-4">
-                  <div class="date"><span>15</span> Jun</div>
+
+                  <div class="date">
+                    <img src="img/fotosColegio/modo-nocturno.png" alt="" width="45px">
+                  </div>
 
                   <div class="time-location">
                     <p>

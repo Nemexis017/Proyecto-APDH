@@ -33,7 +33,7 @@
         }
       }
       h4 {
-        color: $title-color;
+        color: $letra;
         font-size: 30px;
         margin-bottom: 15px;
       }
@@ -387,7 +387,9 @@
 ============================================================================================ */
 
 .registration_area {
-  background: $title-color;
+  background-image: url(../img/fotosColegio/escuela.jpg);
+  background-blend-mode: soft-light;
+  background-color: #00000097;
 }
 
 .clock_sec {
@@ -439,6 +441,7 @@
   background: #fff;
   text-align: center;
   padding: 40px;
+  width: 400px;
   @media (max-width: 991px) {
     margin-top: 60px;
   }
@@ -530,7 +533,10 @@
 
 .events_area {
   padding: 130px 0 100px;
-  background: $title-color;
+  background-image: url(../img/fotosColegio/canchaMicro.jpg);
+  background-size: 100%;
+  background-color: rgba(0, 0, 0, 0.785);
+  background-blend-mode: soft-light;
   @media (max-width: 991px) {
     padding: 70px 0;
   }
@@ -554,13 +560,14 @@
     }
   }
   .event_details {
-    background: rgba($title-color, 0.5);
+    background: rgb(93 147 32 / 81%);
     position: absolute;
     top: 0px;
     right: 0px;
     width: 275px;
     padding: 30px 25px;
-    color: #ffffff;
+    color: $letra;
+    font-weight: bold;
     .date {
       color: #ffffff;
       padding-right: 15px;
