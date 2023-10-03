@@ -107,7 +107,7 @@
         <div class="row justify-content-center">
           <div class="col-lg-5">
             <div class="main_title">
-              <h2 class="mb-3">Los mejores momento</h2>
+              <h2 class="mb-3">Los mejores momentos</h2>
             </div>
           </div>
         </div>
@@ -117,49 +117,49 @@
             <div class="owl-carousel active_course">
               <div class="single_course">
                 <div class="course_head">
-                  <img class="img-fluid" src="img/courses/c1.jpg" alt="" />
+                  <img class="img-fluid" src="img/fotosColegio/diaIdioma.jpg" alt="" />
                 </div>
                 <div class="course_content">
                   <div class="col-12">
-                    holaa
+                    DIA DEL IDIOMA
                   </div>
                 </div>
               </div>
 
               <div class="single_course">
                 <div class="course_head">
-                  <img class="img-fluid" src="img/courses/c2.jpg" alt="" />
+                  <img class="img-fluid" src="img/fotosColegio/diaMaestro.jpg" alt="" />
                 </div>
                 <div class="course_content">
                   <div class="col-12 row">
-                    como
+                    DIA DEL MAESTRO
                   </div>
                 </div>
               </div>
 
               <div class="single_course">
                 <div class="course_head">
-                  <img class="img-fluid" src="img/courses/c2.jpg" alt="" />
+                  <img class="img-fluid" src="img/fotosColegio/deportivoMestros.jpg" alt="" />
                 </div>
                 <div class="course_content">
                   <div class="col-12 row">
-                    estas
+                    EVENTO DEPORTIVO DE DOCENCIA
                   </div>
                 </div>
               </div>
 
               <div class="single_course">
                 <div class="course_head">
-                  <img class="img-fluid" src="img/courses/c2.jpg" alt="" />
+                  <img class="img-fluid" src="img/fotosColegio/basar.jpg" alt="" />
                 </div>
                 <div class="course_content">
                   <div class="col-12 row">
-                    yo soy 
+                    GRAN COMPARTIR
                   </div>
                 </div>
               </div>
 
-              <div class="single_course">
+              <!-- <div class="single_course">
                 <div class="course_head">
                   <img class="img-fluid" src="img/courses/c2.jpg" alt="" />
                 </div>
@@ -168,8 +168,10 @@
                     JESUS
                   </div>
                 </div>
-              </div>
-
+              </div> -->
+            </div>
+            <div class="col-12 row d-flex justify-content-sm-center">
+              <a href="#" class="primary-btn">Ver más detalles</a>
             </div>
           </div>
         </div>
@@ -239,7 +241,7 @@
         <div class="row justify-content-center">
           <div class="col-lg-5">
             <div class="main_title">
-              <h2 class="mb-3">Our Expert Trainers</h2>
+              <h2 class="mb-3">titulo</h2>
               <p>
                 Replenish man have thing gathering lights yielding shall you
               </p>
@@ -345,9 +347,9 @@
         <div class="row justify-content-center">
           <div class="col-lg-5">
             <div class="main_title">
-              <h2 class="mb-3 text-white">Upcoming Events</h2>
+              <h2 class="mb-3 text-white">Jornadas Institucionales</h2>
               <p>
-                Replenish man have thing gathering lights yielding shall you
+                “La educación es el arma más poderosa para cambiar el mundo”
               </p>
             </div>
           </div>
@@ -360,14 +362,16 @@
               </div>
               <div class="event_details">
                 <div class="d-flex mb-4">
-                  <div class="date"><span>15</span> Jun</div>
+                  <div class="date">
+                    <img src="img/fotosColegio/conocimiento.png" alt="" width="50px">
+                  </div>
 
                   <div class="time-location">
                     <p>
-                      <span class="ti-time mr-2"></span> 12:00 AM - 12:30 AM
+                      <span class="ti-time mr-2"></span> 7:00 AM - 1:30 PM
                     </p>
                     <p>
-                      <span class="ti-location-pin mr-2"></span> Hilton Quebec
+                      JORNADA DIURNA
                     </p>
                   </div>
                 </div>
@@ -386,7 +390,10 @@
               </div>
               <div class="event_details">
                 <div class="d-flex mb-4">
-                  <div class="date"><span>15</span> Jun</div>
+
+                  <div class="date">
+                    <img src="img/fotosColegio/modo-nocturno.png" alt="" width="45px">
+                  </div>
 
                   <div class="time-location">
                     <p>
