@@ -35,17 +35,17 @@
                                 role="button"
                                 aria-haspopup="true"
                                 aria-expanded="false"
-                                >Pages</a
+                                >Profesores</a
                             >
                             <ul class="dropdown-menu">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="courses.php">Courses</a>
+                                    <a class="nav-link" href="courses.php">Primaria</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="course-details.php">Course Details</a>
+                                    <a class="nav-link" href="course-details.php">Segundaria</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="elements.php">Elements</a>
+                                    <a class="nav-link" href="elements.php">Rurales</a>
                                 </li>
                             </ul>
                         </li>
@@ -71,15 +71,10 @@
                             </ul>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="contact.php">Contact</a>
+                            <a class="nav-link" href="contact.php">Contacto</a>
                         </li>
                         <li class="nav-item ">
                             <a class="nav-link" href="administrador.php">ADM</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link search" id="search">
-                                <i class="ti-search"></i>
-                            </a>
                         </li>
                     </ul>
                 </div>

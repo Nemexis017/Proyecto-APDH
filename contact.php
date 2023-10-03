@@ -19,10 +19,10 @@
           <div class="row justify-content-center">
             <div class="col-lg-6">
               <div class="banner_content text-center">
-                <h2>Contact Us</h2>
+                <h2>Contáctenos</h2>
                 <div class="page_link">
-                  <a href="index.html">Home</a>
-                  <a href="contact.html">Contact</a>
+                  <a href="index.php">Inicio</a>
+                  <a href="contact.php">Contacto</a>
                 </div>
               </div>
             </div>
@@ -35,33 +35,26 @@
     <!--================Contact Area =================-->
     <section class="contact_area section_gap">
       <div class="container">
-        <div
-          id="mapBox"
-          class="mapBox"
-          data-lat="40.701083"
-          data-lon="-74.1522848"
-          data-zoom="13"
-          data-info="PO Box CT16122 Collins Street West, Victoria 8007, Australia."
-          data-mlat="40.701083"
-          data-mlon="-74.1522848"
-        ></div>
+        <div class="mapa-institucion">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2818.212853053639!2d-75.63575329280113!3d2.6489488655942295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3b21569fef5b0f%3A0xa75cebe59d96bb98!2sInstitucion%20Educativa%20Maria%20Auxiliadora!5e0!3m2!1ses-419!2sco!4v1696284222118!5m2!1ses-419!2sco" width="1100" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
         <div class="row">
           <div class="col-lg-3">
             <div class="contact_info">
               <div class="info_item">
                 <i class="ti-home"></i>
-                <h6>California, United States</h6>
-                <p>Santa monica bullevard</p>
+                <h6>COLOMBIA, Huila - Iquira</h6>
+                <p>Iquira</p>
               </div>
               <div class="info_item">
                 <i class="ti-headphone"></i>
-                <h6><a href="#">00 (440) 9865 562</a></h6>
-                <p>Mon to Fri 9am to 6 pm</p>
+                <h6><a href="#">+57 3112102667</a></h6>
+                <p>Lunes a sabado de 7pm - 5pm</p>
               </div>
               <div class="info_item">
                 <i class="ti-email"></i>
-                <h6><a href="#">support@colorlib.com</a></h6>
-                <p>Send us your query anytime!</p>
+                <h6><a href="#">Soporte tecnico</a></h6>
+                <p>mariauxiliadora.iquira@sedhuila.gov.co</p>
               </div>
             </div>
           </div>
@@ -80,9 +73,9 @@
                     class="form-control"
                     id="name"
                     name="name"
-                    placeholder="Enter your name"
+                    placeholder="Introduzca su nombre"
                     onfocus="this.placeholder = ''"
-                    onblur="this.placeholder = 'Enter your name'"
+                    onblur="this.placeholder = 'Introduzca su nombre'"
                     required=""
                   />
                 </div>
@@ -92,9 +85,9 @@
                     class="form-control"
                     id="email"
                     name="email"
-                    placeholder="Enter email address"
+                    placeholder="Introducir la dirección de correo electrónico"
                     onfocus="this.placeholder = ''"
-                    onblur="this.placeholder = 'Enter email address'"
+                    onblur="this.placeholder = 'Introducir la dirección de correo electrónico'"
                     required=""
                   />
                 </div>
@@ -104,9 +97,9 @@
                     class="form-control"
                     id="subject"
                     name="subject"
-                    placeholder="Enter Subject"
+                    placeholder="Ingresar Asunto"
                     onfocus="this.placeholder = ''"
-                    onblur="this.placeholder = 'Enter Subject'"
+                    onblur="this.placeholder = 'Ingresar Asunto'"
                     required=""
                   />
                 </div>
@@ -118,16 +111,16 @@
                     name="message"
                     id="message"
                     rows="1"
-                    placeholder="Enter Message"
+                    placeholder="Introducir mensaje"
                     onfocus="this.placeholder = ''"
-                    onblur="this.placeholder = 'Enter Message'"
+                    onblur="this.placeholder = 'Introducir mensaje' "
                     required=""
                   ></textarea>
                 </div>
               </div>
               <div class="col-md-12 text-right">
                 <button type="submit" value="submit" class="btn primary-btn">
-                  Send Message
+                  Enviar mensaje
                 </button>
               </div>
             </form>
@@ -139,94 +132,7 @@
 
     <!--================ start footer Area  =================-->
     <footer class="footer-area section_gap">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-2 col-md-6 single-footer-widget">
-            <h4>Top Products</h4>
-            <ul>
-              <li><a href="#">Managed Website</a></li>
-              <li><a href="#">Manage Reputation</a></li>
-              <li><a href="#">Power Tools</a></li>
-              <li><a href="#">Marketing Service</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-2 col-md-6 single-footer-widget">
-            <h4>Quick Links</h4>
-            <ul>
-              <li><a href="#">Jobs</a></li>
-              <li><a href="#">Brand Assets</a></li>
-              <li><a href="#">Investor Relations</a></li>
-              <li><a href="#">Terms of Service</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-2 col-md-6 single-footer-widget">
-            <h4>Features</h4>
-            <ul>
-              <li><a href="#">Jobs</a></li>
-              <li><a href="#">Brand Assets</a></li>
-              <li><a href="#">Investor Relations</a></li>
-              <li><a href="#">Terms of Service</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-2 col-md-6 single-footer-widget">
-            <h4>Resources</h4>
-            <ul>
-              <li><a href="#">Guides</a></li>
-              <li><a href="#">Research</a></li>
-              <li><a href="#">Experts</a></li>
-              <li><a href="#">Agencies</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-4 col-md-6 single-footer-widget">
-            <h4>Newsletter</h4>
-            <p>You can trust us. we only send promo offers,</p>
-            <div class="form-wrap" id="mc_embed_signup">
-              <form
-                target="_blank"
-                action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-                method="get"
-                class="form-inline"
-              >
-                <input
-                  class="form-control"
-                  name="EMAIL"
-                  placeholder="Your Email Address"
-                  onfocus="this.placeholder = ''"
-                  onblur="this.placeholder = 'Your Email Address '"
-                  required=""
-                  type="email"
-                />
-                <button class="click-btn btn btn-default">
-                  <span>subscribe</span>
-                </button>
-                <div style="position: absolute; left: -5000px;">
-                  <input
-                    name="b_36c4fd991d266f23781ded980_aefe40901a"
-                    tabindex="-1"
-                    value=""
-                    type="text"
-                  />
-                </div>
-
-                <div class="info"></div>
-              </form>
-            </div>
-          </div>
-        </div>
-        <div class="row footer-bottom d-flex justify-content-between">
-          <p class="col-lg-8 col-sm-12 footer-text m-0 text-white">
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-          </p>
-          <div class="col-lg-4 col-sm-12 footer-social">
-            <a href="#"><i class="ti-facebook"></i></a>
-            <a href="#"><i class="ti-twitter"></i></a>
-            <a href="#"><i class="ti-dribbble"></i></a>
-            <a href="#"><i class="ti-linkedin"></i></a>
-          </div>
-        </div>
-      </div>
+      <?php include('componentes/footer.php')?>
     </footer>
     <!--================ End footer Area  =================-->
 
@@ -285,7 +191,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/jquery.ajaxchimp.min.js"></script>
     <script src="js/mail-script.js"></script>
     <!--gmaps Js-->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script> -->
     <script src="js/gmaps.min.js"></script>
     <script src="js/contact.js"></script>
     <script src="js/theme.js"></script>

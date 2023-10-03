@@ -19,10 +19,10 @@
           <div class="row justify-content-center">
             <div class="col-lg-6">
               <div class="banner_content text-center">
-                <h2>About Us</h2>
+                <h2>Sobre nosotros</h2>
                 <div class="page_link">
-                  <a href="index.html">Home</a>
-                  <a href="about-us.html">About Us</a>
+                  <a href="index.php">Inicio</a>
+                  <a href="acerca.php">Sobre nosotros</a>
                 </div>
               </div>
             </div>
@@ -38,26 +38,19 @@
         <div class="row h_blog_item">
           <div class="col-lg-6">
             <div class="h_blog_img">
-              <img class="img-fluid" src="img/about.png" alt="" />
+                <iframe width="550" height="480" src="https://www.youtube.com/embed/u-HOLohoYqs" title="Alirio Guevara, rector de la IE María Auxiliadora de Iquira, Huila, Directivo Docente." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
           </div>
           <div class="col-lg-6">
             <div class="h_blog_text">
               <div class="h_blog_text_inner left right">
-                <h4>Welcome to our Institute</h4>
+                <h4>MISIÓN</h4>
                 <p>
-                  Subdue whales void god which living don't midst lesser
-                  yielding over lights whose. Cattle greater brought sixth fly
-                  den dry good tree isn't seed stars were.
+                  La misión de la institución Educativa María Auxiliadora de Íquira, es la de promover la formación de niño, niñas, jóvenes y adultos de grado 
+                  cero a grado 12 de la zona urbana y rural de Íquira, con reconocida idoneidad ética y moral, proyectados para una sana convivencia, académicamente 
+                  competitivos y con capacidad para construir exitosos proyectos de vida en armonía con la naturaleza y el hombre
+
                 </p>
-                <p>
-                  Subdue whales void god which living don't midst lesser yieldi
-                  over lights whose. Cattle greater brought sixth fly den dry
-                  good tree isn't seed stars were the boring.
-                </p>
-                <a class="primary-btn" href="#">
-                  Learn More <i class="ti-arrow-right ml-1"></i>
-                </a>
               </div>
             </div>
           </div>

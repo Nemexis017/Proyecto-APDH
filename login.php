@@ -18,7 +18,7 @@
 
 <body class="font-img">
     <div class="content">
-        <form id="login-form" action="javascript:;" method="post">
+        <form id="login-form" action="librerias/acceso.php" method="post">
             <h2 class="login-title">Administrador</h2>
             <div class="form-group d-flex justify-content-center">
                 <img src="img/iconos/logoMauxi02.icon" alt="" width="80px">
@@ -32,7 +32,7 @@
             <div class="form-group">
                 <div class="input-group-icon right">
                     <div class="input-icon"><i class="fa fa-lock font-16"></i></div>
-                    <input class="form-control" type="password" name=txtPassword" placeholder="Contraseña">
+                    <input class="form-control" type="password" name="txtPassword" placeholder="Contraseña">
                 </div>
             </div>
             <div class="form-group d-flex justify-content-between">

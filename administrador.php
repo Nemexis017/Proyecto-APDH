@@ -33,7 +33,7 @@
             <div class="row h_blog_item">
                 <div class="col-lg-6">
                     <div class="h_blog_img">
-                    <img class="img-fluid" src="img/about.png" alt="" />
+                        <img class="img-fluid" src="img/fotosColegio/admin.png" alt="imagen_administrador" width="550px"/>
                     </div>
                 </div>
                 <div class="col-lg-6">

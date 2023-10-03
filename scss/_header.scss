@@ -15,7 +15,7 @@
         .nav-link {
           font: 500 14px/80px $title-font;
           text-transform: capitalize;
-          color: $title-color;
+          color: $letra;
           padding: 0px;
           display: inline-block;
           @media (max-width: 991px) {
@@ -77,7 +77,7 @@
               transition: all 0.4s linear;
               .nav-link {
                 line-height: 45px;
-                color: $title-color;
+                color: $letra;
                 padding: 0px 30px;
                 transition: all 150ms linear;
                 display: block;

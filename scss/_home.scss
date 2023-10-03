@@ -33,7 +33,7 @@
         }
       }
       h4 {
-        color: $title-color;
+        color: $letra;
         font-size: 30px;
         margin-bottom: 15px;
       }
@@ -387,7 +387,9 @@
 ============================================================================================ */
 
 .registration_area {
-  background: $title-color;
+  background-image: url(../img/fotosColegio/escuela.jpg);
+  background-blend-mode: soft-light;
+  background-color: #00000097;
 }
 
 .clock_sec {
@@ -439,6 +441,7 @@
   background: #fff;
   text-align: center;
   padding: 40px;
+  width: 400px;
   @media (max-width: 991px) {
     margin-top: 60px;
   }

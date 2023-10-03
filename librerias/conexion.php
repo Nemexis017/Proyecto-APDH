@@ -59,6 +59,14 @@
             $delete->bindParam("id", $value, PDO::PARAM_INT);
             $delete->execute();
         }
+
+        public function numeroRegistro($querySql, $values){
+            $conexion= $this->conectar();
+            $consulta= $conexion->prepare($querySql);
+            $consulta->execute($values);
+            $count= $consulta->fetchColumn();
+            return $count;
+        }
     }
 
 ?>

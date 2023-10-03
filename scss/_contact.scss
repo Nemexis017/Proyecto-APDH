@@ -15,7 +15,7 @@
       top: 0;
       font-size: 20px;
       line-height: 24px;
-      color: $title-color;
+      color: $letra;
       font-weight: 600;
     }
     h6 {
@@ -24,9 +24,9 @@
       color: $primary-font;
       font-weight: bold;
       margin-bottom: 0px;
-      color: $title-color;
+      color: $letra;
       a {
-        color: $title-color;
+        color: $letra;
       }
     }
     p {
@@ -51,7 +51,7 @@
         outline: none;
       }
       @include placeholder {
-        color: $title-color;
+        color: $letra;
         font-size: 13px;
       }
     }
