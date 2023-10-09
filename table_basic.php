@@ -1,22 +1,3 @@
-<?php
-    // include('librerias/acceso.php');
-    include('librerias/conexion.php');
-
-    
-    // inicio de sesion
-    session_start();
-    if($_SESSION['personaId']==false){
-        header('Location:login.php');
-    }else{
-        // header('Location:dashBoard.php');
-    }
-    
-    $conexion = new conexion();
-    $sqlConsultaGeneral = "SELECT * FROM mauxi.personalmauxi";
-    $resultadoConsulta = $conexion->consulta($sqlConsultaGeneral);
-
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,32 +5,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
-    <title>Admincast bootstrap 4 &amp; angular 5 admin template, Шаблон админки | Dashboard</title>
+    <title>Admincast bootstrap 4 &amp; angular 5 admin template, Шаблон админки | Basic Tables</title>
     <!-- GLOBAL MAINLY STYLES-->
-    <link href="assetsExte/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="assetsExte/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="assetsExte/vendors/themify-icons/css/themify-icons.css" rel="stylesheet" />
+    <link href="./assets/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./assets/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="./assets/vendors/themify-icons/css/themify-icons.css" rel="stylesheet" />
     <!-- PLUGINS STYLES-->
-    <link href="assetsExte/vendors/jvectormap/jquery-jvectormap-2.0.3.css" rel="stylesheet" />
     <!-- THEME STYLES-->
-    <link href="assetsExte/css/main.min.css" rel="stylesheet" />
+    <link href="assets/css/main.min.css" rel="stylesheet" />
     <!-- PAGE LEVEL STYLES-->
 </head>
 
 <body class="fixed-navbar">
     <div class="page-wrapper">
-        <!-- ENCABEZADO DE INICIO-->
+        <!-- START HEADER-->
         <header class="header">
             <div class="page-brand">
                 <a class="link" href="index.html">
-                    <span class="brand">ADM
+                    <span class="brand">Admin
                         <span class="brand-tip">CAST</span>
                     </span>
                     <span class="brand-mini">AC</span>
                 </a>
             </div>
             <div class="flexbox flex-1">
-                <!-- INICIO BARRA DE HERRAMIENTAS SUPERIOR IZQUIERDA-->
+                <!-- START TOP-LEFT TOOLBAR-->
                 <ul class="nav navbar-toolbar">
                     <li>
                         <a class="nav-link sidebar-toggler js-sidebar-toggler"><i class="ti-menu"></i></a>
@@ -63,8 +43,8 @@
                         </form>
                     </li>
                 </ul>
-                <!-- FINAL DE LA BARRA DE HERRAMIENTAS SUPERIOR IZQUIERDA -->
-                <!-- INICIO BARRA DE HERRAMIENTAS SUPERIOR DERECHA-->
+                <!-- END TOP-LEFT TOOLBAR-->
+                <!-- START TOP-RIGHT TOOLBAR-->
                 <ul class="nav navbar-toolbar">
                     <li class="dropdown dropdown-inbox">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope-o"></i>
@@ -191,23 +171,23 @@
                         </ul>
                     </li>
                 </ul>
-                <!-- FINAL DE LA BARRA DE HERRAMIENTAS SUPERIOR DERECHA -->
+                <!-- END TOP-RIGHT TOOLBAR-->
             </div>
         </header>
-        <!-- ENCABEZADO FINAL -->
-        <!--BARRA LATERAL DE INICIO  una de las mas importantes-->
+        <!-- END HEADER-->
+        <!-- START SIDEBAR-->
         <nav class="page-sidebar" id="sidebar">
             <div id="sidebar-collapse">
                 <div class="admin-block d-flex">
                     <div>
-                        <img src="assetsExte/img/admin-avatar.png" width="45px" />
+                        <img src="./assets/img/admin-avatar.png" width="45px" />
                     </div>
                     <div class="admin-info">
-                        <div class="font-strong">Alirio (Rector)</div><small>Administrator</small></div>
+                        <div class="font-strong">James Brown</div><small>Administrator</small></div>
                 </div>
                 <ul class="side-menu metismenu">
                     <li>
-                        <a class="active" href="dashBoard.php"><i class="sidebar-item-icon fa fa-th-large"></i>
+                        <a href="index.html"><i class="sidebar-item-icon fa fa-th-large"></i>
                             <span class="nav-label">Dashboard</span>
                         </a>
                     </li>
@@ -266,12 +246,12 @@
                             </li>
                         </ul>
                     </li>
-                    <li>
+                    <li class="active">
                         <a href="javascript:;"><i class="sidebar-item-icon fa fa-table"></i>
                             <span class="nav-label">Tables</span><i class="fa fa-angle-left arrow"></i></a>
-                        <ul class="nav-2-level collapse">
+                        <ul class="nav-2-level collapse in">
                             <li>
-                                <a href="table_basic.html">Basic Tables</a>
+                                <a class="active" href="table_basic.html">Basic Tables</a>
                             </li>
                             <li>
                                 <a href="datatables.html">Datatables</a>
@@ -387,10 +367,257 @@
         </nav>
         <!-- END SIDEBAR-->
         <div class="content-wrapper">
-
-    <!-- /////////////////////////////////////////////////////////////////////// -->
-            <!-- CONTENIDO DE LA PÁGINA DE INICIO-->
+            <!-- START PAGE CONTENT-->
+            <div class="page-heading">
+                <h1 class="page-title">Basic Tables</h1>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="index.html"><i class="la la-home font-20"></i></a>
+                    </li>
+                    <li class="breadcrumb-item">Basic Tables</li>
+                </ol>
+            </div>
             <div class="page-content fade-in-up">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="ibox">
+                            <div class="ibox-head">
+                                <div class="ibox-title">Basic Table</div>
+                            </div>
+                            <div class="ibox-body">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>Larry</td>
+                                            <td>the Bird</td>
+                                            <td>@twitter</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="ibox">
+                            <div class="ibox-head">
+                                <div class="ibox-title">Bordered Table</div>
+                            </div>
+                            <div class="ibox-body">
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>Larry</td>
+                                            <td>the Bird</td>
+                                            <td>@twitter</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="ibox">
+                            <div class="ibox-head">
+                                <div class="ibox-title">Gray head</div>
+                            </div>
+                            <div class="ibox-body">
+                                <table class="table">
+                                    <thead class="thead-default">
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>Larry</td>
+                                            <td>the Bird</td>
+                                            <td>@twitter</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="ibox">
+                            <div class="ibox-head">
+                                <div class="ibox-title">Gray head</div>
+                            </div>
+                            <div class="ibox-body">
+                                <table class="table table-bordered">
+                                    <thead class="thead-default">
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>Larry</td>
+                                            <td>the Bird</td>
+                                            <td>@twitter</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="ibox">
+                            <div class="ibox-head">
+                                <div class="ibox-title">Striped rows</div>
+                            </div>
+                            <div class="ibox-body">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>Larry</td>
+                                            <td>the Bird</td>
+                                            <td>@twitter</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="ibox">
+                            <div class="ibox-head">
+                                <div class="ibox-title">Hover rows</div>
+                            </div>
+                            <div class="ibox-body">
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>Larry</td>
+                                            <td>the Bird</td>
+                                            <td>@twitter</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="ibox">
                     <div class="ibox-head">
                         <div class="ibox-title">Responsive Table</div>
@@ -400,76 +627,218 @@
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th width="50px">Id</th>
-                                        <th>Numero Identificación</th>
-                                        <th>Nombres</th>
-                                        <th>Primer apellido</th>
-                                        <th>Segundo Apellido</th>
-                                        <th>Corre Electronico</th>
-                                        <th></th>
+                                        <th width="50px"></th>
+                                        <th>Product</th>
+                                        <th>Price</th>
+                                        <th>Data</th>
+                                        <th>Last Name</th>
+                                        <th>Actions</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-
-                                    <?php 
-                                        $numero= 1; 
-                                        foreach($resultadoConsulta as $resultadoSql){
-                                            $personlaMauxiId= $resultadoSql['personalMauxiId'];
-                                            $personlaMauxiDocumento= $resultadoSql['personalMauxiDocumento'];
-                                            $personlaMauxiNombres= $resultadoSql['personalMauxiNombres'];
-                                            $personlaMauxiPrimerApellido= $resultadoSql['personalMauxiPrimerApellido'];
-                                            $personlaMauxiSegundoApellido= $resultadoSql['personalMauxiSegundoApellido'];
-                                            $personlaMauxiEmail= $resultadoSql['personalMauxiEmail'];
-                                            
-                                            echo "<tr>";
-                                                echo "<td>".$personlaMauxiId."</td>
-                                                    <td>".$personlaMauxiDocumento."</td>
-                                                    <td>".$personlaMauxiNombres."</td>
-                                                    <td>".$personlaMauxiPrimerApellido."</td>
-                                                    <td>".$personlaMauxiSegundoApellido."</td>
-                                                    <th>".$personlaMauxiEmail."</th>
-                                                    <td>
-                                                        <button class='btn btn-default btn-xs m-r-5' data-toggle='tooltip' data-original-title='Edit'><i class='fa fa-pencil font-14'></i></button>
-                                                        <button class='btn btn-default btn-xs' data-toggle='tooltip' data-original-title='Delete'><i class='fa fa-trash font-14'></i></button>
-                                                    </td>";
-                                            echo "</tr>";
-                                            $numero++;
-                                        }
-                                    
-                                    
-                                    ?>
-                                    <!-- <tr>
+                                    <tr>
                                         <td>
                                             <label class="ui-checkbox">
-                                                
+                                                <input type="checkbox">
+                                                <span class="input-span"></span>
                                             </label>
                                         </td>
-                                        <td>Car covers</td>
-                                        <td>$3280</td>
-                                        <td>42%</td>
-                                        <td>08/10/2017</td>
-                                        <th></th>
+                                        <td>iphone case</td>
+                                        <td>$1200</td>
+                                        <td>33%</td>
+                                        <td>02/08/2017</td>
                                         <td>
                                             <button class="btn btn-default btn-xs m-r-5" data-toggle="tooltip" data-original-title="Edit"><i class="fa fa-pencil font-14"></i></button>
                                             <button class="btn btn-default btn-xs" data-toggle="tooltip" data-original-title="Delete"><i class="fa fa-trash font-14"></i></button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td></td>
-                                        <td>Compressors</td>
-                                        <td>$7400</td>
-                                        <td>56%</td>
-                                        <td>14/11/2017</td>
-                                        <th></th>
+                                        <td>
+                                            <label class="ui-checkbox">
+                                                <input type="checkbox">
+                                                <span class="input-span"></span>
+                                            </label>
+                                        </td>
+                                        <td>Car covers</td>
+                                        <td>$3280</td>
+                                        <td>42%</td>
+                                        <td>08/10/2017</td>
                                         <td>
                                             <button class="btn btn-default btn-xs m-r-5" data-toggle="tooltip" data-original-title="Edit"><i class="fa fa-pencil font-14"></i></button>
                                             <button class="btn btn-default btn-xs" data-toggle="tooltip" data-original-title="Delete"><i class="fa fa-trash font-14"></i></button>
                                         </td>
-                                    </tr> -->
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label class="ui-checkbox">
+                                                <input type="checkbox">
+                                                <span class="input-span"></span>
+                                            </label>
+                                        </td>
+                                        <td>Compressors</td>
+                                        <td>$7400</td>
+                                        <td>56%</td>
+                                        <td>14/11/2017</td>
+                                        <td>
+                                            <button class="btn btn-default btn-xs m-r-5" data-toggle="tooltip" data-original-title="Edit"><i class="fa fa-pencil font-14"></i></button>
+                                            <button class="btn btn-default btn-xs" data-toggle="tooltip" data-original-title="Delete"><i class="fa fa-trash font-14"></i></button>
+                                        </td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="ibox">
+                            <div class="ibox-head">
+                                <div class="ibox-title">Contextual classes</div>
+                            </div>
+                            <div class="ibox-body">
+                                <table class="table table-hover">
+                                    <caption>Optional table caption.</caption>
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Date</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="active">
+                                            <td>1</td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>02/08/2017</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>04/10/2017</td>
+                                        </tr>
+                                        <tr class="info">
+                                            <td>3</td>
+                                            <td>Larry</td>
+                                            <td>the Bird</td>
+                                            <td>08/11/2017</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>04/10/2017</td>
+                                        </tr>
+                                        <tr class="success">
+                                            <td>3</td>
+                                            <td>Larry</td>
+                                            <td>the Bird</td>
+                                            <td>08/11/2017</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>04/10/2017</td>
+                                        </tr>
+                                        <tr class="warning">
+                                            <td>3</td>
+                                            <td>Larry</td>
+                                            <td>the Bird</td>
+                                            <td>08/11/2017</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>04/10/2017</td>
+                                        </tr>
+                                        <tr class="danger">
+                                            <td>3</td>
+                                            <td>Larry</td>
+                                            <td>the Bird</td>
+                                            <td>08/11/2017</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="ibox">
+                            <div class="ibox-head">
+                                <div class="ibox-title">Condensed Table</div>
+                            </div>
+                            <div class="ibox-body">
+                                <table class="table table-condensed">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td><i class="fa fa-check text-success"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td><i class="fa fa-check text-success"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>Larry</td>
+                                            <td>the Bird</td>
+                                            <td><i class="fa fa-warning text-warning"></i></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <a class="adminca-banner" href="http://admincast.com/adminca/" target="_blank">
+                        <div class="adminca-banner-ribbon"><i class="fa fa-trophy mr-2"></i>PREMIUM TEMPLATE</div>
+                        <div class="wrap-1">
+                            <div class="wrap-2">
+                                <div>
+                                    <img src="./assets/img/adminca-banner/adminca-preview.jpg" style="height:160px;margin-top:50px;" />
+                                </div>
+                                <div class="color-white" style="margin-left:40px;">
+                                    <h1 class="font-bold">ADMINCA</h1>
+                                    <p class="font-16">Save your time, choose the best</p>
+                                    <ul class="list-unstyled">
+                                        <li class="m-b-5"><i class="ti-check m-r-5"></i>High Quality Design</li>
+                                        <li class="m-b-5"><i class="ti-check m-r-5"></i>Fully Customizable and Easy Code</li>
+                                        <li class="m-b-5"><i class="ti-check m-r-5"></i>Bootstrap 4 and Angular 5+</li>
+                                        <li class="m-b-5"><i class="ti-check m-r-5"></i>Best Build Tools: Gulp, SaSS, Pug...</li>
+                                        <li><i class="ti-check m-r-5"></i>More layouts, pages, components</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div style="flex:1;">
+                                <div class="d-flex justify-content-end wrap-3">
+                                    <div class="adminca-banner-b m-r-20">
+                                        <img src="./assets/img/adminca-banner/bootstrap.png" style="width:40px;margin-right:10px;" />Bootstrap v4</div>
+                                    <div class="adminca-banner-b m-r-10">
+                                        <img src="./assets/img/adminca-banner/angular.png" style="width:35px;margin-right:10px;" />Angular v5+</div>
+                                </div>
+                                <div class="dev-img">
+                                    <img src="./assets/img/adminca-banner/sprite.png" />
+                                </div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
             <!-- END PAGE CONTENT-->
@@ -617,20 +986,15 @@
     </div>
     <!-- END PAGA BACKDROPS-->
     <!-- CORE PLUGINS-->
-    <script src="assetsExte/vendors/jquery/dist/jquery.min.js" type="text/javascript"></script>
-    <script src="assetsExte/vendors/popper.js/dist/umd/popper.min.js" type="text/javascript"></script>
-    <script src="assetsExte/vendors/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="assetsExte/vendors/metisMenu/dist/metisMenu.min.js" type="text/javascript"></script>
-    <script src="assetsExte/vendors/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <script src="./assets/vendors/jquery/dist/jquery.min.js" type="text/javascript"></script>
+    <script src="./assets/vendors/popper.js/dist/umd/popper.min.js" type="text/javascript"></script>
+    <script src="./assets/vendors/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="./assets/vendors/metisMenu/dist/metisMenu.min.js" type="text/javascript"></script>
+    <script src="./assets/vendors/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
     <!-- PAGE LEVEL PLUGINS-->
-    <script src="assetsExte/vendors/chart.js/dist/Chart.min.js" type="text/javascript"></script>
-    <script src="assetsExte/vendors/jvectormap/jquery-jvectormap-2.0.3.min.js" type="text/javascript"></script>
-    <script src="assetsExte/vendors/jvectormap/jquery-jvectormap-world-mill-en.js" type="text/javascript"></script>
-    <script src="assetsExte/vendors/jvectormap/jquery-jvectormap-us-aea-en.js" type="text/javascript"></script>
     <!-- CORE SCRIPTS-->
-    <script src="assetsExte/js/app.min.js" type="text/javascript"></script>
+    <script src="assets/js/app.min.js" type="text/javascript"></script>
     <!-- PAGE LEVEL SCRIPTS-->
-    <script src="assetsExte/js/scripts/dashboard_1_demo.js" type="text/javascript"></script>
 </body>
 
 </html>

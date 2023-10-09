@@ -19,7 +19,7 @@
             try{
                 $conexion= new PDO($this->dsn,$this->usuario,$this->password );
                 $conexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-                echo "Conexión exitosa a base de datos ";
+                // echo "Conexión exitosa a base de datos ";
             }catch(PDOException $e){
                 echo "Error al conectar a la base de datos: " . $e->getMessage();
             }
@@ -64,7 +64,8 @@
             $conexion= $this->conectar();
             $consulta= $conexion->prepare($querySql);
             $consulta->execute($values);
-            $count= $consulta->fetchColumn();
+            $count= $consulta->rowCount();
+            // $count= $consulta->fetchColumn();
             return $count;
         }
     }

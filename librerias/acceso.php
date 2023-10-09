@@ -7,7 +7,7 @@
 
     session_start();
     if(isset($_POST['txtUsuario'])== false && isset($_POST['txtClave']) == false){
-        header('location:../index.php');
+        header('location:../login.php');
     }else{
         $usuario= $_POST['txtUsuario'];
         $clave= $_POST['txtPassword'];
@@ -31,21 +31,21 @@
                     AND loginClave = md5(:loginSystemClave);";
 
         $numeroFilas= $conexion->numeroRegistro($sqlAcceso, $values);
-
+        // echo $numeroFilas; 
         if($numeroFilas == 1){
             $loginPersona= $conexion->consultaValor($sqlAcceso, $values);
 
             foreach($loginPersona as $datosLogin){
-                $_SESSION['personaId'] = $datosLogin['personaId'];
-                $_SESSION['personaNombres'] = $datosLogin['personaNombres'];
-                $_SESSION['personaPrimerApellido'] = $datosLogin['personaPrimerApellido'];
+                $_SESSION['personaId'] = $datosLogin['personalMauxiId'];
+                $_SESSION['personaNombres'] = $datosLogin['personalMauxiNombres'];
+                $_SESSION['personaPrimerApellido'] = $datosLogin['personalMauxiPrimerApellido'];
             }
             
             header('Location:../dashBoard.php');
 
         }
         else{
-            header('location:../index.php');
+            header('location:../login.php');
         }
             
     }

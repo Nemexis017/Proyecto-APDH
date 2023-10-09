@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
     <title>Administrador Institucional</title>
+
+    <!-- icono de la institucion -->
+    <link rel="icon" href="img/iconos/logoMauxi02.icon" />
+
     <!-- GLOBAL MAINLY STYLES-->
     <link href="assetsExte/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="assetsExte/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
@@ -41,13 +45,13 @@
                 <a href="forgot_password.html">¿Has olvidado tu contraseña?</a>
             </div>
             <div class="form-group">
-                <button class="btn btn-info btn-block" type="submit">Login</button>
+                <button class="btn btn-info btn-block" type="submit">iniciar sesión</button>
             </div>
             <div class="social-auth-hr">
                 <span>O inicia sesión con</span>
             </div>
-            <div class="text-center">¿No es un miembro? 
-                <a class="color-blue" href="register.html">crear cuenta</a>
+            <div class="text-center">Nuevo personal autorizado 
+                <a class="color-blue" href="registrarPersonal.php">crear cuenta</a>
             </div>
         </form>
     </div>
