@@ -4,6 +4,17 @@
   content: '';
   display: table; }
 
+
+.experiencia{
+    min-height: 70px;
+    max-height: 260px;
+}
+.experienciaAno{
+    min-height: 50px;
+    max-height: 160px;
+}
+
+
 .clf:after {
   clear: both; }
 
@@ -2348,7 +2359,7 @@ smaller than 560
 
 .bg-silver-300 {
   /* background-image: url(../../img/fotosColegio/fotoColegio01.jpg) !important; */
-  background-color: #000 !important;
+  background-color: #d1d5d8 !important;
 
 }
 
