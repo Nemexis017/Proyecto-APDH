@@ -60,46 +60,42 @@
           </div>
           <div class="col-lg-9">
             <form
-              class="row contact_form"
-              action="contact_process.php"
+              class="row contact_form needs-validation"
+              action="librerias/correo.php"
               method="post"
               id="contactForm"
               novalidate="novalidate"
+              novalidate
+
             >
               <div class="col-md-6">
                 <div class="form-group">
                   <input
                     type="text"
                     class="form-control"
-                    id="name"
-                    name="name"
+                    id="txtnombre"
+                    name="txtNombre"
                     placeholder="Introduzca su nombre"
-                    onfocus="this.placeholder = ''"
-                    onblur="this.placeholder = 'Introduzca su nombre'"
-                    required=""
+                    required
                   />
                 </div>
                 <div class="form-group">
                   <input
                     type="email"
                     class="form-control"
-                    id="email"
-                    name="email"
+                    id="txtEmail"
+                    name="txtEmail"
                     placeholder="Introducir la dirección de correo electrónico"
-                    onfocus="this.placeholder = ''"
-                    onblur="this.placeholder = 'Introducir la dirección de correo electrónico'"
-                    required=""
+                    required
                   />
                 </div>
                 <div class="form-group">
                   <input
                     type="text"
                     class="form-control"
-                    id="subject"
-                    name="subject"
+                    id="txtAsunto"
+                    name="txtAsunto"
                     placeholder="Ingresar Asunto"
-                    onfocus="this.placeholder = ''"
-                    onblur="this.placeholder = 'Ingresar Asunto'"
                     required=""
                   />
                 </div>
@@ -108,14 +104,15 @@
                 <div class="form-group">
                   <textarea
                     class="form-control"
-                    name="message"
-                    id="message"
+                    name="txtMensaje"
+                    id="txtMensaje"
                     rows="1"
                     placeholder="Introducir mensaje"
-                    onfocus="this.placeholder = ''"
-                    onblur="this.placeholder = 'Introducir mensaje' "
-                    required=""
+                    required
                   ></textarea>
+                  <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                    
+                  </div>
                 </div>
               </div>
               <div class="col-md-12 text-right">
@@ -180,6 +177,9 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/validacion/validacion.js"></script>
+    <script src="js/validacion/validacion.js"></script>
+    <script src="js/validacion/validacion.js"></script>
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>

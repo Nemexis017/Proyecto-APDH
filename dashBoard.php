@@ -19,12 +19,14 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
-    <title>Admincast bootstrap 4 &amp; angular 5 admin template, Шаблон админки | Dashboard</title>
+    <title>Panel de control (ADM)</title>
+    <!-- institución -->
+    <link rel="icon" href="img/iconos/logoMauxi02.icon" />
+
     <!-- GLOBAL MAINLY STYLES-->
     <link href="assetsExte/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="assetsExte/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
@@ -35,7 +37,6 @@
     <link href="assetsExte/css/main.min.css" rel="stylesheet" />
     <!-- PAGE LEVEL STYLES-->
 </head>
-
 <body class="fixed-navbar">
     <div class="page-wrapper">
         <!-- ENCABEZADO DE INICIO-->
@@ -187,7 +188,7 @@
                             <a class="dropdown-item" href="profile.html"><i class="fa fa-cog"></i>Settings</a>
                             <a class="dropdown-item" href="javascript:;"><i class="fa fa-support"></i>Support</a>
                             <li class="dropdown-divider"></li>
-                            <a class="dropdown-item" href="login.html"><i class="fa fa-power-off"></i>Logout</a>
+                            <a class="dropdown-item" href="index.php"><i class="fa fa-power-off"></i>Salir</a>
                         </ul>
                     </li>
                 </ul>
@@ -438,34 +439,6 @@
                                     
                                     
                                     ?>
-                                    <!-- <tr>
-                                        <td>
-                                            <label class="ui-checkbox">
-                                                
-                                            </label>
-                                        </td>
-                                        <td>Car covers</td>
-                                        <td>$3280</td>
-                                        <td>42%</td>
-                                        <td>08/10/2017</td>
-                                        <th></th>
-                                        <td>
-                                            <button class="btn btn-default btn-xs m-r-5" data-toggle="tooltip" data-original-title="Edit"><i class="fa fa-pencil font-14"></i></button>
-                                            <button class="btn btn-default btn-xs" data-toggle="tooltip" data-original-title="Delete"><i class="fa fa-trash font-14"></i></button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td>Compressors</td>
-                                        <td>$7400</td>
-                                        <td>56%</td>
-                                        <td>14/11/2017</td>
-                                        <th></th>
-                                        <td>
-                                            <button class="btn btn-default btn-xs m-r-5" data-toggle="tooltip" data-original-title="Edit"><i class="fa fa-pencil font-14"></i></button>
-                                            <button class="btn btn-default btn-xs" data-toggle="tooltip" data-original-title="Delete"><i class="fa fa-trash font-14"></i></button>
-                                        </td>
-                                    </tr> -->
                                 </tbody>
                             </table>
                         </div>

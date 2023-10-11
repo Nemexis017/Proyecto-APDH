@@ -35,13 +35,13 @@
         <div class="brand">
             <a class="link" href="index.html"></a>
         </div>
-        <form id="register-form" action="librerias/registrar.php" method="post">
+        <form id="register-form" action="librerias/registrar.php" method="post" class="needs-validation" novalidate>
             <h2 class="login-title">Registrarse</h2>
             <div class="row">
                 <div class="col-12">
                     <div class="form-group">
-                        <select name="selTipoPersona" id="selTipoPersona" class="form-control">
-                            <option value="0" selected>Tipo de persona</option>
+                        <select name="selTipoPersona" id="selTipoPersona" class="form-control" required>
+                            <option value="0" >Tipo de persona</option>
                             <?php
                                 foreach($tipoPersonaTabla as $tipoPersona){
                                     $tipoPersonaId = $tipoPersona['tipoPersonaId'];
@@ -56,8 +56,8 @@
                 </div>
                 <div class="col-12">
                     <div class="form-group">
-                        <select name="selTipoDocumento" id="selTipoDocumento" class="form-control">
-                            <option value="0" selected>Tipo de Documento</option>
+                        <select name="selTipoDocumento" id="selTipoDocumento" class="form-control" required>
+                            <option value="0" >Tipo de Documento</option>
                             <?php
                                 foreach($tipoDocumentoTabla as $tipoDocumento){
                                     $tipoDocumentoId = $tipoDocumento['tipoDocumentoId'];
@@ -73,32 +73,32 @@
                 </div>
                 <div class="col-6">
                     <div class="form-group">
-                        <input class="form-control" type="text" name="txtCargo" placeholder="Cargo">
+                        <input class="form-control" type="text" name="txtCargo" placeholder="Cargo" required>
                     </div>
                 </div>
                 <div class="col-6">
                     <div class="form-group">
-                        <input class="form-control" type="number" name="numDocumento" placeholder="N° Identificación">
+                        <input class="form-control" type="number" name="numDocumento" placeholder="N° Identificación" required>
                     </div>
                 </div>
                 <div class="col-12">
                     <div class="form-group">
-                        <input class="form-control" type="text" name="txtNombres" placeholder="Nombres">
+                        <input class="form-control" type="text" name="txtNombres" placeholder="Nombres" required>
                     </div>
                 </div>
                 <div class="col-6">
                     <div class="form-group">
-                        <input class="form-control" type="text" name="txtPrimerApellido" placeholder="Primer Apelllido">
+                        <input class="form-control" type="text" name="txtPrimerApellido" placeholder="Primer Apelllido" required>
                     </div>
                 </div>
                 <div class="col-6">
                     <div class="form-group">
-                        <input class="form-control" type="text" name="txtSegundoApellido" placeholder="Segundo Apellido">
+                        <input class="form-control" type="text" name="txtSegundoApellido" placeholder="Segundo Apellido" required>
                     </div>
                 </div>
                 <div class="col-6">
-                    <select name="txtMunicipioResidencia" id="txtMunicipioResidencia" class="form-control">
-                        <option value="0" selected>Municipio Residencia</option>
+                    <select name="txtMunicipioResidencia" id="txtMunicipioResidencia" class="form-control" required>
+                        <option value="0" >Municipio Residencia</option>
                             <?php
                                 foreach($municipioResultadoTabla as $municipioResultado){
                                     $municipioResultadoId = $municipioResultado['municipioId'];
@@ -112,8 +112,8 @@
                 </div>
                 <div class="col-6">
                     <div class="form-group">
-                        <select name="txtMunicipioNacimiento" id="txtMunicipioNacimiento" class="form-control">
-                            <option value="0" selected>Municipio Nacimiento </option>
+                        <select name="txtMunicipioNacimiento" id="txtMunicipioNacimiento" class="form-control" required>
+                            <option value="0" >Municipio Nacimiento </option>
                                 <?php
                                     foreach($municipioResultadoTabla as $municipioResultado){
                                         $municipioResultadoId = $municipioResultado['municipioId'];
@@ -128,32 +128,32 @@
                 </div>
                 <div class="col-6">
                     <div class="form-group">
-                        <input class="form-control" type="number" name="txtTelefono" placeholder="Telefono" autocomplete="off">
+                        <input class="form-control" type="number" name="txtTelefono" placeholder="Telefono" autocomplete="off" required>
                     </div>
                 </div>
                 <div class="col-6">
                     <div class="form-group">
-                        <input class="form-control" type="date" name="txtFechaNacimiento" placeholder="Fecha Nacimiento" autocomplete="off">
+                        <input class="form-control" type="date" name="txtFechaNacimiento" placeholder="Fecha Nacimiento" autocomplete="off" required>
                     </div>
                 </div>
                 <div class="col-12">
                     <div class="form-group">
-                        <input class="form-control" type="email" name="txtEmail" placeholder="Email" autocomplete="off">
+                        <input class="form-control" type="email" name="txtEmail" placeholder="Email" autocomplete="off" required>
                     </div>
                 </div>
                 <div class="col-12">
                     <div class="form-group">
-                        <textarea name="txtEstudiosRealizados" id="txtEstudiosRealizados"  placeholder="Estudios Realizados" class="form-control experienciaAno"></textarea>
+                        <textarea name="txtEstudiosRealizados" id="txtEstudiosRealizados"  placeholder="Estudios Realizados" class="form-control experienciaAno" required></textarea>
                     </div>
                 </div>
                 <div class="col-12">
                     <div class="form-group">
-                        <input class="form-control" type="number" name="numbAnoExperiencia" placeholder="Años De Experiencia" autocomplete="off">
+                        <input class="form-control" type="number" name="numbAnoExperiencia" placeholder="Años De Experiencia" autocomplete="off" required>
                     </div>
                 </div>
                 <div class="col-12">
                     <div class="form-group">
-                        <textarea name="txtExperiencia" id="txtExperiencia" placeholder="Experiencia Laboral" class="form-control experiencia"></textarea>
+                        <textarea name="txtExperiencia" id="txtExperiencia" placeholder="Experiencia Laboral" class="form-control experiencia" required></textarea>
                     </div>
                 </div>
             </div>
@@ -170,6 +170,11 @@
     </div>
     <!-- END PAGA BACKDROPS-->
     <!-- CORE PLUGINS -->
+
+    <!-- validacion bootstrap -->
+    <script src="js/validacion/validacion.js"></script>
+
+
     <script src="assetsExte/vendors/jquery/dist/jquery.min.js" type="text/javascript"></script>
     <script src="assetsExte/vendors/popper.js/dist/umd/popper.min.js" type="text/javascript"></script>
     <script src="assetsExte/vendors/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
