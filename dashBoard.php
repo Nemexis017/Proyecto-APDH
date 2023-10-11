@@ -398,7 +398,7 @@
                     </div>
                     <div class="ibox-body">
                         <div class="table-responsive">
-                            <table class="table">
+                            <table class="table" id="tabla-admin">
                                 <thead>
                                     <tr>
                                         <th width="50px">Id</th>
@@ -412,33 +412,8 @@
                                 </thead>
                                 <tbody>
 
-                                    <?php 
-                                        $numero= 1; 
-                                        foreach($resultadoConsulta as $resultadoSql){
-                                            $personlaMauxiId= $resultadoSql['personalMauxiId'];
-                                            $personlaMauxiDocumento= $resultadoSql['personalMauxiDocumento'];
-                                            $personlaMauxiNombres= $resultadoSql['personalMauxiNombres'];
-                                            $personlaMauxiPrimerApellido= $resultadoSql['personalMauxiPrimerApellido'];
-                                            $personlaMauxiSegundoApellido= $resultadoSql['personalMauxiSegundoApellido'];
-                                            $personlaMauxiEmail= $resultadoSql['personalMauxiEmail'];
-                                            
-                                            echo "<tr>";
-                                                echo "<td>".$personlaMauxiId."</td>
-                                                    <td>".$personlaMauxiDocumento."</td>
-                                                    <td>".$personlaMauxiNombres."</td>
-                                                    <td>".$personlaMauxiPrimerApellido."</td>
-                                                    <td>".$personlaMauxiSegundoApellido."</td>
-                                                    <th>".$personlaMauxiEmail."</th>
-                                                    <td>
-                                                        <button class='btn btn-default btn-xs m-r-5' data-toggle='tooltip' data-original-title='Edit'><i class='fa fa-pencil font-14'></i></button>
-                                                        <button class='btn btn-default btn-xs' data-toggle='tooltip' data-original-title='Delete'><i class='fa fa-trash font-14'></i></button>
-                                                    </td>";
-                                            echo "</tr>";
-                                            $numero++;
-                                        }
-                                    
-                                    
-                                    ?>
+                                <!-- js muestra la tabla -->
+            
                                 </tbody>
                             </table>
                         </div>
