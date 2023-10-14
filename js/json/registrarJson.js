@@ -1,3 +1,8 @@
+
+function limpiar(){
+    const formulario = document.getElementById("form-registrar").reset();    
+}
+
 document.getElementById('btnRegistrar').onclick = function(){
      // event.preventDefault(); 
     const botonCerrar = document.getElementById("botonCerrar");
@@ -48,8 +53,9 @@ document.getElementById('btnRegistrar').onclick = function(){
     
     .then(response => response.json())
     .then(data => {
-        if(data.registroEjecutado === "OK"){
+        if(data.registroEjecutado == "OK"){
             tablaPersonal();
+            limpiar();
             botonCerrar.click();
         }else{
             botonCerrar.click();
@@ -58,6 +64,15 @@ document.getElementById('btnRegistrar').onclick = function(){
     .catch(error => console.log(error))
 }
 
+
+
+
+
+
+
+
+
+// Limpia el formulario usando el método reset()
 
 
 

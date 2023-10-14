@@ -268,7 +268,10 @@
             <div class="page-content fade-in-up">
                 <div class="ibox">
                     <div class="ibox-head">
-                        <div class="ibox-title">Registros del personal</div>
+                        <div class="ibox-title">
+                            Registros del personal
+                            <!-- <button><img src="img/iconos/refrescar.png" alt="" width="30px"></button> -->
+                        </div>
                     </div>
                     <div class="ibox-body">
                         <div class="table-responsive">
@@ -292,10 +295,10 @@
                                 </tbody>
                             </table>
                         </div>
-                        <button type="button" class="btn btn-dark" id="refrescar">refrescar</button>
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             registrar
                         </button>
+                        
                     </div>
                 </div>
             </div>
@@ -332,12 +335,12 @@
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Registrar Personal Institucional</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
             <!-- *************************************** cuerpo del modal(inicio) *************************************** -->
-                <form id="formulario-registro" method="post" class="row g-3 needs-validation" novalidate>
+                <form id="form-registrar" method="post" class="row g-3 needs-validation" novalidate>
                     <div class="col-md-12">
                         <i class="aviso-obligacion">los campos obligatorios contienen<i class="obligacion">*</i></i>
                     </div>
@@ -487,6 +490,7 @@
     <script src="js/json/tipoDocumento.js"></script>
     <script src="js/json/municipio.js"></script>
     <script src="js/json/registrarJson.js"></script>
+    <script src="js/json/eliminarPersonal.js"></script>
 
 
     
