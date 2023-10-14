@@ -1,12 +1,12 @@
 <?php 
-    include('librerias/conexion.php'); 
+    include('conexion.php'); 
     $conexion= new conexion(); 
 
     $sqlConsultaGeneral= "SELECT `personalmauxi`.`personalMauxiId`,
                                 `personalmauxi`.`tipoPersonaId`,
                                 tipoPersonaNombre,
                                 `personalmauxi`.`tipoDocumentoId`,
-                                tipoDocumentoNombre,
+                                tipoDocumentoSigla,
                                 `personalmauxi`.`personalMauxiDocumento`,
                                 `personalmauxi`.`personalMauxiCargo`,
                                 `personalmauxi`.`personalMauxiNombres`,
@@ -40,7 +40,7 @@
             "tipoPersonaId" => $filaResultado['tipoPersonaId'],
             "tipoPersonaNombre" => $filaResultado['tipoPersonaNombre'],
             "tipoDocuemtoId" => $filaResultado['tipoDocumentoId'],
-            "tipoDocumentoNombre" => $filaResultado['tipoDocumentoNombre'],
+            "tipoDocumentoSigla" => $filaResultado['tipoDocumentoSigla'],
             "personalMauxiDocumento" => $filaResultado['personalMauxiDocumento'],
             "personalMauxiCargo" => $filaResultado['personalMauxiCargo'],
             "personalMauxiNombres" => $filaResultado['personalMauxiNombres'],
@@ -60,6 +60,6 @@
     }
 
     header("Content-type:application/json");
-    echo json_encode($resultadoPersona);
+    echo json_encode($jsonPersonal);
 
 ?>

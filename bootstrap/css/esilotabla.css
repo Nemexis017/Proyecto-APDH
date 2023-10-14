@@ -1,0 +1,787 @@
+/*
+Autor: Jesus Fernando Carvajal Anacona 
+Titulo: CSS Tabla periódica
+Fecha creación: 11 de mayo de 2022
+*/
+
+
+@media (min-width: 400px){
+
+	body{
+		background-image: url(https://estaticos.muyinteresante.es/uploads/images/test/57445c9f5bafe8b7ed8b456a/test-nebulosa.jpg) !important;
+		background-size: 100%;
+	}
+
+	#tabla-periodica1{
+		display: block;
+		/*float: left;*/
+		/*margin-left: 65px;*/
+		width: 855px !important;
+		height:414px !important;
+		margin:auto;
+
+	}
+	
+	#tabla-periodica2{
+		display: block;
+		/*float: left;*/
+		width: 855px !important;
+		height:92px !important;
+		margin: auto;
+
+	}
+
+	.elemento{
+		display: block;
+		float: left;
+		width: 40px !important;
+		height:40px !important;
+		margin:2px;
+		border: 1px solid #000000;
+		cursor: pointer;
+	}
+
+	.invisible{
+		display: block;
+		float: left;
+		width: 40px !important;
+		height:40px !important;
+		margin:2px !important;
+		border: 1px solid rgba(0, 0, 0, 0.0);
+
+	}
+
+	.periodo{
+		display: block;
+		float: left;
+		width: 15px !important;
+		height:40px !important;
+		margin:2px;
+		border: 1px solid #000000;
+		font-size: 40px !important;
+		text-align: center;
+		
+	}
+
+	.periodo-invisble{
+		display: block;
+		float: left;
+		width: 15px !important;
+		height:40px !important;
+		margin:2px;
+		border: 1px solid rgba(0, 0, 0, 0.0) !important;
+		font-size: 40px !important;
+		text-align: center;
+	
+	}
+	
+	h1{
+		font-family:OCR A Std, monospace;
+		/*margin-left:174px;*/
+		margin-bottom: 0px;
+		margin-left: -125px;
+		text-align: center;
+		font-size: 65px ;
+		color: #ffffff;
+
+	}
+
+	.invisible h6{
+		font-size: 14px;
+		text-align: center;
+		margin-top: 14px;
+		margin-left: 3px;
+		color: #ffffff;
+
+	}
+
+	.invisible span{
+		display: block;
+		float: left;
+		margin-left: 16px;
+		margin-top: -31px;
+		font-size:9px;
+		color: #ffffff;
+
+	}
+	
+	
+	
+	.elemento span{
+		display: block;
+		float: right;
+		font-size:10px;
+		font-weight:bold;
+	
+	}
+	
+	.elemento h6{
+		font-size: 13px;
+		text-align: center;
+		margin-top: 15px !important;
+		margin-top: 20px;
+
+	}
+	
+	.elemento .nombre-elemento{
+		display: block;
+		float: left;
+		margin-top: -29px;
+		font-size:8px;
+
+	}
+	
+	.elemento .nombre-elemento1{
+		display: block;
+		float: left;
+		margin-top: -29px;
+		font-size:8px;
+
+	}
+
+	p{
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 20px;
+		margin-top: 8;
+		color: #ffffff;
+
+	}
+
+	h5{
+		margin-top: -50;
+		margin-left: 29px;
+		color: #ffffff;
+		
+	}
+
+}
+
+
+@media (min-width: 1280px){
+
+	body{
+		background-image: url(https://estaticos.muyinteresante.es/uploads/images/test/57445c9f5bafe8b7ed8b456a/test-nebulosa.jpg);
+		background-size: 100%;
+	}
+
+	#tabla-periodica1{
+		display: block;
+		/*float: left;*/
+		/*margin-left: 65px;*/
+		width: 1164px !important;
+		height:594px !important;
+		margin:auto;
+		
+	}
+	
+	#tabla-periodica2{
+		display: block;
+		/*float: left;*/
+		width: 1164px !important;
+		height:170px !important;
+		margin: auto;
+		
+	}
+
+	.elemento{
+		display: block;
+		float: left;
+		width: 57px !important;
+		height:60px !important;
+		margin:2px !important;
+		border: 1px solid #000000 !important;
+		cursor: pointer;
+	
+	}
+
+	.invisible{
+		display: block;
+		float: left;
+		width: 57px !important;
+		height:60px !important;
+		margin: 2px !important;
+		border: 1px solid rgba(0, 0, 0, 0.0);
+		
+		
+	}
+
+	.periodo{
+		display: block;
+		float: left;
+		width: 24px !important;
+		height:60px !important;
+		margin:2px !important;
+		border: 1px solid rgba(0, 0, 0 0.0) !important;
+		font-size: 100px !important;
+		text-align: center;
+		
+	
+	}
+
+	.periodo-invisble{
+		display: block;
+		float: left;
+		width: 24px !important;
+		height: 60px !important;
+		margin:2px !important;
+		border: 1px solid rgba(0, 0, 0 0.0) !important;
+		font-size: 40px !important;
+		text-align: center;
+	
+	}
+	
+	h1{
+		font-family:OCR A Std, monospace;
+		margin-left:174px !important;
+		margin-bottom: -55px !important;
+		margin-left: -125px !important;
+		text-align: center;
+		font-size: 78px  !important;
+		color: #ffffff !important;
+	}
+
+	.invisible h6{
+		font-size: 20px !important;
+		text-align: center;
+		margin-top: 20px !important;
+		margin-left: 10px !important;
+		color: #ffffff;
+	}
+
+	.invisible span{
+		display: block;
+		float: left;
+		margin-left: 21px !important;
+		margin-top: -43px !important;
+		font-size:15px !important;
+		color: #FFFFFF;
+	}
+	
+	
+	
+	.elemento span{
+		display: block;
+		float: right;
+		font-size:13px !important;
+		font-weight:bold;
+	
+	}
+	
+	.elemento h6{
+		font-size: 20px !important;
+		text-align: center;
+		margin-top: 20px !important;
+	}
+	
+	.elemento .nombre-elemento{
+		display: block;
+		float: left;
+		margin-top: -45px !important;
+		font-size:10px !important;
+	}
+	
+	.elemento .nombre-elemento1{
+		display: block;
+		float: left;
+		margin-top: -38px !important;
+		font-size:10px !important;
+		 
+	}
+
+	p{
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 40px !important;
+		margin-top: 8px;
+		color: #ffffff;
+	}
+
+}
+
+@media (min-width: 2560px){
+
+	body{
+		background-image: url(https://estaticos.muyinteresante.es/uploads/images/test/57445c9f5bafe8b7ed8b456a/test-nebulosa.jpg) !important;
+		background-size:100%;
+	}
+
+	#tabla-periodica1{
+		display: block;
+		/*float: left;*/
+		/*margin-left: 65px;*/
+		width: 1180px !important;
+		height:602px !important;
+		margin:auto;
+		border: 0 solid #ffffff;
+	}
+	
+	#tabla-periodica2{
+		display: block;
+		/*float: left;*/
+		width: 1180px !important;
+		height:170px !important;
+		margin: auto;
+		
+		
+	}
+
+	.elemento{
+		display: block;
+		float: left;
+		width: 57px !important;
+		height:60px !important;
+		margin:2px;
+		border: 1px solid #000000;
+		cursor: pointer;
+	
+	}
+
+	.invisible{
+		display: block;
+		float: left;
+		width: 57px !important;
+		height:60px !important;
+		margin: 2px !important;
+		border: 1px solid rgba(0, 0, 0 0.0) !important;
+		
+	}
+
+	.periodo{
+		display: block;
+		float: left;
+		width: 24px !important;
+		height:60px !important;
+		margin:2px;
+		border: 1px solid rgba(0, 0, 0 0.0) !important;
+		font-size: 100px !important;
+		text-align: center;
+		
+	}
+
+	.periodo-invisble{
+		display: block;
+		float: left;
+		width: 24px !important;
+		height: 60px !important;;
+		margin:2px !important;
+		border: 1px solid rgba(0, 0, 0 0.0) !important;
+		font-size: 40px !important;
+		text-align: center;
+	
+	}
+	
+	h1{
+		font-family:OCR A Std, monospace;
+		margin-left:174px !important;
+		margin-bottom: 0px !important;
+		margin-left: -125px !important;
+		text-align: center;
+		font-size: 78px  !important;
+		color: #ffffff !important;
+	}
+
+	.invisible h6{
+		font-size: 20px !important;
+		text-align: center;
+		margin-top: 20px !important;
+		margin-left: 10px !important;
+		color: #ffffff;
+	}
+
+	.invisible span{
+		display: block;
+		float: left;
+		margin-left: 21px !important;
+		margin-top: -43px !important;
+		font-size:15px !important;
+		color: #FFFFFF;
+	}
+	
+	
+	
+	.elemento span{
+		display: block;
+		float: right;
+		font-size:13px !important;
+		font-weight:bold;
+	
+	}
+	
+	.elemento h6{
+		font-size: 20px !important;
+		text-align: center;
+		margin-top: 20px !important;
+	}
+	
+	.elemento .nombre-elemento{
+		display: block;
+		float: left;
+		margin-top: -45px !important;
+		font-size:10px !important;
+	}
+	
+	.elemento .nombre-elemento1{
+		display: block;
+		float: left;
+		margin-top: -38px !important;
+		font-size:10px !important;
+		 
+	}
+
+	p{
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 40px !important;
+		margin-top: 8px;
+		color: #ffffff;
+	}
+
+}
+
+@media (min-width: 3840px){
+
+	body{
+		background-image: url(https://estaticos.muyinteresante.es/uploads/images/test/57445c9f5bafe8b7ed8b456a/test-nebulosa.jpg) !important;
+		background-size:100%;
+	}
+
+	#tabla-periodica1{
+		display: block;
+		/*float: left;*/
+		/*margin-left: 65px;*/
+		width: 1207px !important;
+		height:615px !important;
+		margin:auto;
+	}
+	
+	#tabla-periodica2{
+		display: block;
+		/*float: left;*/
+		width: 1207px !important;
+		height:170px !important;
+		margin: auto;
+		
+	}
+
+	.elemento{
+		display: block;
+		float: left;
+		width: 57px !important;
+		height:60px !important;
+		margin:2px;
+		border: 1px solid #000000;
+		cursor: pointer;
+	
+	}
+
+	.invisible{
+		display: block;
+		float: left;
+		width: 57px !important;
+		height:60px !important;
+		margin: 2px !important;
+		border: 1px solid rgba(0, 0, 0 0.0) !important;
+		
+	}
+
+	.periodo{
+		display: block;
+		float: left;
+		width: 24px !important;
+		height:60px !important;
+		margin:2px;
+		border: 1px solid rgba(0, 0, 0 0.0) !important;
+		font-size: 100px !important;
+		text-align: center;
+		
+	
+	}
+
+	.periodo-invisble{
+		display: block;
+		float: left;
+		width: 24px !important;
+		height: 60px !important;;
+		margin:2px !important;
+		border: 1px solid rgba(0, 0, 0 0.0) !important;
+		font-size: 40px !important;
+		text-align: center;
+	
+	}
+	
+	h1{
+		font-family:OCR A Std, monospace;
+		margin-left:174px !important;
+		margin-bottom: 0px !important;
+		margin-left: -125px !important;
+		text-align: center;
+		font-size: 78px  !important;
+		color: #ffffff !important;
+	}
+
+	.invisible h6{
+		font-size: 20px !important;
+		text-align: center;
+		margin-top: 20px !important;
+		margin-left: 10px !important;
+		color: #ffffff;
+	}
+
+	.invisible span{
+		display: block;
+		float: left;
+		margin-left: 21px !important;
+		margin-top: -43px !important;
+		font-size:15px !important;
+		color: #FFFFFF;
+	}
+	
+	
+	
+	.elemento span{
+		display: block;
+		float: right;
+		font-size:13px !important;
+		font-weight:bold;
+	
+	}
+	
+	.elemento h6{
+		font-size: 20px !important;
+		text-align: center;
+		margin-top: 20px !important;
+	}
+	
+	.elemento .nombre-elemento{
+		display: block;
+		float: left;
+		margin-top: -45px !important;
+		font-size:10px !important;
+	}
+	
+	.elemento .nombre-elemento1{
+		display: block;
+		float: left;
+		margin-top: -38px !important;
+		font-size:10px !important;
+		 
+	}
+
+	p{
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 40px !important;
+		margin-top: 8px;
+		color: #ffffff;
+	}
+
+}
+
+@media (min-width: 5120px){
+
+	body{
+		background-image: url(https://estaticos.muyinteresante.es/uploads/images/test/57445c9f5bafe8b7ed8b456a/test-nebulosa.jpg) !important;
+		background-size:100%;
+	}
+
+	#tabla-periodica1{
+		display: block;
+		/*float: left;*/
+		/*margin-left: 65px;*/
+		width: 1236px !important;
+		height:624px !important;
+		margin:auto;
+		
+	}
+	
+	#tabla-periodica2{
+		display: block;
+		/*float: left;*/
+		width: 1236px !important;
+		height:170px !important;
+		margin: auto;
+		
+	}
+
+	.elemento{
+		display: block;
+		float: left;
+		width: 57px !important;
+		height:60px !important;
+		margin:2px;
+		border: 1px solid #000000;
+		cursor: pointer;
+	
+	}
+
+	.invisible{
+		display: block;
+		float: left;
+		width: 57px !important;
+		height:60px !important;
+		margin: 2px !important;
+		border: 1px solid rgb(0, 0, 0 0.0) !important;
+		
+	}
+
+	.periodo{
+		display: block;
+		float: left;
+		width: 24px !important;
+		height:60px !important;
+		margin:2px !important;
+		border: 1px solid #e9e9e900 !important;
+		font-size: 100px !important;
+		text-align: center;
+	
+	}
+
+	.periodo-invisble{
+		display: block;
+		float: left;
+		width: 24px !important;
+		height: 60px !important;;
+		margin:2px !important;
+		border: 1px solid rgba(0, 0, 0 0.0) !important;
+		font-size: 40px !important;
+		text-align: center;
+	
+	}
+	
+	h1{
+		font-family:OCR A Std, monospace;
+		margin-left:174px !important;
+		margin-bottom: -55px !important;
+		margin-left: -115px !important;
+		text-align: center;
+		font-size: 78px  !important;
+		color: #ffffff !important;
+	}
+
+	.invisible h6{
+		font-size: 20px !important;
+		text-align: center;
+		margin-top: 20px !important;
+		margin-left: 10px !important;
+		color: #ffffff;
+	}
+
+	.invisible span{
+		display: block;
+		float: left;
+		margin-left: 21px !important;
+		margin-top: -43px !important;
+		font-size:15px !important;
+		color: #FFFFFF;
+	}
+	
+	.elemento span{
+		display: block;
+		float: right;
+		font-size:13px !important;
+		font-weight:bold;
+	
+	}
+	
+	.elemento h6{
+		font-size: 20px !important;
+		text-align: center;
+		margin-top: 20px !important;
+	}
+	
+	.elemento .nombre-elemento{
+		display: block;
+		float: left;
+		margin-top: -45px !important;
+		font-size:10px !important;
+	}
+	
+	.elemento .nombre-elemento1{
+		display: block;
+		float: left;
+		margin-top: -38px !important;
+		font-size:10px !important;
+		 
+	}
+
+	p{
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 40px !important;
+		margin-top: 8px;
+		color: #ffffff;
+	}
+
+}
+
+.elemento:hover{
+	transform: scale(2);
+	transition: all 500ms;
+}
+
+#azul{
+	background-color: rgb(12, 231, 235);
+}
+
+#azul:hover{
+	background-color: rgb(255, 255, 255);
+}
+
+#rosado{
+	background-color: fuchsia;
+}
+
+#rosado:hover{
+	background-color: #ffffff;
+}
+
+#morado{
+	background-color: blueviolet;
+}
+
+#morado:hover{
+	background-color: #ffffff;
+}
+
+#naranja{
+	background-color: orange;
+}
+
+#naranja:hover{
+	background-color: rgb(255, 255, 255);
+}
+
+#violeta{
+	background-color: rebeccapurple;
+}
+
+#violeta:hover{
+	background-color: rgb(255, 255, 255);
+}
+
+#verde{
+	background-color: chartreuse;
+}
+
+#verde:hover{
+	background-color: rgb(255, 255, 255);
+}
+
+#amarillo{
+	background-color: yellow;
+} 
+
+#amarillo:hover{
+	background-color:#FFFFFF;
+} 
+
+#blanco-morado{
+	background-color: rgb(224, 186, 255);
+}
+
+#blanco-morado:hover{
+	background-color: white
+}
+#blanco-azul{
+	background-color: rgb(159, 209, 255);
+}
+
+#blanco-azul:hover{
+	background-color: #ffffff;
+}

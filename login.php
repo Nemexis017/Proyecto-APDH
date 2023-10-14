@@ -19,7 +19,6 @@
     <link href="assetsExte/css/pages/auth-light.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body class="font-img">
     <div class="content">
         <form id="login-form" action="librerias/acceso.php" method="post" class="needs-validation" novalidate>

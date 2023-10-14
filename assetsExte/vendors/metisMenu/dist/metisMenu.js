@@ -7,6 +7,7 @@
  * Under MIT License
  */
 
+// ************* desplazamiento  **********************
 (function (global, factory) {
   if (typeof define === "function" && define.amd) {
     define(['jquery'], factory);
@@ -19,7 +20,9 @@
     factory(global.jquery);
     global.metisMenu = mod.exports;
   }
-})(this, function (_jquery) {
+})
+
+(this, function (_jquery) {
   'use strict';
 
   var _jquery2 = _interopRequireDefault(_jquery);
