@@ -51,6 +51,8 @@
             $conexion= $this->conectar();
             $queryEjecutar= $conexion->prepare($querySql);
             $queryEjecutar->execute($values);
+            $count= $queryEjecutar->rowCount();
+            return $count;
         }
 
         public function borrar($deleteSql, $value){
