@@ -72,6 +72,9 @@ document.getElementById('btnRegistrar').onclick = function(){
 
 
 
+
+
+
 // Limpia el formulario usando el método reset()
 
 

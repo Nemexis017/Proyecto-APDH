@@ -20,7 +20,7 @@ function tablaPersonal(){
                             <td>
                                 <input type="hidden" name="idPersonalIns" id="idPersonalIns" value="${item.personalMauxiId}">
                                 <button class='btn btn-default btn-xs m-r-5' data-toggle='tooltip' data-original-title='Edit'><i class='fa fa-pencil font-14'></i></button>
-                                <button id="delete${numero}" class='btn btn-default btn-xs' data-toggle='tooltip' data-original-title='Delete'><i class='fa fa-trash font-14'></i></button>
+                                <button id="delete" onclick="eliminarRegistro(${item.personalMauxiId});" class='btn btn-default btn-xs' data-toggle='tooltip' data-original-title='Delete'><i class='fa fa-trash font-14'></i></button>
                             </td>`; 
             tablaBody.appendChild(row);
         });
@@ -28,4 +28,6 @@ function tablaPersonal(){
     .catch(error => console.error('Error:', error));
 
 }
+
+
 window.addEventListener("load", tablaPersonal);
