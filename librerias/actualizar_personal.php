@@ -5,22 +5,22 @@
     $data_id = json_decode(file_get_contents('php://input'), true);
 
     $values_updatw= array(
-        ":idPersonalMauxi"=> $data_id[''],
-        ":tipoPersonaId"=> $data_id[''],
-        ":tipoDocumentoId"=> $data_id[''],
-        ":personalMauxiDocumento"=> $data_id[''],
-        ":personalMauxiCargo"=> $data_id[''],
-        ":personalMauxiNombres"=> $data_id[''],
-        ":personalMauxiPrimerApellido"=> $data_id[''],
-        ":personalMauxiSegundoApellido"=> $data_id[''],
-        ":personalMauxiMunicipioResidencia"=> $data_id[''],
-        ":personalMauxiMunicipioNacimiento"=> $data_id[''],
-        ":personalMauxiTelefono"=> $data_id[''],
-        ":personalMauxiFechaNacimiento"=> $data_id[''],
-        ":personalMauxiEmail"=> $data_id[''],
-        ":personalMauxiExperiencia"=> $data_id[''],
-        ":personalMauxiAnosExperiencia"=> $data_id[''],
-        ":personalMauxiEstudios"=> $data_id[''],
+        ":idPersonalMauxi"=> $data_id['id_personalMauxi'],
+        ":tipoPersonaId"=> $data_id['tipoPersonaId'],
+        ":tipoDocumentoId"=> $data_id['tipoDocumentoId'],
+        ":personalMauxiDocumento"=> $data_id['personalMauxiDocumento'],
+        ":personalMauxiCargo"=> $data_id['personalMauxiCargo'],
+        ":personalMauxiNombres"=> $data_id['personalMauxiNombres'],
+        ":personalMauxiPrimerApellido"=> $data_id['personalMauxiPrimerApellido'],
+        ":personalMauxiSegundoApellido"=> $data_id['personalMauxiSegundoApellido'],
+        ":personalMauxiMunicipioResidencia"=> $data_id['personalMauxiMunicipioResidencia'],
+        ":personalMauxiMunicipioNacimiento"=> $data_id['personalMauxiMunicipioNacimiento'],
+        ":personalMauxiTelefono"=> $data_id['personalMauxiTelefono'],
+        ":personalMauxiFechaNacimiento"=> $data_id['personalMauxiFechaNacimiento'],
+        ":personalMauxiEmail"=> $data_id['personalMauxiEmail'],
+        ":personalMauxiExperiencia"=> $data_id['personalMauxiExperiencia'],
+        ":personalMauxiAnosExperiencia"=> $data_id['personalMauxiAnosExperiencia'],
+        ":personalMauxiEstudios"=> $data_id['personalMauxiEstudios'],
     );
 
     $sql_udate= "UPDATE `mauxi`.`personalmauxi`
