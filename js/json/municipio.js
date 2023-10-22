@@ -1,7 +1,8 @@
-window.onload= function(){
-    function municipioResidencia(){
-        const select= document.querySelector("#setMunicipioResidencia");
-    
+function municipio(selector){
+    if(selector === null){
+        return "Funcion en espera"
+    }else{
+        const select= document.querySelector(selector);
         fetch('librerias/municipio.php')
         .then(response => response.json())
         .then(data => {
@@ -13,29 +14,18 @@ window.onload= function(){
             });
         })
         .catch(error => console.error('Error:', error));
-    
     }
-
-    function municipioNacimiento(){
-        const select= document.querySelector("#selMunicipioNacimiento");
     
-        fetch('librerias/municipio.php')
-        .then(response => response.json())
-        .then(data => {
-            data.forEach(item => {
-                const option = document.createElement('option');
-                option.value = item.municipioId;
-                option.innerHTML = item.municipioNombre;
-                select.appendChild(option);
-            });
-        })
-        .catch(error => console.error('Error:', error));
-    
-    }
-
-    municipioResidencia();
-    municipioNacimiento();
-
-
 }
+
+window.addEventListener("load", function() {
+    let municipioResidencia= ".municipioResidencia"
+    let municipioNacimiento= ".municipioNacimiento"
+    let municipioR_udate= ".municipioResidenciaUp"
+    let municipioN_udate= ".municipioNacimientoUp"
+    municipio(municipioResidencia);
+    municipio(municipioNacimiento);
+    municipio(municipioR_udate);
+    municipio(municipioN_udate);
+});
 

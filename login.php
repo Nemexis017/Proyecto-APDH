@@ -14,7 +14,7 @@
     <link href="assetsExte/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
     <link href="assetsExte/vendors/themify-icons/css/themify-icons.css" rel="stylesheet" />
     <!-- THEME STYLES-->
-    <link href="assetsExte/css/main.css" rel="stylesheet" />
+    <link href="assetsExte/css/main.css" rel="stylesheet"/>
     <!-- PAGE LEVEL STYLES-->
     <link href="assetsExte/css/pages/auth-light.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css">
@@ -57,6 +57,10 @@
             </div>
             <div class="text-center">Nuevo personal autorizado 
                 <a class="color-blue" href="registrarPersonal.php">crear cuenta</a>
+            </div>
+            <div class="text-center">
+                Vuleve al inicio
+                <a class="color-blue" href="index.php">Inicio</a>
             </div>
         </form>
     </div>

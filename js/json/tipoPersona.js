@@ -1,5 +1,5 @@
-function tipoPersona(){
-    const select= document.querySelector("#txtTipoPersonaId");
+function tipoPersona(id_tipoPersona){
+    const select= document.querySelector(id_tipoPersona);
 
     fetch('librerias/consultaTipoPersona.php')
     .then(response => response.json())
@@ -14,4 +14,9 @@ function tipoPersona(){
     .catch(error => console.error('Error:', error));
 
 }
-window.addEventListener("load", tipoPersona);
+window.addEventListener("load",function(){
+    let tipoPersona_Insert= "#txtTipoPersonaId";
+    let tipoPersona_Update= "#tipoPersonaId_Update" 
+    tipoPersona(tipoPersona_Insert);
+    tipoPersona(tipoPersona_Update);
+});
