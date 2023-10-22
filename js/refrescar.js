@@ -1,6 +1,4 @@
-window.onload = function(){
-    document.getElementById('refrescar').onclick =function(){
+
+    document.getElementById('btn-refresh').onclick =function(){
         location.reload(true);
     }
-
-}

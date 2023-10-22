@@ -2,7 +2,6 @@
 function limpiar(){
     const formulario = document.getElementById("form-registrar").reset();    
 }
-
 document.getElementById('btnRegistrar').onclick = function(){
      // event.preventDefault(); 
     const botonCerrar = document.getElementById("botonCerrar");
@@ -64,18 +63,11 @@ document.getElementById('btnRegistrar').onclick = function(){
     .catch(error => console.log(error))
 }
 
+// document.getElementById('btn-refresh').onclick =function(){
+//     location.reload(true);
+// }
 
 
-
-
-
-
-
-
-
-
-
-// Limpia el formulario usando el método reset()
 
 
 

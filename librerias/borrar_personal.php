@@ -8,13 +8,9 @@
         ":idPersonal" => $data_id['idPersonal']
     );
 
-    $slqConsultaVerificacion= "SELECT * FROM `mauxi`.`personalmauxi`
-                            WHERE personalMauxiId = :idPersonal";
-
     $slq_borar_personal= "DELETE FROM `mauxi`.`personalmauxi`
                         WHERE personalMauxiId = :idPersonal"; 
-
-
+                        
     if(empty(array_filter($value_Id))){
         $registrarPersonal= "";
     }else{
@@ -28,7 +24,6 @@
     }
         
     header('Content-type:application/json');
-    echo json_encode($response)
-
+    echo json_encode($response);
 
 ?>

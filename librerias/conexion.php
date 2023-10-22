@@ -55,13 +55,6 @@
             return $count;
         }
 
-        public function borrar($deleteSql, $value){
-            $conexion= $this->conectar();
-            $delete = $conexion->prepare($deleteSql);
-            $delete->bindParam("id", $value, PDO::PARAM_INT);
-            $delete->execute();
-        }
-
         public function numeroRegistro($querySql, $values){
             $conexion= $this->conectar();
             $consulta= $conexion->prepare($querySql);
