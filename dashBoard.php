@@ -468,7 +468,7 @@
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" id="botonCerrar" data-bs-dismiss="modal">Cerrar</button>
-                            <button type="button" class="btn btn-primary" id="btnRegistrar">Registrar</button>
+                            <button type="button" class="btn btn-primary btn_registrar" id="btnRegistrar">Registrar</button>
                         </div>
                     </form>
                     <!-- *************************************** cuerpo del modal(Fin) *************************************** -->
@@ -525,7 +525,10 @@
                         <div class="col-md-12">
                             <i class="aviso-obligacion">los campos obligatorios contienen<i class="obligacion">*</i></i>
                         </div>
+
+                        <!-- desarrollado por js actualizar.js -->
                     </form>
+    
                     <!-- *************************************** cuerpo del modal(Fin) *************************************** -->
                 </div>
             </div>
@@ -552,9 +555,6 @@
     <!-- <script src="js/json/consulta_individual.js"></script> -->
     <script src="js/alerta.js"></script>
 
-
-
-    
     <!-- <script src="assetsExte/vendors/popper.js/dist/umd/popper.min.js" type="text/javascript"></script> -->
     <!-- <script src="assetsExte/vendors/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script> -->
     

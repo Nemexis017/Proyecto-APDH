@@ -6,7 +6,7 @@
     $id_verifi = json_decode(file_get_contents('php://input'), true);
 
     $value_Id_verifi= array(
-        ":id_varificacion" => $id_verifi['idPersonal']
+        ":id_varificacion" => $id_verifi['idVerificacion']
     );
     
     $slqConsultaVerificacion= "SELECT 

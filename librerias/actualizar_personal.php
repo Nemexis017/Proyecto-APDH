@@ -4,7 +4,7 @@
 
     $data_id = json_decode(file_get_contents('php://input'), true);
 
-    $values_updatw= array(
+    $values_update= array(
         ":idPersonalMauxi"=> $data_id['id_personalMauxi'],
         ":tipoPersonaId"=> $data_id['tipoPersonaId'],
         ":tipoDocumentoId"=> $data_id['tipoDocumentoId'],
@@ -23,7 +23,7 @@
         ":personalMauxiEstudios"=> $data_id['personalMauxiEstudios'],
     );
 
-    $sql_udate= "UPDATE `mauxi`.`personalmauxi`
+    $sql_update= "UPDATE `mauxi`.`personalmauxi`
                 SET
                 `tipoPersonaId` = :tipoPersonaId,
                 `tipoDocumentoId` = :tipoDocumentoId,
@@ -42,9 +42,21 @@
                 `personalMauxiEstudios` = :personalMauxiEstudios
                 WHERE `personalMauxiId` = :idPersonalMauxi"; 
 
-    $ejecute_update= $conexion->ejecutar($sql_udate, $values_updatw);
+    // condicion de si el array esta null
+    if(empty(array_filter($values_update))){
+        $ejecute_update= "";
+    }else{
+        $ejecute_update= $conexion->ejecutar($sql_update, $values_update);
+    }
 
-    
-
+    // respuesta para ejecutar funciones en las promesas
+    if($ejecute_update == 1){
+        $response_update = ["update_completado"=> "OK"];
+    }else{
+        $response_update = ["update_completado"=> "NO"];
+    }
+        
+    header('Content-type:application/json');
+    echo json_encode($response_update)
 
 ?>

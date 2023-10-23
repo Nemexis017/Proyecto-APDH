@@ -1,6 +1,6 @@
 function update_modal(id_personal_update){
     const data_update={
-        idPersonal:id_personal_update,
+        idVerificacion:id_personal_update,
     };
 
     fetch('librerias/consulta_individual.php', {
@@ -10,7 +10,7 @@ function update_modal(id_personal_update){
             'Content-Type': 'application/json'
         },
     })
-    
+
     .then(response => response.json())
     .then(data => {
         const formulario_update= document.querySelector("#form-update");
@@ -19,8 +19,8 @@ function update_modal(id_personal_update){
             const tipoPersona_div = document.createElement('div');
             tipoPersona_div.className = 'col-md-12';
             tipoPersona_div.innerHTML = `<label for="selTipoIdentificacion" class="form-label"><i class="obligacion">*</i> Tipo de Persona</label>
-                                        <select class="form-select" aria-label="Default select example" id="tipoPersonaId_Update"
-                                            name="txtTipoPersonaId" required>
+                                        <select class="form-select" aria-label="Default select example" id="txtTipoPersonaId_update"
+                                            name="txtTipoPersonaId_update" required>
                                             <option value="${item.tipoPersonaId}" selected>${item.tipoPersonaNombre}</option>
                                             
                                         </select>`; 
@@ -53,7 +53,7 @@ function update_modal(id_personal_update){
             const primerNombre_div = document.createElement('div');
             primerNombre_div.className = 'col-md-12';
             primerNombre_div.innerHTML = `<label for="txtNombres" class="form-label"><i class="obligacion">*</i> Primer nombre</label>
-                                    <input type="text" class="form-control" id="txtNombres_update_update" name="txtNombres_update"
+                                    <input type="text" class="form-control" id="txtNombres_update" name="txtNombres_update"
                                         required value="${item.personalMauxiNombres}">
                                     <div class="valid-feedback">
                                         Digitar sus nombres
@@ -150,9 +150,9 @@ function update_modal(id_personal_update){
 
             const footer_modal = document.createElement('div');
             footer_modal.className = 'modal-footer';
-            footer_modal.innerHTML = `<button type="button" class="btn btn-secondary" id="cerrar_udate" data-bs-dismiss="modal">Cerrar</button>
-                                    <button type="button" class="btn btn-primary" id="btnUpdate">Actualizar</button>`; 
-
+            footer_modal.innerHTML = `<button type="button" class="btn btn-secondary" id="cerrar_update" data-bs-dismiss="modal">Cerrar</button>
+                                    <button type="button" class="btn btn-primary btnUpdate" onclick="actualizar_personal(${id_personal_update});" id="btnUpdate">Actualizar</button>`; 
+            
             formulario_update.appendChild(tipoPersona_div);
             formulario_update.appendChild(tipoDocumento_div);
             formulario_update.appendChild(documento_div);
@@ -172,13 +172,14 @@ function update_modal(id_personal_update){
         });
     })
     .catch(error => console.log(error)) 
+}
 
-    document.getElementById('btnUpdate').onclick = function(){
+function actualizar_personal(id_personal){
         // boton de cerrar modal update
-        const boton_close_update= document.getElementById('cerrar_udate');
-
+        const boton_close_update= document.getElementById('cerrar_update');
+    
         // toma de datos en el formulario ya consultado
-        const id_personalMauxi = id_personal_update;
+        const id_personalMauxi = id_personal;
         const tipoPersonaId = document.getElementById("txtTipoPersonaId_update").value;
         const tipoDocumentoId = document.getElementById("txtTipoDocumentoId_update").value;
         const personalMauxiDocumento = document.getElementById("txtIdentificacion_update").value;
@@ -194,7 +195,7 @@ function update_modal(id_personal_update){
         const personalMauxiExperiencia = document.getElementById("txtExperiencia_update").value;
         const personalMauxiAnosExperiencia = document.getElementById("numAnosExperiencia_update").value;
         const personalMauxiEstudios = document.getElementById("txtEstudiosRealizados_update").value;
-
+    
         // Crear un objeto con los datos
         const dataPersonal_update = {
             id_personalMauxi:id_personalMauxi,
@@ -214,7 +215,7 @@ function update_modal(id_personal_update){
             personalMauxiAnosExperiencia:personalMauxiAnosExperiencia,
             personalMauxiEstudios:personalMauxiEstudios,
         };
-
+    
         fetch('librerias/actualizar_personal.php', {
             method: 'POST',
             body: JSON.stringify(dataPersonal_update),
@@ -225,7 +226,7 @@ function update_modal(id_personal_update){
         
         .then(response => response.json())
         .then(data => {
-            if(data.registroEjecutado == "OK"){
+            if(data.update_completado == "OK"){
                 tablaPersonal();
                 boton_close_update.click();
             }else{
@@ -233,5 +234,7 @@ function update_modal(id_personal_update){
             }
         })
         .catch(error => console.log(error))
-    }
+    
 }
+
+
