@@ -49,11 +49,11 @@
               <div class="info_item">
                 <i class="ti-headphone"></i>
                 <h6><a href="#">+57 3112102667</a></h6>
-                <p>Lunes a sabado de 7pm - 5pm</p>
+                <p>Lunes a sábado de 7am - 5pm</p>
               </div>
               <div class="info_item">
                 <i class="ti-email"></i>
-                <h6><a href="#">Soporte tecnico</a></h6>
+                <h6><a href="#">Soporte técnico</a></h6>
                 <p>mariauxiliadora.iquira@sedhuila.gov.co</p>
               </div>
             </div>
