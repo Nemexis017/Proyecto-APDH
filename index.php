@@ -196,7 +196,7 @@
               </div>
               <div class="col clockinner1 clockinner">
                 <h1 class="days">150</h1>
-                <p class="smalltext">Segundaria</p>
+                <p class="smalltext">Secundaria</p>
               </div>
               <div class="col clockinner clockinner1">
                 <h1 class="hours">34</h1>
@@ -241,7 +241,7 @@
         <div class="row justify-content-center">
           <div class="col-lg-5">
             <div class="main_title">
-              <h2 class="mb-3">titulo</h2>
+              <h2 class="mb-3">Directivos</h2>
               <p>
                 Replenish man have thing gathering lights yielding shall you
               </p>

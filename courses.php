@@ -34,10 +34,10 @@
           <div class="row justify-content-center">
             <div class="col-lg-6">
               <div class="banner_content text-center">
-                <h2>Courses</h2>
+                <h2>Profesores Primaria</h2>
                 <div class="page_link">
-                  <a href="index.html">Home</a>
-                  <a href="courses.html">Courses</a>
+                  <a href="index.html">Inicio</a>
+                  <a href="courses.html">Primaria</a>
                 </div>
               </div>
             </div>

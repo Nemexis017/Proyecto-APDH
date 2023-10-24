@@ -19,10 +19,10 @@
           <div class="row justify-content-center">
             <div class="col-lg-6">
               <div class="banner_content text-center">
-                <h2>Elements</h2>
+                <h2>Profesores Rurales</h2>
                 <div class="page_link">
-                  <a href="index.html">Home</a>
-                  <a href="elements.html">Elements</a>
+                  <a href="index.html">Inicio</a>
+                  <a href="elements.html">Rurales</a>
                 </div>
               </div>
             </div>

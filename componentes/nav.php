@@ -42,7 +42,7 @@
                                     <a class="nav-link" href="courses.php">Primaria</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="course-details.php">Segundaria</a>
+                                    <a class="nav-link" href="course-details.php">Secundaria</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="elements.php">Rurales</a>
