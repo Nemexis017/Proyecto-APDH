@@ -54,13 +54,9 @@
               <h4>Jose Vicente Quimbaya</h4>
               <p class="designation">Lic. Matemáticas</p>
               <div class="mb-4">
-                <p>
-                  If you are looking at blank cassettes on the web, you may be
-                  very confused at the.
-                </p>
               </div>
               <div class="align-items-center justify-content-center d-flex">
-                <a href="#"><i class="ti-facebook"></i></a>
+                <a href="https://www.facebook.com/toquivijo?mibextid=LQQJ4d"><i class="ti-facebook"></i></a>
                 <a href="#"><i class="ti-twitter"></i></a>
                 <a href="#"><i class="ti-linkedin"></i></a>
                 <a href="#"><i class="ti-pinterest"></i></a>
@@ -77,12 +73,10 @@
               <p class="designation">Lic. Lengua Castellana</p>
               <div class="mb-4">
                 <p>
-                  If you are looking at blank cassettes on the web, you may be
-                  very confused at the.
                 </p>
               </div>
               <div class="align-items-center justify-content-center d-flex">
-                <a href="#"><i class="ti-facebook"></i></a>
+                <a href="https://www.facebook.com/andresfelipe.garzonartunduaga?mibextid=LQQJ4d"><i class="ti-facebook"></i></a>
                 <a href="#"><i class="ti-twitter"></i></a>
                 <a href="#"><i class="ti-linkedin"></i></a>
                 <a href="#"><i class="ti-pinterest"></i></a>
@@ -99,12 +93,10 @@
               <p class="designation">Lic. Educación Ambiental</p>
               <div class="mb-4">
                 <p>
-                  If you are looking at blank cassettes on the web, you may be
-                  very confused at the.
                 </p>
               </div>
               <div class="align-items-center justify-content-center d-flex">
-                <a href="#"><i class="ti-facebook"></i></a>
+                <a href="https://www.facebook.com/yamilet.conde.92?mibextid=LQQJ4d"><i class="ti-facebook"></i></a>
                 <a href="#"><i class="ti-twitter"></i></a>
                 <a href="#"><i class="ti-linkedin"></i></a>
                 <a href="#"><i class="ti-pinterest"></i></a>
@@ -121,8 +113,6 @@
               <p class="designation">Lic. Matemáticas Y Física</p>
               <div class="mb-4">
                 <p>
-                  If you are looking at blank cassettes on the web, you may be
-                  very confused at the.
                 </p>
               </div>
               <div class="align-items-center justify-content-center d-flex">
@@ -143,12 +133,10 @@
               <p class="designation">Lic. Educación Física</p>
               <div class="mb-4">
                 <p>
-                  If you are looking at blank cassettes on the web, you may be
-                  very confused at the.
                 </p>
               </div>
               <div class="align-items-center justify-content-center d-flex">
-                <a href="#"><i class="ti-facebook"></i></a>
+                <a href="https://www.facebook.com/octavio.castanedaperez?mibextid=LQQJ4d"><i class="ti-facebook"></i></a>
                 <a href="#"><i class="ti-twitter"></i></a>
                 <a href="#"><i class="ti-linkedin"></i></a>
                 <a href="#"><i class="ti-pinterest"></i></a>
@@ -165,12 +153,10 @@
               <p class="designation">Comunicadora Social</p>
               <div class="mb-4">
                 <p>
-                  If you are looking at blank cassettes on the web, you may be
-                  very confused at the.
                 </p>
               </div>
               <div class="align-items-center justify-content-center d-flex">
-                <a href="#"><i class="ti-facebook"></i></a>
+                <a href="https://www.facebook.com/adrianamilena.castrogonzalez?mibextid=LQQJ4d"><i class="ti-facebook"></i></a>
                 <a href="#"><i class="ti-twitter"></i></a>
                 <a href="#"><i class="ti-linkedin"></i></a>
                 <a href="#"><i class="ti-pinterest"></i></a>
@@ -187,12 +173,10 @@
               <p class="designation">Especialista En Pedagogía</p>
               <div class="mb-4">
                 <p>
-                  If you are looking at blank cassettes on the web, you may be
-                  very confused at the.
                 </p>
               </div>
               <div class="align-items-center justify-content-center d-flex">
-                <a href="#"><i class="ti-facebook"></i></a>
+                <a href="https://www.facebook.com/maria.c.1044?mibextid=LQQJ4d"><i class="ti-facebook"></i></a>
                 <a href="#"><i class="ti-twitter"></i></a>
                 <a href="#"><i class="ti-linkedin"></i></a>
                 <a href="#"><i class="ti-pinterest"></i></a>
@@ -209,12 +193,10 @@
               <p class="designation">Lic. Ciencias Sociales</p>
               <div class="mb-4">
                 <p>
-                  If you are looking at blank cassettes on the web, you may be
-                  very confused at the.
                 </p>
               </div>
               <div class="align-items-center justify-content-center d-flex">
-                <a href="#"><i class="ti-facebook"></i></a>
+                <a href="https://www.facebook.com/gladys.tovarbrand?mibextid=LQQJ4d"><i class="ti-facebook"></i></a>
                 <a href="#"><i class="ti-twitter"></i></a>
                 <a href="#"><i class="ti-linkedin"></i></a>
                 <a href="#"><i class="ti-pinterest"></i></a>
@@ -231,12 +213,10 @@
               <p class="designation">Lic. Ciencias Naturales</p>
               <div class="mb-4">
                 <p>
-                  If you are looking at blank cassettes on the web, you may be
-                  very confused at the.
                 </p>
               </div>
               <div class="align-items-center justify-content-center d-flex">
-                <a href="#"><i class="ti-facebook"></i></a>
+                <a href="https://www.facebook.com/chela.cardozo.3?mibextid=LQQJ4d"><i class="ti-facebook"></i></a>
                 <a href="#"><i class="ti-twitter"></i></a>
                 <a href="#"><i class="ti-linkedin"></i></a>
                 <a href="#"><i class="ti-pinterest"></i></a>
@@ -253,12 +233,10 @@
               <p class="designation">Lic. Lengua Castellana</p>
               <div class="mb-4">
                 <p>
-                  If you are looking at blank cassettes on the web, you may be
-                  very confused at the.
                 </p>
               </div>
               <div class="align-items-center justify-content-center d-flex">
-                <a href="#"><i class="ti-facebook"></i></a>
+                <a href="https://www.facebook.com/pedronel.gonzaleztoro?mibextid=LQQJ4d"><i class="ti-facebook"></i></a>
                 <a href="#"><i class="ti-twitter"></i></a>
                 <a href="#"><i class="ti-linkedin"></i></a>
                 <a href="#"><i class="ti-pinterest"></i></a>
@@ -275,12 +253,10 @@
               <p class="designation">Lic. Ciencias Naturales</p>
               <div class="mb-4">
                 <p>
-                  If you are looking at blank cassettes on the web, you may be
-                  very confused at the.
                 </p>
               </div>
               <div class="align-items-center justify-content-center d-flex">
-                <a href="#"><i class="ti-facebook"></i></a>
+                <a href="https://www.facebook.com/wilsonguevaracalderon?mibextid=LQQJ4d"><i class="ti-facebook"></i></a>
                 <a href="#"><i class="ti-twitter"></i></a>
                 <a href="#"><i class="ti-linkedin"></i></a>
                 <a href="#"><i class="ti-pinterest"></i></a>
