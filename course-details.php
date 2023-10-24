@@ -19,11 +19,11 @@
           <div class="row justify-content-center">
             <div class="col-lg-6">
               <div class="banner_content text-center">
-                <h2>Course Details</h2>
+                <h2>Profesores Secundaria</h2>
                 <div class="page_link">
                   <a href="index.html">Home</a>
                   <a href="courses.html">Courses</a>
-                  <a href="course-details.html">Courses Details</a>
+                  <a href="course-details.html">Course details</a>
                 </div>
               </div>
             </div>

@@ -283,7 +283,7 @@ button:focus {
 }
 .header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
   line-height: 45px;
-  color: #002347;
+  color: #002347 !important;
   padding: 0px 30px;
   -webkit-transition: all 150ms linear;
   transition: all 150ms linear;
@@ -295,7 +295,7 @@ button:focus {
 }
 .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
   background: rgb(11, 108, 32);
-  color: #fff;
+  color: #fff !important;
 }
 @media (min-width: 992px) {
   .header_area .navbar .nav .nav-item.submenu:hover ul {

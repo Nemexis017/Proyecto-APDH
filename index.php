@@ -251,11 +251,11 @@
         <div class="row justify-content-center d-flex align-items-center">
           <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
             <div class="thumb d-flex justify-content-sm-center">
-              <img class="img-fluid" src="img/trainer/t1.jpg" alt="" />
+              <img class="img-fluid" src="img/.jpeg" alt="" />
             </div>
             <div class="meta-text text-sm-center">
-              <h4>Mated Nithan</h4>
-              <p class="designation">Sr. web designer</p>
+              <h4>Alirio Guevara Sanchez</h4>
+              <p class="designation">Rector</p>
               <div class="mb-4">
                 <p>
                   If you are looking at blank cassettes on the web, you may be
@@ -273,11 +273,11 @@
 
           <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
             <div class="thumb d-flex justify-content-sm-center">
-              <img class="img-fluid" src="img/trainer/t2.jpg" alt="" />
+              <img class="img-fluid" src="img/" alt="" />
             </div>
             <div class="meta-text text-sm-center">
-              <h4>David Cameron</h4>
-              <p class="designation">Sr. web designer</p>
+              <h4>Mercy Trujillo</h4>
+              <p class="designation">Coordinadora Disciplinaria</p>
               <div class="mb-4">
                 <p>
                   If you are looking at blank cassettes on the web, you may be
@@ -295,11 +295,11 @@
 
           <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
             <div class="thumb d-flex justify-content-sm-center">
-              <img class="img-fluid" src="img/trainer/t3.jpg" alt="" />
+              <img class="img-fluid" src="img/.jpeg" alt="" />
             </div>
             <div class="meta-text text-sm-center">
-              <h4>Jain Redmel</h4>
-              <p class="designation">Sr. Faculty Data Science</p>
+              <h4>Manuel Pisso</h4>
+              <p class="designation">Coordinador Académico</p>
               <div class="mb-4">
                 <p>
                   If you are looking at blank cassettes on the web, you may be
@@ -317,11 +317,11 @@
 
           <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
             <div class="thumb d-flex justify-content-sm-center">
-              <img class="img-fluid" src="img/trainer/t4.jpg" alt="" />
+              <img class="img-fluid" src="img/fanny.jpeg" alt="" />
             </div>
             <div class="meta-text text-sm-center">
-              <h4>Nathan Macken</h4>
-              <p class="designation">Sr. web designer</p>
+              <h4>Fanny Tamayo Martinez</h4>
+              <p class="designation">Secretaria</p>
               <div class="mb-4">
                 <p>
                   If you are looking at blank cassettes on the web, you may be
