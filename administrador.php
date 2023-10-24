@@ -47,7 +47,7 @@
                             </p>
                             
                             <a class="primary-btn" href="login.php">
-                                Iniciar Sessión 
+                                Iniciar Sesión 
                                 <i class="ti-arrow-right ml-1"></i>
                             </a>
                         </div>
