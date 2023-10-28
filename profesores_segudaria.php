@@ -48,7 +48,7 @@
         <div class="row justify-content-center d-flex align-items-center">
           <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
             <div class="thumb d-flex justify-content-sm-center">
-              <img class="img-fluid" src="img/vicente.jpeg" alt="" />
+              <img class="img-fluid" src="img/fotos_profesores/secundaria/vicente.jpeg" alt="" />
             </div>
             <div class="meta-text text-sm-center">
               <h4>Jose Vicente Quimbaya</h4>
@@ -66,7 +66,7 @@
 
           <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
             <div class="thumb d-flex justify-content-sm-center">
-              <img class="img-fluid" src="img/andres.jpeg" alt="" />
+              <img class="img-fluid" src="img/fotos_profesores/secundaria/andres.jpeg" alt="" />
             </div>
             <div class="meta-text text-sm-center">
               <h4>Andrés Felipe Gazón Artunduaga</h4>
@@ -107,7 +107,7 @@
 
           <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
             <div class="thumb d-flex justify-content-sm-center">
-              <img class="img-fluid" src="img/adriana.jpeg" alt="" />
+              <img class="img-fluid" src="img/fotos_profesores/secundaria/adriana.jpeg" alt="" />
             </div>
             <div class="meta-text text-sm-center">
               <h4>Adriana Milena Castro Gonzales</h4>
@@ -147,7 +147,7 @@
 
           <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
             <div class="thumb d-flex justify-content-sm-center">
-              <img class="img-fluid" src="img/gladys.jpeg" alt="" />
+              <img class="img-fluid" src="img/fotos_profesores/secundaria/gladys.jpeg" alt="" />
             </div>
             <div class="meta-text text-sm-center">
               <h4>Gladys Tovar Brand</h4>
@@ -167,7 +167,7 @@
 
           <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
             <div class="thumb d-flex justify-content-sm-center">
-              <img class="img-fluid" src="img/chela.jpeg" alt="" />
+              <img class="img-fluid" src="img/fotos_profesores/secundaria/chela.jpeg" alt="" />
             </div>
             <div class="meta-text text-sm-center">
               <h4>Graciela Cardozo</h4>
