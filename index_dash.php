@@ -1,18 +1,3 @@
-<?php
-    // include('librerias/acceso.php');
-    include('librerias/conexion.php');
-    // include('librerias/');
-
-    
-    // inicio de sesion
-    session_start();
-    if($_SESSION['personaId']==false){
-        header('Location:login.php');
-    }else{
-        // header('Location:dashBoard.php');
-    }
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,7 +17,7 @@
     <!-- PLUGINS STYLES-->
     <link href="assetsExte/vendors/jvectormap/jquery-jvectormap-2.0.3.css" rel="stylesheet" />
     <!-- THEME STYLES-->
-    <link href="assetsExte/css/main.min.css" rel="stylesheet" />
+    <link href="assetsExte/css/main.css" rel="stylesheet" />
     <!-- PAGE LEVEL STYLES-->
 </head>
     <script src="bootstrap/js/bootstrap.js"></script>
@@ -213,46 +198,51 @@
                 <ul class="side-menu metismenu not-sub">
                     <li>
                         <a class="active" href="dashBoard.php"><i class="sidebar-item-icon fa fa-th-large"></i>
-                            <span class="nav-label">Inicio</span>
+                            <span class="nav-label not-sub">Inicio</span>
                         </a>
                     </li>
-                    <li class="heading">FEATURES</li>
+                    <li class="heading">COMPONENTES</li>
                     <li>
-                        <a href="#"><i class="sidebar-item-icon fa fa-bookmark"></i>
-                            <span class="nav-label">Basic UI</span><i class="fa fa-angle-left arrow"></i></a>
+                        <a href="#">
+                            <i class="sidebar-item-icon fa-solid fa-sliders"></i>
+                            <span class="nav-label">Panel de control</span><i class="fa fa-angle-left arrow"></i></a>
                         <ul class="nav-2-level collapse">
                             <li>
-                                <a href="colors.html">Colors</a>
+                                <a href="colors.html">Directivos</a>
                             </li>
                             <li>
-                                <a href="typography.html">Typography</a>
+                                <a href="typography.html">Profesores</a>
                             </li>
                             <li>
-                                <a href="panels.html">Panels</a>
+                                <a href="panels.html">Personal</a>
                             </li>
                             <li>
-                                <a href="buttons.html">Buttons</a>
-                            </li>
-                            <li>
-                                <a href="tabs.html">Tabs</a>
-                            </li>
-                            <li>
-                                <a href="alerts_tooltips.html">Alerts &amp; Tooltips</a>
-                            </li>
-                            <li>
-                                <a href="badges_progress.html">Badges &amp; Progress</a>
-                            </li>
-                            <li>
-                                <a href="lists.html">List</a>
-                            </li>
-                            <li>
-                                <a href="cards.html">Card</a>
+                                <a href="buttons.html">Estudiantes</a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="icons.html"><i class="sidebar-item-icon fa fa-smile-o"></i>
-                            <span class="nav-label">Icons</span>
+                        <a href="#">
+                            <i class="sidebar-item-icon fa-solid fa-eye"></i>
+                            <span class="nav-label">Visualizar</span><i class="fa fa-angle-left arrow"></i></a>
+                        <ul class="nav-2-level collapse">
+                            <li>
+                                <a href="colors.html">Departamentos</a>
+                            </li>
+                            <li>
+                                <a href="typography.html">Municipios</a>
+                            </li>
+                            <li>
+                                <a href="panels.html">Tipo de documentos</a>
+                            </li>
+                            <li>
+                                <a href="buttons.html">Clasificacion de personal</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="icons.html"><i class="sidebar-item-icon fa-solid fa-gear"></i>
+                            <span class="nav-label">Visualizar</span>
                         </a>
                     </li>
                     
@@ -303,9 +293,9 @@
             </div>
             <!-- END PAGE CONTENT-->
             <footer class="page-footer">
-                <div class="font-13">2018 © <b>AdminCAST</b> - All rights reserved.</div>
+                <!-- <div class="font-13">2018 © <b>AdminCAST</b> - All rights reserved.</div>
                 <a class="px-4" href="http://themeforest.net/item/adminca-responsive-bootstrap-4-3-angular-4-admin-dashboard-template/20912589" target="_blank">BUY PREMIUM</a>
-                <div class="to-top"><i class="fa fa-angle-double-up"></i></div>
+                <div class="to-top"><i class="fa fa-angle-double-up"></i></div> -->
             </footer>
         </div>
     </div>
@@ -544,7 +534,9 @@
     </div>
     <!-- END PAGA BACKDROPS-->
     <!-- CORE PLUGINS-->
-    <script src="js/refrescar.js"></script>
+
+    <!-- crud -->
+    <!-- <script src="js/refrescar.js"></script>
     <script src="js/json/listarGeneral.js"></script>
     <script src="js/json/tipoPersona.js"></script>
     <script src="js/json/tipoDocumento.js"></script>
@@ -552,11 +544,9 @@
     <script src="js/json/registrarJson.js"></script>
     <script src="js/json/eliminarPersonal.js"></script>
     <script src="js/json/actualizar.js"></script>
-    <!-- <script src="js/json/consulta_individual.js"></script> -->
-    <script src="js/alerta.js"></script>
+    <script src="js/alerta.js"></script> -->
 
-    <!-- <script src="assetsExte/vendors/popper.js/dist/umd/popper.min.js" type="text/javascript"></script> -->
-    <!-- <script src="assetsExte/vendors/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script> -->
+
     
     <!-- js importantes -->
     <script src="assetsExte/vendors/jquery/dist/jquery.min.js" type="text/javascript"></script>
@@ -564,16 +554,6 @@
     <script src="assetsExte/vendors/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
     <script src="assetsExte/js/app.min.js" type="text/javascript"></script>
 
-    <!-- *********************************************************** -->
-
-    <!-- PAGE LEVEL PLUGINS-->
-    <!-- <script src="assetsExte/vendors/chart.js/dist/Chart.min.js" type="text/javascript"></script> -->
-    <!-- <script src="assetsExte/vendors/jvectormap/jquery-jvectormap-2.0.3.min.js" type="text/javascript"></script> -->
-    <!-- <script src="assetsExte/vendors/jvectormap/jquery-jvectormap-world-mill-en.js" type="text/javascript"></script> -->
-    <!-- <script src="assetsExte/vendors/jvectormap/jquery-jvectormap-us-aea-en.js" type="text/javascript"></script> -->
-    <!-- CORE SCRIPTS-->
-    <!-- PAGE LEVEL SCRIPTS-->
-    <!-- <script src="assetsExte/js/scripts/dashboard_1_demo.js" type="text/javascript"></script> -->
 </body>
 
 </html>

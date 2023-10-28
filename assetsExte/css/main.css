@@ -3382,7 +3382,9 @@ body.has-backdrop .backdrop {
   color: rgba(255, 255, 255, 0.4); }
 
 .side-menu > li a {
-  color: #b4bcc8; }
+  color: #b4bcc8; 
+  text-decoration: none;
+}
   .side-menu > li a:hover, .side-menu > li a:focus {
     color: #fff;
     background-color: #3498db; }
@@ -3394,7 +3396,9 @@ body.has-backdrop .backdrop {
     background-color: #3498db; }
 
 .side-menu li a.active {
-  color: #fff; }
+  color: #fff;
+  text-decoration: none;
+}
 
 .sidebar-mini .side-menu > li:hover > a {
   background-color: #3498db;
