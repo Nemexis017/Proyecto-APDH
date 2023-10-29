@@ -40,7 +40,7 @@
             <div class="main_title">
               <h2 class="mb-3">Secundaria</h2>
               <p>
-                Replenish man have thing gathering lights yielding shall you
+                "El único límite es tu mente"
               </p>
             </div>
           </div>
@@ -48,7 +48,7 @@
         <div class="row justify-content-center d-flex align-items-center">
           <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
             <div class="thumb d-flex justify-content-sm-center">
-              <img class="img-fluid" src="img/vicente.jpeg" alt="" />
+              <img class="img-fluid" src="img/fotos_profesores/secundaria/vicente.jpeg" alt="" />
             </div>
             <div class="meta-text text-sm-center">
               <h4>Jose Vicente Quimbaya</h4>
@@ -66,7 +66,7 @@
 
           <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
             <div class="thumb d-flex justify-content-sm-center">
-              <img class="img-fluid" src="img/andres.jpeg" alt="" />
+              <img class="img-fluid" src="img/fotos_profesores/secundaria/andres.jpeg" alt="" />
             </div>
             <div class="meta-text text-sm-center">
               <h4>Andrés Felipe Gazón Artunduaga</h4>
@@ -86,7 +86,7 @@
 
           <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
             <div class="thumb d-flex justify-content-sm-center">
-              <img class="img-fluid" src="img/yamilet.jpeg" alt="" />
+              <img class="img-fluid" src="img/fotos_profesores/secundaria/yamile.jpg"  alt="" />
             </div>
             <div class="meta-text text-sm-center">
               <h4>Yamilet Conde Valencia</h4>
@@ -104,49 +104,10 @@
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
-            <div class="thumb d-flex justify-content-sm-center">
-              <img class="img-fluid" src="img/.jpeg" alt="" />
-            </div>
-            <div class="meta-text text-sm-center">
-              <h4>Edilberto Medina Cruz</h4>
-              <p class="designation">Lic. Matemáticas Y Física</p>
-              <div class="mb-4">
-                <p>
-                </p>
-              </div>
-              <div class="align-items-center justify-content-center d-flex">
-                <a href="#"><i class="ti-facebook"></i></a>
-                <a href="#"><i class="ti-twitter"></i></a>
-                <a href="#"><i class="ti-linkedin"></i></a>
-                <a href="#"><i class="ti-pinterest"></i></a>
-              </div>
-            </div>
-          </div>
 
           <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
             <div class="thumb d-flex justify-content-sm-center">
-              <img class="img-fluid" src="img/.jpeg" alt="" />
-            </div>
-            <div class="meta-text text-sm-center">
-              <h4>Octavio Castañeda Pérez</h4>
-              <p class="designation">Lic. Educación Física</p>
-              <div class="mb-4">
-                <p>
-                </p>
-              </div>
-              <div class="align-items-center justify-content-center d-flex">
-                <a href="https://www.facebook.com/octavio.castanedaperez?mibextid=LQQJ4d"><i class="ti-facebook"></i></a>
-                <a href="#"><i class="ti-twitter"></i></a>
-                <a href="#"><i class="ti-linkedin"></i></a>
-                <a href="#"><i class="ti-pinterest"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
-            <div class="thumb d-flex justify-content-sm-center">
-              <img class="img-fluid" src="img/adriana.jpeg" alt="" />
+              <img class="img-fluid" src="img/fotos_profesores/secundaria/adriana.jpeg" alt="" />
             </div>
             <div class="meta-text text-sm-center">
               <h4>Adriana Milena Castro Gonzales</h4>
@@ -166,17 +127,17 @@
 
           <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
             <div class="thumb d-flex justify-content-sm-center">
-              <img class="img-fluid" src="img/mafe.jpeg" alt="" />
+              <img class="img-fluid" src="img/fotos_profesores/secundaria/mafe.png" alt="" />
             </div>
             <div class="meta-text text-sm-center">
-              <h4>María Fernanda Coronado Cuchimba</h4>
-              <p class="designation">Especialista En Pedagogía</p>
+              <h4>María F. Coronado</h4>
+              <p class="designation">normalista</p>
               <div class="mb-4">
                 <p>
                 </p>
               </div>
               <div class="align-items-center justify-content-center d-flex">
-                <a href="https://www.facebook.com/maria.c.1044?mibextid=LQQJ4d"><i class="ti-facebook"></i></a>
+                <a href="https://www.facebook.com/gladys.tovarbrand?mibextid=LQQJ4d"><i class="ti-facebook"></i></a>
                 <a href="#"><i class="ti-twitter"></i></a>
                 <a href="#"><i class="ti-linkedin"></i></a>
                 <a href="#"><i class="ti-pinterest"></i></a>
@@ -186,7 +147,7 @@
 
           <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
             <div class="thumb d-flex justify-content-sm-center">
-              <img class="img-fluid" src="img/gladys.jpeg" alt="" />
+              <img class="img-fluid" src="img/fotos_profesores/secundaria/gladys.jpeg" alt="" />
             </div>
             <div class="meta-text text-sm-center">
               <h4>Gladys Tovar Brand</h4>
@@ -206,7 +167,7 @@
 
           <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
             <div class="thumb d-flex justify-content-sm-center">
-              <img class="img-fluid" src="img/chela.jpeg" alt="" />
+              <img class="img-fluid" src="img/fotos_profesores/secundaria/chela.jpeg" alt="" />
             </div>
             <div class="meta-text text-sm-center">
               <h4>Graciela Cardozo</h4>
@@ -226,43 +187,24 @@
 
           <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
             <div class="thumb d-flex justify-content-sm-center">
-              <img class="img-fluid" src="img/pecos.jpeg" alt="" />
+              <img class="img-fluid" src="img/fotos_profesores/secundaria/wilson.jpg" alt="" />
             </div>
             <div class="meta-text text-sm-center">
-              <h4>Pedro Nel Gonzales</h4>
-              <p class="designation">Lic. Lengua Castellana</p>
-              <div class="mb-4">
-                <p>
-                </p>
-              </div>
-              <div class="align-items-center justify-content-center d-flex">
-                <a href="https://www.facebook.com/pedronel.gonzaleztoro?mibextid=LQQJ4d"><i class="ti-facebook"></i></a>
-                <a href="#"><i class="ti-twitter"></i></a>
-                <a href="#"><i class="ti-linkedin"></i></a>
-                <a href="#"><i class="ti-pinterest"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
-            <div class="thumb d-flex justify-content-sm-center">
-              <img class="img-fluid" src="img/wilson.jpeg" alt="" />
-            </div>
-            <div class="meta-text text-sm-center">
-              <h4>Wilson Armando Guevara Sanchez</h4>
+              <h4>Wilson  Guevara</h4>
               <p class="designation">Lic. Ciencias Naturales</p>
               <div class="mb-4">
                 <p>
                 </p>
               </div>
               <div class="align-items-center justify-content-center d-flex">
-                <a href="https://www.facebook.com/wilsonguevaracalderon?mibextid=LQQJ4d"><i class="ti-facebook"></i></a>
+                <a href="#"><i class="ti-facebook"></i></a>
                 <a href="#"><i class="ti-twitter"></i></a>
                 <a href="#"><i class="ti-linkedin"></i></a>
                 <a href="#"><i class="ti-pinterest"></i></a>
               </div>
             </div>
           </div>
+          
         </div>
       </div>
     </section>
