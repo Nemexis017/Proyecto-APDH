@@ -1,4 +1,9 @@
 .not-sub {
   text-decoration: none !important;
 }
+
+.thead-default th {
+  color: #495057;
+  background-color: #e9ecef !important;
+}
 /*# sourceMappingURL=style_private.css.map */

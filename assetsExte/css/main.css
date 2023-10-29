@@ -3152,12 +3152,17 @@ body.fixed-layout.sidebar-mini .content-wrapper {
   transition: margin .2s ease-in-out;
   min-height: 1200px; }
 
+.page-wrapper::-webkit-scrollbar{
+  width: 10px;
+  background-color: #000 !important;
+}
+
 .page-header {
   padding-top: 35px;
   padding-bottom: 20px; }
 
 .page-content {
-  padding-top: 20px; }
+  padding:20px }
 
 .page-heading {
   padding: 0 5px; }
@@ -3224,7 +3229,8 @@ body.boxed-layout {
   transition: right .3s ease-in-out; }
   .theme-config .theme-config-toggle {
     position: absolute;
-    left: -34px;
+    top: 20px;
+    left: -51px;
     height: 38px;
     width: 35px;
     background-color: #23b7e5;

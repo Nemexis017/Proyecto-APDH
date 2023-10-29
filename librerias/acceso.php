@@ -41,7 +41,7 @@
                 $_SESSION['personaPrimerApellido'] = $datosLogin['personalMauxiPrimerApellido'];
             }
             
-            header('Location:../pricipal_info.php');
+            header('Location:../principal_info.php');
 
         }
         else{
