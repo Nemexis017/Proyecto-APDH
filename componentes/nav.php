@@ -39,13 +39,13 @@
                             >
                             <ul class="dropdown-menu">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="courses.php">Primaria</a>
+                                    <a class="nav-link" href="profesores_primaria.php">Primaria</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="course-details.php">Segundaria</a>
+                                    <a class="nav-link" href="profesores_segudaria.php">Secundaria</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="elements.php">Rurales</a>
+                                    <a class="nav-link" href="profesores_rurales.php">Rurales</a>
                                 </li>
                             </ul>
                         </li>

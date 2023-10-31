@@ -1,6 +1,6 @@
 function update_modal(id_personal_update){
     const data_update={
-        idPersonal:id_personal_update,
+        idVerificacion:id_personal_update,
     };
 
     fetch('librerias/consulta_individual.php', {
@@ -10,7 +10,7 @@ function update_modal(id_personal_update){
             'Content-Type': 'application/json'
         },
     })
-    
+
     .then(response => response.json())
     .then(data => {
         const formulario_update= document.querySelector("#form-update");
@@ -19,8 +19,8 @@ function update_modal(id_personal_update){
             const tipoPersona_div = document.createElement('div');
             tipoPersona_div.className = 'col-md-12';
             tipoPersona_div.innerHTML = `<label for="selTipoIdentificacion" class="form-label"><i class="obligacion">*</i> Tipo de Persona</label>
-                                        <select class="form-select" aria-label="Default select example" id="tipoPersonaId_Update"
-                                            name="txtTipoPersonaId" required>
+                                        <select class="form-select" aria-label="Default select example" id="txtTipoPersonaId_update"
+                                            name="txtTipoPersonaId_update" required>
                                             <option value="${item.tipoPersonaId}" selected>${item.tipoPersonaNombre}</option>
                                             
                                         </select>`; 
@@ -37,7 +37,7 @@ function update_modal(id_personal_update){
             const documento_div = document.createElement('div');
             documento_div.className = 'col-md-12';
             documento_div.innerHTML = `<label for="txtIdentificacion" class="form-label"><i class="obligacion">*</i> Identificación</label>
-                                            <input type="text" class="form-control" id="txtIdentificacion" name="txtIdentificacion" value="${item.personalMauxiDocumento}" required>
+                                            <input type="text" class="form-control" id="txtIdentificacion_update" name="txtIdentificacion_update" value="${item.personalMauxiDocumento}" required>
                                             <div class="valid-feedback">
                                                 Digitar el numero de Indentificacion
                                             </div>`; 
@@ -45,7 +45,7 @@ function update_modal(id_personal_update){
             const cargo_div = document.createElement('div');
             cargo_div.className = 'col-md-12';
             cargo_div.innerHTML = `<label for="txtCargo" class="form-label"><i class="obligacion">*</i> Cargo</label>
-                                    <input type="text" class="form-control" id="txtCargo" name="txtCargo" value="${item.personalMauxiCargo}" required>
+                                    <input type="text" class="form-control" id="txtCargo_update" name="txtCargo_update" value="${item.personalMauxiCargo}" required>
                                     <div class="valid-feedback">
                                         Digitar El cargo
                                     </div>`; 
@@ -53,7 +53,7 @@ function update_modal(id_personal_update){
             const primerNombre_div = document.createElement('div');
             primerNombre_div.className = 'col-md-12';
             primerNombre_div.innerHTML = `<label for="txtNombres" class="form-label"><i class="obligacion">*</i> Primer nombre</label>
-                                    <input type="text" class="form-control" id="txtNombres" name="txtNombres"
+                                    <input type="text" class="form-control" id="txtNombres_update" name="txtNombres_update"
                                         required value="${item.personalMauxiNombres}">
                                     <div class="valid-feedback">
                                         Digitar sus nombres
@@ -62,7 +62,7 @@ function update_modal(id_personal_update){
             const primerApellido_div = document.createElement('div');
             primerApellido_div.className = 'col-md-12';
             primerApellido_div.innerHTML = `<label for="txtPrimerApellido" class="form-label"><i class="obligacion">*</i> Primer apellido</label>
-                                            <input type="text" class="form-control" id="txtPrimerApellido" name="txtPrimerApellido"
+                                            <input type="text" class="form-control" id="txtPrimerApellido_update" name="txtPrimerApellido_update"
                                                 required value="${item.personalMauxiPrimerApellido}">
                                             <div class="valid-feedback">
                                                 Digitar el primer apellido
@@ -71,7 +71,7 @@ function update_modal(id_personal_update){
             const segundoApellido_div = document.createElement('div');
             segundoApellido_div.className = 'col-md-12';
             segundoApellido_div.innerHTML = `<label for="txtSegundoApellido" class="form-label"><i class="obligacion">*</i> Segundo apellido</label>
-                                            <input type="text" class="form-control" id="txtSegundoApellido" name="txtSegundoApellido"
+                                            <input type="text" class="form-control" id="txtSegundoApellido_update" name="txtSegundoApellido_update"
                                                 required value="${item.personalMauxiSegundoApellido}"}>
                                             <div class="valid-feedback">
                                                 Digitar el segundo apellido
@@ -80,8 +80,8 @@ function update_modal(id_personal_update){
             const municipioResidencia_div = document.createElement('div');
             municipioResidencia_div.className = 'col-md-12';
             municipioResidencia_div.innerHTML = `<label for="setMunicipioResidencia" class="form-label"><i class="obligacion">*</i> Municipio Residencia </label>
-                                            <select class="form-select municipioResidenciaUp" aria-label="Default select example" id="setMunicipioResidencia"
-                                                name="setMunicipioResidencia" required>
+                                            <select class="form-select municipioResidenciaUp" aria-label="Default select example" id="setMunicipioResidencia_update"
+                                                name="setMunicipioResidencia_update" required>
                                                 <option value="${item.personalMauxiMunicipioResidencia}" selected>${item.nombreMunicipioResidencia}</option>
                                                 
                                             </select>`; 
@@ -89,8 +89,8 @@ function update_modal(id_personal_update){
             const municipioNacimiento_div = document.createElement('div');
             municipioNacimiento_div.className = 'col-md-12';
             municipioNacimiento_div.innerHTML = `<label for="selMunicipioNacimiento" class="form-label"><i class="obligacion">*</i> Municipio Nacimiento</label>
-                                                <select class="form-select municipioNacimientoUp" aria-label="Default select example" id="selMunicipioNacimiento"
-                                                    name="selMunicipioNacimiento" required>
+                                                <select class="form-select municipioNacimientoUp" aria-label="Default select example" id="selMunicipioNacimiento_update"
+                                                    name="selMunicipioNacimiento_update" required>
                                                     <option value="${item.personalMauxiMunicipioNacimiento}" selected>${item.nombreMunicipioNacimiento}</option>
                                                     
                                                 </select>`; 
@@ -98,7 +98,7 @@ function update_modal(id_personal_update){
             const telefono_div = document.createElement('div');
             telefono_div.className = 'col-md-12';
             telefono_div.innerHTML = ` <label for="txtTelefono" class="form-label"><i class="obligacion">*</i> Telefono</label>
-                                        <input type="text" class="form-control" id="txtTelefono" name="txtTelefono" value="${item.personalMauxiTelefono}" required>
+                                        <input type="text" class="form-control" id="txtTelefono_update" name="txtTelefono_update" value="${item.personalMauxiTelefono}" required>
                                         <div class="valid-feedback">
                                             Digitar el telefono
                                         </div>`; 
@@ -106,7 +106,7 @@ function update_modal(id_personal_update){
             const fechaNacimiento_div = document.createElement('div');
             fechaNacimiento_div.className = 'col-md-12';
             fechaNacimiento_div.innerHTML = `  <label for="selFechaNacimiento" class="form-label"> <i class="obligacion">*</i> Fecha Nacimieto</label>
-                            <input type="date" class="form-control" id="selFechaNacimiento" name="selFechaNacimiento"
+                            <input type="date" class="form-control" id="selFechaNacimiento_update" name="selFechaNacimiento_update"
                                 required value="${item.personalMauxiFechaNacimiento}">
                             <div class="valid-feedback">
                                 Seleccione la fecha de nacimiento
@@ -115,7 +115,7 @@ function update_modal(id_personal_update){
             const email_div = document.createElement('div');
             email_div.className = 'col-md-12';
             email_div.innerHTML = `<label for="txtCorreoEletronico" class="form-label"><i class="obligacion">*</i> Correo Eletronico</label>
-                        <input type="text" class="form-control" id="txtCorreoEletronico" name="txtCorreoEletronico"
+                        <input type="text" class="form-control" id="txtCorreoEletronico_update" name="txtCorreoEletronico_update"
                             required value="${item.personalMauxiEmail}">
                         <div class="valid-feedback">
                             Digitar el correo eletronico
@@ -124,7 +124,7 @@ function update_modal(id_personal_update){
             const experiencia_div = document.createElement('div');
             experiencia_div.className = 'col-md-12';
             experiencia_div.innerHTML = `<label for="txtExperiencia" class="form-label"><i class="obligacion">*</i> Experiencia Laboral</label>
-                                    <textarea type="text" class="form-control" id="txtExperiencia" name="txtExperiencia"
+                                    <textarea type="text" class="form-control" id="txtExperiencia_update" name="txtExperiencia_update"
                                         required>${item.personalMauxiExperiencia}</textarea>
                                     <div class="valid-feedback">
                                         Digitar Experiencia Laboral
@@ -133,7 +133,7 @@ function update_modal(id_personal_update){
             const anoExperiencia_div = document.createElement('div');
             anoExperiencia_div.className = 'col-md-12';
             anoExperiencia_div.innerHTML = `<label for="numAnosExperiencia" class="form-label"><i class="obligacion">*</i> Años De Experiencia</label>
-                                        <input type="number" class="form-control" id="numAnosExperiencia" name="numAnosExperiencia"
+                                        <input type="number" class="form-control" id="numAnosExperiencia_update" name="numAnosExperiencia_update"
                                             required value="${item.personalMauxiAnosExperiencia}">
                                         <div class="valid-feedback">
                                             Digitar Años De Experiencia
@@ -142,7 +142,7 @@ function update_modal(id_personal_update){
             const estudios_div = document.createElement('div');
             estudios_div.className = 'col-md-12';
             estudios_div.innerHTML = `<label for="txtCorreoEletronico" class="form-label"><i class="obligacion">*</i> Estudios Realizados</label>
-                                        <textarea type="text" class="form-control" id="txtEstudiosRealizados" name="txtEstudiosRealizados"
+                                        <textarea type="text" class="form-control" id="txtEstudiosRealizados_update" name="txtEstudiosRealizados_update"
                                             required>${item.personalMauxiEstudios}</textarea>
                                         <div class="valid-feedback">
                                             Digitar Los Estudios Realizados
@@ -150,9 +150,9 @@ function update_modal(id_personal_update){
 
             const footer_modal = document.createElement('div');
             footer_modal.className = 'modal-footer';
-            footer_modal.innerHTML = `<button type="button" class="btn btn-secondary" id="cerrar_udate" data-bs-dismiss="modal">Cerrar</button>
-                                    <button type="button" class="btn btn-primary" id="btnUpdate">Actualizar</button>`; 
-
+            footer_modal.innerHTML = `<button type="button" class="btn btn-secondary" id="cerrar_update" data-bs-dismiss="modal">Cerrar</button>
+                                    <button type="button" class="btn btn-primary btnUpdate" onclick="actualizar_personal(${id_personal_update});" id="btnUpdate">Actualizar</button>`; 
+            
             formulario_update.appendChild(tipoPersona_div);
             formulario_update.appendChild(tipoDocumento_div);
             formulario_update.appendChild(documento_div);
@@ -172,30 +172,33 @@ function update_modal(id_personal_update){
         });
     })
     .catch(error => console.log(error)) 
+}
 
-    document.getElementById('btnUpdate').onclick = function(){
+function actualizar_personal(id_personal){
         // boton de cerrar modal update
-        const boton_close_update= document.getElementById('cerrar_udate');
-
+        const boton_close_update= document.getElementById('cerrar_update');
+    
         // toma de datos en el formulario ya consultado
-        const tipoPersonaId = document.getElementById("").value;
-        const tipoDocumentoId = document.getElementById("").value;
-        const personalMauxiDocumento = document.getElementById("").value;
-        const personalMauxiCargo = document.getElementById("").value;
-        const personalMauxiNombres = document.getElementById("").value;
-        const personalMauxiPrimerApellido = document.getElementById("").value;
-        const personalMauxiSegundoApellido = document.getElementById("").value;
-        const personalMauxiMunicipioResidencia = document.getElementById("").value;
-        const personalMauxiMunicipioNacimiento = document.getElementById("").value;
-        const personalMauxiTelefono = document.getElementById("").value;
-        const personalMauxiFechaNacimiento = document.getElementById("").value;
-        const personalMauxiEmail = document.getElementById("").value;
-        const personalMauxiExperiencia = document.getElementById("").value;
-        const personalMauxiAnosExperiencia = document.getElementById("").value;
-        const personalMauxiEstudios = document.getElementById("").value;
-
+        const id_personalMauxi = id_personal;
+        const tipoPersonaId = document.getElementById("txtTipoPersonaId_update").value;
+        const tipoDocumentoId = document.getElementById("txtTipoDocumentoId_update").value;
+        const personalMauxiDocumento = document.getElementById("txtIdentificacion_update").value;
+        const personalMauxiCargo = document.getElementById("txtCargo_update").value;
+        const personalMauxiNombres = document.getElementById("txtNombres_update").value;
+        const personalMauxiPrimerApellido = document.getElementById("txtPrimerApellido_update").value;
+        const personalMauxiSegundoApellido = document.getElementById("txtSegundoApellido_update").value;
+        const personalMauxiMunicipioResidencia = document.getElementById("setMunicipioResidencia_update").value;
+        const personalMauxiMunicipioNacimiento = document.getElementById("selMunicipioNacimiento_update").value;
+        const personalMauxiTelefono = document.getElementById("txtTelefono_update").value;
+        const personalMauxiFechaNacimiento = document.getElementById("selFechaNacimiento_update").value;
+        const personalMauxiEmail = document.getElementById("txtCorreoEletronico_update").value;
+        const personalMauxiExperiencia = document.getElementById("txtExperiencia_update").value;
+        const personalMauxiAnosExperiencia = document.getElementById("numAnosExperiencia_update").value;
+        const personalMauxiEstudios = document.getElementById("txtEstudiosRealizados_update").value;
+    
         // Crear un objeto con los datos
-        const dataPersonal = {
+        const dataPersonal_update = {
+            id_personalMauxi:id_personalMauxi,
             tipoPersonaId: parseFloat(tipoPersonaId),
             tipoDocumentoId: parseFloat(tipoDocumentoId),
             personalMauxiDocumento:personalMauxiDocumento,
@@ -212,10 +215,10 @@ function update_modal(id_personal_update){
             personalMauxiAnosExperiencia:personalMauxiAnosExperiencia,
             personalMauxiEstudios:personalMauxiEstudios,
         };
-
+    
         fetch('librerias/actualizar_personal.php', {
             method: 'POST',
-            body: JSON.stringify(dataPersonal),
+            body: JSON.stringify(dataPersonal_update),
             headers: {
                 'Content-Type': 'application/json'
             },
@@ -223,7 +226,7 @@ function update_modal(id_personal_update){
         
         .then(response => response.json())
         .then(data => {
-            if(data.registroEjecutado == "OK"){
+            if(data.update_completado == "OK"){
                 tablaPersonal();
                 boton_close_update.click();
             }else{
@@ -231,5 +234,7 @@ function update_modal(id_personal_update){
             }
         })
         .catch(error => console.log(error))
-    }
+    
 }
+
+

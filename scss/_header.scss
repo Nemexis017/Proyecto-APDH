@@ -77,7 +77,7 @@
               transition: all 0.4s linear;
               .nav-link {
                 line-height: 45px;
-                color: $letra;
+                color: $letra !important;
                 padding: 0px 30px;
                 transition: all 150ms linear;
                 display: block;
@@ -89,7 +89,7 @@
               &:hover {
                 .nav-link {
                   background: $primary-color;
-                  color: #fff;
+                  color: #fff !important;
                 }
               }
             }

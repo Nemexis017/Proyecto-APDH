@@ -4,26 +4,26 @@
 
     $data_id = json_decode(file_get_contents('php://input'), true);
 
-    $values_updatw= array(
-        ":idPersonalMauxi"=> $data_id[''],
-        ":tipoPersonaId"=> $data_id[''],
-        ":tipoDocumentoId"=> $data_id[''],
-        ":personalMauxiDocumento"=> $data_id[''],
-        ":personalMauxiCargo"=> $data_id[''],
-        ":personalMauxiNombres"=> $data_id[''],
-        ":personalMauxiPrimerApellido"=> $data_id[''],
-        ":personalMauxiSegundoApellido"=> $data_id[''],
-        ":personalMauxiMunicipioResidencia"=> $data_id[''],
-        ":personalMauxiMunicipioNacimiento"=> $data_id[''],
-        ":personalMauxiTelefono"=> $data_id[''],
-        ":personalMauxiFechaNacimiento"=> $data_id[''],
-        ":personalMauxiEmail"=> $data_id[''],
-        ":personalMauxiExperiencia"=> $data_id[''],
-        ":personalMauxiAnosExperiencia"=> $data_id[''],
-        ":personalMauxiEstudios"=> $data_id[''],
+    $values_update= array(
+        ":idPersonalMauxi"=> $data_id['id_personalMauxi'],
+        ":tipoPersonaId"=> $data_id['tipoPersonaId'],
+        ":tipoDocumentoId"=> $data_id['tipoDocumentoId'],
+        ":personalMauxiDocumento"=> $data_id['personalMauxiDocumento'],
+        ":personalMauxiCargo"=> $data_id['personalMauxiCargo'],
+        ":personalMauxiNombres"=> $data_id['personalMauxiNombres'],
+        ":personalMauxiPrimerApellido"=> $data_id['personalMauxiPrimerApellido'],
+        ":personalMauxiSegundoApellido"=> $data_id['personalMauxiSegundoApellido'],
+        ":personalMauxiMunicipioResidencia"=> $data_id['personalMauxiMunicipioResidencia'],
+        ":personalMauxiMunicipioNacimiento"=> $data_id['personalMauxiMunicipioNacimiento'],
+        ":personalMauxiTelefono"=> $data_id['personalMauxiTelefono'],
+        ":personalMauxiFechaNacimiento"=> $data_id['personalMauxiFechaNacimiento'],
+        ":personalMauxiEmail"=> $data_id['personalMauxiEmail'],
+        ":personalMauxiExperiencia"=> $data_id['personalMauxiExperiencia'],
+        ":personalMauxiAnosExperiencia"=> $data_id['personalMauxiAnosExperiencia'],
+        ":personalMauxiEstudios"=> $data_id['personalMauxiEstudios'],
     );
 
-    $sql_udate= "UPDATE `mauxi`.`personalmauxi`
+    $sql_update= "UPDATE `mauxi`.`personalmauxi`
                 SET
                 `tipoPersonaId` = :tipoPersonaId,
                 `tipoDocumentoId` = :tipoDocumentoId,
@@ -42,9 +42,21 @@
                 `personalMauxiEstudios` = :personalMauxiEstudios
                 WHERE `personalMauxiId` = :idPersonalMauxi"; 
 
-    $ejecute_update= $conexion->ejecutar($sql_udate, $values_updatw);
+    // condicion de si el array esta null
+    if(empty(array_filter($values_update))){
+        $ejecute_update= "";
+    }else{
+        $ejecute_update= $conexion->ejecutar($sql_update, $values_update);
+    }
 
-    
-
+    // respuesta para ejecutar funciones en las promesas
+    if($ejecute_update == 1){
+        $response_update = ["update_completado"=> "OK"];
+    }else{
+        $response_update = ["update_completado"=> "NO"];
+    }
+        
+    header('Content-type:application/json');
+    echo json_encode($response_update)
 
 ?>

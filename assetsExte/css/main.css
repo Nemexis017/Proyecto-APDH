@@ -3152,12 +3152,17 @@ body.fixed-layout.sidebar-mini .content-wrapper {
   transition: margin .2s ease-in-out;
   min-height: 1200px; }
 
+.page-wrapper::-webkit-scrollbar{
+  width: 10px;
+  background-color: #000 !important;
+}
+
 .page-header {
   padding-top: 35px;
   padding-bottom: 20px; }
 
 .page-content {
-  padding-top: 20px; }
+  padding:20px }
 
 .page-heading {
   padding: 0 5px; }
@@ -3224,7 +3229,8 @@ body.boxed-layout {
   transition: right .3s ease-in-out; }
   .theme-config .theme-config-toggle {
     position: absolute;
-    left: -34px;
+    top: 20px;
+    left: -36px;
     height: 38px;
     width: 35px;
     background-color: #23b7e5;
@@ -3382,7 +3388,9 @@ body.has-backdrop .backdrop {
   color: rgba(255, 255, 255, 0.4); }
 
 .side-menu > li a {
-  color: #b4bcc8; }
+  color: #b4bcc8; 
+  text-decoration: none;
+}
   .side-menu > li a:hover, .side-menu > li a:focus {
     color: #fff;
     background-color: #3498db; }
@@ -3394,7 +3402,9 @@ body.has-backdrop .backdrop {
     background-color: #3498db; }
 
 .side-menu li a.active {
-  color: #fff; }
+  color: #fff;
+  text-decoration: none;
+}
 
 .sidebar-mini .side-menu > li:hover > a {
   background-color: #3498db;

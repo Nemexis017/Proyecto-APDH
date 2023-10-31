@@ -52,12 +52,6 @@
             <div class="form-group">
                 <button class="btn btn-info btn-block" type="submit">iniciar sesión</button>
             </div>
-            <div class="social-auth-hr">
-                <span>O inicia sesión con</span>
-            </div>
-            <div class="text-center">Nuevo personal autorizado 
-                <a class="color-blue" href="registrarPersonal.php">crear cuenta</a>
-            </div>
             <div class="text-center">
                 Vuleve al inicio
                 <a class="color-blue" href="index.php">Inicio</a>

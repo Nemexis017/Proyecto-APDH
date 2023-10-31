@@ -18,10 +18,10 @@
             <div class="col-lg-12">
               <div class="banner_content text-center">
                 <p class="text-uppercase">
-                  Institucion Educativa Maria Auxiliadora
+                  Institución Educativa María Auxiliadora
                 </p>
                 <h2 class="text-uppercase mt-4 mb-5">
-                  El camino de la educacion
+                  El camino de la educación
                 </h2>
                 <div>
                   <a href="#" class="primary-btn2 mb-3 mb-sm-0">Historia</a>
@@ -196,7 +196,7 @@
               </div>
               <div class="col clockinner1 clockinner">
                 <h1 class="days">150</h1>
-                <p class="smalltext">Segundaria</p>
+                <p class="smalltext">Secundaria</p>
               </div>
               <div class="col clockinner clockinner1">
                 <h1 class="hours">34</h1>
@@ -214,8 +214,8 @@
           </div>
           <div class="col-lg-4 offset-lg-1">
             <div class="register_form">
-              <h3>Contactanos</h3>
-              <p>Animate a participar de esta comunidad educativa</p>
+              <h3>Contáctanos</h3>
+              <p>Anímate a participar de esta comunidad educativa</p>
               <form class="form_area" id="myForm" action="mail.html" method="post">
                 <div class="row">
                   <div class="col-lg-12">
@@ -241,7 +241,7 @@
         <div class="row justify-content-center">
           <div class="col-lg-5">
             <div class="main_title">
-              <h2 class="mb-3">titulo</h2>
+              <h2 class="mb-3">Directivos</h2>
               <p>
                 Replenish man have thing gathering lights yielding shall you
               </p>
@@ -251,11 +251,11 @@
         <div class="row justify-content-center d-flex align-items-center">
           <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
             <div class="thumb d-flex justify-content-sm-center">
-              <img class="img-fluid" src="img/trainer/t1.jpg" alt="" />
+              <img class="img-fluid" src="img/.jpeg" alt="" />
             </div>
             <div class="meta-text text-sm-center">
-              <h4>Mated Nithan</h4>
-              <p class="designation">Sr. web designer</p>
+              <h4>Alirio Guevara Sanchez</h4>
+              <p class="designation">Rector</p>
               <div class="mb-4">
                 <p>
                   If you are looking at blank cassettes on the web, you may be
@@ -273,11 +273,11 @@
 
           <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
             <div class="thumb d-flex justify-content-sm-center">
-              <img class="img-fluid" src="img/trainer/t2.jpg" alt="" />
+              <img class="img-fluid" src="img/" alt="" />
             </div>
             <div class="meta-text text-sm-center">
-              <h4>David Cameron</h4>
-              <p class="designation">Sr. web designer</p>
+              <h4>Mercy Trujillo</h4>
+              <p class="designation">Coordinadora Disciplinaria</p>
               <div class="mb-4">
                 <p>
                   If you are looking at blank cassettes on the web, you may be
@@ -295,11 +295,11 @@
 
           <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
             <div class="thumb d-flex justify-content-sm-center">
-              <img class="img-fluid" src="img/trainer/t3.jpg" alt="" />
+              <img class="img-fluid" src="img/.jpeg" alt="" />
             </div>
             <div class="meta-text text-sm-center">
-              <h4>Jain Redmel</h4>
-              <p class="designation">Sr. Faculty Data Science</p>
+              <h4>Manuel Pisso</h4>
+              <p class="designation">Coordinador Académico</p>
               <div class="mb-4">
                 <p>
                   If you are looking at blank cassettes on the web, you may be
@@ -317,11 +317,11 @@
 
           <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
             <div class="thumb d-flex justify-content-sm-center">
-              <img class="img-fluid" src="img/trainer/t4.jpg" alt="" />
+              <img class="img-fluid" src="img/fanny.jpeg" alt="" />
             </div>
             <div class="meta-text text-sm-center">
-              <h4>Nathan Macken</h4>
-              <p class="designation">Sr. web designer</p>
+              <h4>Fanny Tamayo Martinez</h4>
+              <p class="designation">Secretaria</p>
               <div class="mb-4">
                 <p>
                   If you are looking at blank cassettes on the web, you may be

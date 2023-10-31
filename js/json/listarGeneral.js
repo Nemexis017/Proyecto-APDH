@@ -1,8 +1,8 @@
 
 function tablaPersonal(){
-    const tablaBody= document.querySelector("#tabla-admin tbody");
+    const tablaBody= document.querySelector(".tabla-usuarios tbody");
 
-    fetch('librerias/tablaInicio.php')
+    fetch('librerias/general_consulta.php')
     .then(response => response.json())
     .then(data => {
         tablaBody.innerHTML = "";
