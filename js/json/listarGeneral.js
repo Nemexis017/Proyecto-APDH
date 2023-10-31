@@ -1,6 +1,6 @@
 
 function tablaPersonal(){
-    const tablaBody= document.querySelector(".table_usuarios tbody");
+    const tablaBody= document.querySelector(".tabla-usuarios tbody");
 
     fetch('librerias/general_consulta.php')
     .then(response => response.json())

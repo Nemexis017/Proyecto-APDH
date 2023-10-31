@@ -5,7 +5,7 @@
     </div>
     <ul class="side-menu metismenu not-sub">
         <li>
-            <a class="active" href="principal_info.php"><i class="sidebar-item-icon fa fa-th-large"></i>
+            <a class="active" href="javascript:void(0);" class="refrescar" data-url="principal_info.php"><i class="sidebar-item-icon fa fa-th-large"></i>
                 <span class="nav-label not-sub">Inicio</span>
             </a>
         </li>
@@ -16,7 +16,7 @@
                 <span class="nav-label">Panel de control</span><i class="fa fa-angle-left arrow"></i></a>
             <ul class="nav-2-level collapse">
                 <li>
-                    <a href="javascript:void(0);" class="refrescar " data-url="directivos.php">Directivos</a>
+                    <a href="javascript:void(0);" class="refrescar" data-url="directivos.php">Directivos</a>
                 </li>
                 <li>
                     <a href="javascript:void(0);" class="refrescar" data-url="">Profesores</a>

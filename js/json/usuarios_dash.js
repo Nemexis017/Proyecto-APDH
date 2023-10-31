@@ -1,5 +1,5 @@
 function administradores(){
-    const tabla_user_see= document.querySelector(".table_usuarios tbody");
+    const tabla_user_see= document.querySelector(".table_admin tbody");
 
     fetch('librerias/consulta_admin.php')
     .then(response => response.json())
