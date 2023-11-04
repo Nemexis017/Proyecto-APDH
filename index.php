@@ -161,14 +161,14 @@
                 </div>
                 <div class="course_content">
                   <span class="price">
-                    <img src="img/iconos/eventos/maestro.png" alt="">
+                    <img src="img/iconos/eventos/docentePortes.png" alt="">
                   </span>
                   <h4 class="mb-3">
-                    <a href="course-details.html">Custom Product Design</a>
+                    <a href="course-details.html">Deporte con docentes</a>
                   </h4>
-                  <p>
-                    One make creepeth man bearing their one firmament won't fowl
-                    meat over sea
+                  <p class="text-justify">
+                    Nuestros profesores se unen en actividades deportivas para fomentar
+                    el compañerismo y el bienestar.
                   </p>
                 </div>
               </div>
@@ -179,14 +179,14 @@
                 </div>
                 <div class="course_content">
                   <span class="price">
-                    <img src="img/iconos/eventos/maestro.png" alt="">
+                    <img src="img/iconos/eventos/compartir.png" alt="">
                   </span>
                   <h4 class="mb-3">
-                    <a href="course-details.html">Custom Product Design</a>
+                    <a href="course-details.html">Gran demostracion de comidas tipicas</a>
                   </h4>
                   <p>
-                    One make creepeth man bearing their one firmament won't fowl
-                    meat over sea
+                    Realizamos demostraciones de comidas típicas para celebrar la diversidad cultural
+                    y disfrutar de sabores auténticos de todo el mundo.
                   </p>
                 </div>
               </div>
