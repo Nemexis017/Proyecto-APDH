@@ -1,7 +1,7 @@
 function tipoDocumento(id_tipoDocumento){
     const select= document.querySelector(id_tipoDocumento);
 
-    fetch('librerias/tipoDocumento.php')
+    fetch('../librerias/tipoDocumento.php')
     .then(response => response.json())
     .then(data => {
         data.forEach(item => {

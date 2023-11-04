@@ -6,7 +6,7 @@ function eliminarRegistro(personalId){
     };
 
     
-    fetch('librerias/consulta_individual.php',{
+    fetch('../librerias/consulta_individual.php',{
         method: 'POST',
         body: JSON.stringify(data_verificacion),
         headers: {

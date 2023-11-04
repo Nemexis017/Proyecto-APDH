@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php include('componentes_dash/head_dash.php')?>
+    <?php include('../componentes_dash/head_dash.php')?>
 </head>
-    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="../bootstrap/js/bootstrap.js"></script>
 
 <body class="fixed-navbar">
     <div class="page-wrapper">
         <!-- barra superio inicio -->
         <header class="header">
-            <?php include('componentes_dash/nav_dash.php')?>
+            <?php include('../componentes_dash/nav_dash.php')?>
         </header>
         <!-- barra superio fin -->
 
         <!-- barra lateral inicio -->
         <nav class="page-sidebar" id="sidebar">
-            <?php include('componentes_dash/barra_lateral.php')?>
+            <?php include('../componentes_dash/barra_lateral.php')?>
         </nav>
         <!-- barra lateral final -->
 
@@ -28,11 +28,12 @@
                         <div class="col-md-12">
                             <div class="ibox">
                                 <div class="ibox-head">
-                                    <div class="ibox-title">Registros del personal</div>
+                                    <div class="ibox-title">Registos (General)</div>
                                     <div class="ibox-tools">
                                         <a class="ibox-collapse"><i class="fa fa-minus"></i></a>
                                     </div>
                                 </div>
+                                
                                 <!-- cuerpo del caja modal -->
                                 <div class="ibox-body">
                                     <div class="col-md-12">
@@ -57,10 +58,48 @@
                                                 </tbody>
                                             </table>
                                         </div>
-                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">
-                                            registrar
-                                        </button>
+                                        <div class="col-md-12 d-flex justify-content-end">
+                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">
+                                                <i class="fa-solid fa-user-plus"></i> registrar
+                                            </button>
+                                        </div>
                                     </div>
+                                </div>  
+                            </div>
+                            <!-- caja modal 2 inicio-->
+                        </div>    
+                    </div> 
+                    <div class="row">
+                        <!-- caja modal 1 inicio-->
+                        <div class="col-md-12">
+                            <div class="ibox">
+                                <div class="ibox-head">
+                                    <div class="ibox-title">Directivos</div>
+                                    <div class="ibox-tools">
+                                        <a class="ibox-collapse"><i class="fa fa-minus"></i></a>
+                                    </div>
+                                </div>
+                                <!-- cuerpo del caja modal -->
+                                <div class="ibox-body">
+                                    
+                                </div>  
+                            </div>
+                            <!-- caja modal 2 inicio-->
+                        </div>    
+                    </div> 
+                    <div class="row">
+                        <!-- caja modal 1 inicio-->
+                        <div class="col-md-12">
+                            <div class="ibox">
+                                <div class="ibox-head">
+                                    <div class="ibox-title">Personal de planta</div>
+                                    <div class="ibox-tools">
+                                        <a class="ibox-collapse"><i class="fa fa-minus"></i></a>
+                                    </div>
+                                </div>
+                                <!-- cuerpo del caja modal -->
+                                <div class="ibox-body">
+                                    
                                 </div>  
                             </div>
                             <!-- caja modal 2 inicio-->
@@ -117,7 +156,8 @@
                                 <select class="form-select" aria-label="Default select example" id="txtTipoPersonaId"
                                     name="txtTipoPersonaId" required>
                                     <option value="" selected>Seleccione...</option>
-                                    
+                                    <option value="1" selected>directivos</option>
+                                    <option value="4" selected>Personal De planta</option>
                                 </select>
 
                             </div>
@@ -184,8 +224,7 @@
                                 <select class="form-select municipioNacimiento" aria-label="Default select example" id="selMunicipioNacimiento"
                                     name="selMunicipioNacimiento" required>
                                     <option value="" selected>Seleccione...</option>
-                                    
-
+                                
                                 </select>
                             </div>
                             <div class="col-md-12">
@@ -280,7 +319,7 @@
             </div>
         </div>
 
-        <!-- modal para actulizar -->
+        <!-- modal para actulizar start -->
         <div class="modal fade" id="modal-3" tabindex="-1" aria-labelledby="label-modal-3" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                 <div class="modal-content">
@@ -303,36 +342,32 @@
                 </div>
             </div>
         </div>
+        <!-- modal para actulizar final -->
     </div>
     
-    <!-- BEGIN PAGA BACKDROPS-->
+    <!-- sprind start -->
     <div class="sidenav-backdrop backdrop"></div>
     <div class="preloader-backdrop">
-        <div class="page-preloader">Loading</div>
+        <div class="page-preloader">Espere...</div>
     </div>
-    <!-- END PAGA BACKDROPS-->
-    <!-- CORE PLUGINS-->
-    <div class="scripts">
-        <script src="js/json/listarGeneral.js"></script>
-        <script src="js/json/tipoPersona.js"></script>
-        <script src="js/json/tipoDocumento.js"></script>
-        <script src="js/json/municipio.js"></script>
-        <script src="js/json/registrarJson.js"></script>
-        <script src="js/json/eliminarPersonal.js"></script>
-        <script src="js/json/actualizar.js"></script>
-        <script src="js/alerta.js"></script>
-    
-        
-        <!-- js importantes -->
-        <script src="assetsExte/vendors/jquery/dist/jquery.js" type="text/javascript"></script>
-        <script src="assetsExte/vendors/metisMenu/dist/metisMenu.js" type="text/javascript"></script>
-        <script src="assetsExte/vendors/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
-        <script src="assetsExte/js/app.min.js" type="text/javascript"></script>
-    </div>
-    
+    <!-- sprind start-->
 
-    <!-- *********************************************************** -->
 
+    <!-- <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>     -->
+    
+    <!-- script individuales -->
+
+    <script src="../js/json/listarGeneral.js"></script>
+    <script src="../js/json/tipoPersona.js"></script>
+    <script src="../js/json/tipoDocumento.js"></script>
+    <script src="../js/json/municipio.js"></script>
+    <script src="../js/json/registrarJson.js"></script>
+    <script src="../js/json/eliminarPersonal.js"></script>
+    <script src="../js/json/actualizar.js"></script>
+
+    <!-- scripts generales -->
+    <?php include('../componentes_dash/scripts.php')?>
 </body>
 
 </html>

@@ -1,12 +1,7 @@
 <?php
-    // include('librerias/acceso.php');
-    include('librerias/conexion.php');
-    // include('librerias/');
-
-    // inicio de sesion
     session_start();
-    if($_SESSION['personaId']==false){
-        header('Location:login.php');
+    if($_SESSION['personaId'] == false){
+        header('Location:../login.php');
     }else{
         // header('Location:dashBoard.php');
     }
@@ -14,21 +9,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php include('componentes_dash/head_dash.php')?>
+    <?php include('../componentes_dash/head_dash.php')?>
 </head>
-    <script src="bootstrap/js/bootstrap.js"></script>
-
 <body class="fixed-navbar">
     <div class="page-wrapper">
 
         <!-- ENCABEZADO DE INICIO-->
         <header class="header">
-            <?php include('componentes_dash/nav_dash.php')?>
+            <?php include('../componentes_dash/nav_dash.php')?>
         </header>
         <!-- ENCABEZADO FINAL -->
 
         <nav class="page-sidebar" id="sidebar">
-            <?php include('componentes_dash/barra_lateral.php')?>
+            <?php include('../componentes_dash/barra_lateral.php')?>
         </nav>
 
         <!-- END SIDEBAR-->
@@ -118,26 +111,36 @@
     <div class="contenido_dos" id="contenido_dos">
 
     </div>
-
-    <div class="script_es" id="script_es">
-        <script src="js/refrescar.js"></script>
-        <script src="js/json/listarGeneral.js"></script>
-        <script src="js/json/tipoPersona.js"></script>
-        <script src="js/json/tipoDocumento.js"></script>
-        <script src="js/json/municipio.js"></script>
-        <script src="js/json/registrarJson.js"></script>
-        <script src="js/json/eliminarPersonal.js"></script>
-        <script src="js/json/actualizar.js"></script>
-        <script src="js/json/consulta_individual.js"></script>
-        <script src="js/alerta.js"></script>
-        <script src="js/json/usuarios_dash.js"></script> 
-
-        <script src="assetsExte/vendors/jquery/dist/jquery.js" type="text/javascript"></script>
-        <script src="assetsExte/vendors/metisMenu/dist/metisMenu.js" type="text/javascript"></script>
-        <script src="assetsExte/vendors/jquery-slimscroll/jquery.slimscroll.js" type="text/javascript"></script>
-        <script src="assetsExte/js/app.js" type="text/javascript"></script>
+    <div class="sidenav-backdrop backdrop"></div>
+    <div class="preloader-backdrop">
+        <div class="page-preloader">Loading</div>
     </div>
 
+    <!-- Modal -->
+    <button style="display:none" id="alertaSession" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalSession">
+    </button>
+    <div class="modal fade" id="modalSession" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalSession" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            ...
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Understood</button>
+        </div>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="../js/json/usuarios_dash.js"></script> 
+    <script src="../js/complementos/notRetros.js"></script> 
+    <?php include('../componentes_dash/scripts.php')?>
 </body>
 
 </html>

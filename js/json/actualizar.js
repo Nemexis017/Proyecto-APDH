@@ -3,7 +3,7 @@ function update_modal(id_personal_update){
         idVerificacion:id_personal_update,
     };
 
-    fetch('librerias/consulta_individual.php', {
+    fetch('../librerias/consulta_individual.php', {
         method: 'POST',
         body: JSON.stringify(data_update),
         headers: {

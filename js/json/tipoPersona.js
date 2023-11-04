@@ -1,7 +1,7 @@
 function tipoPersona(id_tipoPersona){
     const select= document.querySelector(id_tipoPersona);
 
-    fetch('librerias/consultaTipoPersona.php')
+    fetch('../librerias/consultaTipoPersona.php')
     .then(response => response.json())
     .then(data => {
         data.forEach(item => {
@@ -15,8 +15,8 @@ function tipoPersona(id_tipoPersona){
 
 }
 window.addEventListener("load",function(){
-    let tipoPersona_Insert= "#txtTipoPersonaId";
+    // let tipoPersona_Insert= "#txtTipoPersonaId";
     let tipoPersona_Update= "#tipoPersonaId_Update" 
-    tipoPersona(tipoPersona_Insert);
+    // tipoPersona(tipoPersona_Insert);
     tipoPersona(tipoPersona_Update);
 });

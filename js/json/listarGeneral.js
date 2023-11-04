@@ -2,7 +2,7 @@
 function tablaPersonal(){
     const tablaBody= document.querySelector(".tabla-usuarios tbody");
 
-    fetch('librerias/general_consulta.php')
+    fetch('../librerias/general_consulta.php')
     .then(response => response.json())
     .then(data => {
         tablaBody.innerHTML = "";
@@ -10,7 +10,7 @@ function tablaPersonal(){
         data.forEach(item => {
             numero++
             const row = document.createElement('tr');
-            row.innerHTML = `<td>${numero}</td>
+            row.innerHTML += `<td>${numero}</td>
                             <td >${item.tipoPersonaNombre}</td>
                             <td >${item.tipoDocumentoSigla}</td>
                             <td >${item.personalMauxiDocumento}</td>

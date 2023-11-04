@@ -3,7 +3,7 @@ function municipio(selector){
         return "Funcion en espera"
     }else{
         const select= document.querySelector(selector);
-        fetch('librerias/municipio.php')
+        fetch('../librerias/municipio.php')
         .then(response => response.json())
         .then(data => {
             data.forEach(item => {

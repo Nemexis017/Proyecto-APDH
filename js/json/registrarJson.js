@@ -42,7 +42,7 @@ document.getElementById('btnRegistrar').onclick = function(){
     };
 
 
-    fetch('librerias/registrar.php', {
+    fetch('../librerias/registrar.php', {
         method: 'POST',
         body: JSON.stringify(dataPersonal),
         headers: {

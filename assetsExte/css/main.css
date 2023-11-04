@@ -1771,7 +1771,9 @@ body.fullscreen-mode {
     left: auto; }
   .input-group-icon.right .form-control {
     padding-left: 12px;
-    padding-right: 33px; }
+    padding-right: 33px; 
+    margin-top: 10px;
+  }
 
 .has-success .form-control, .has-success .form-control:focus {
   border-color: #2ecc71; }
