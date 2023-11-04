@@ -38,72 +38,73 @@
     <!--================ Start Feature Area =================-->
     <section class="feature_area section_gap_top">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-5">
-            <div class="main_title">
-              <h2 class="mb-3">Valores Institucionales</h2>
-              <p>
-                "Educad a los niños, y no será necesario castigar a los hombres"
-              </p>
+          <div class="row justify-content-center">
+            <div class="col-lg-5">
+              <div class="main_title">
+                <h2 class="mb-3">Valores Institucionales</h2>
+                <p>
+                  "Educad a los niños, y no será necesario castigar a los hombres"
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="single_feature font-valores">
+                <div class="icon d-flex justify-content-center">
+                  <img src="img/fotosColegio/disciplina.png" alt=""  width="100px">
+                </div>
+                <div class="desc">
+                  <h4 class="mt-3 mb-2">Disciplina</h4>
+                  <p class="text-justify">
+                    Un entorno educativo cuidadosamente estructurado y organizado establece
+                    los cimientos esenciales para un aprendizaje efectivo y un crecimiento personal enriquecedor. La disciplina, en nuestro enfoque, va más allá de la simple conformidad con normas; 
+                    se trata de cultivar una cultura arraigada en el respeto mutuo.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="single_feature">
+                <div class="icon d-flex justify-content-center">
+                  <img src="img/fotosColegio/respeto.png" alt="imgen-respeto"  width="100px">
+                </div>
+                <div class="desc">
+                  <h4 class="mt-3 mb-2">Respeto</h4>
+                  <p class="text-justify">
+                    En nuestro colegio, el respeto es un valor fundamental que se promueve con el máximo 
+                    respeto hacia todos los miembros de la comunidad educativa. Creemos firmemente que un ambiente escolar en el que se fomente el respeto mutuo es esencial 
+                    para el aprendizaje efectivo y el crecimiento personal de nuestros estudiantes.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="single_feature">
+                <div class="icon d-flex justify-content-center">
+                  <img src="img/fotosColegio/solidaridad.png" alt="imagen-solidaridad"  width="100px">
+                </div>
+                <div class="desc">
+                  <h4 class="mt-3 mb-2">Solidaridad</h4>
+                  <p class="text-justify">
+                    En nuestro colegio, la solidaridad ocupa un lugar central en nuestra filosofía educativa. 
+                    Valoramos y promovemos este principio con un profundo sentido de compromiso. Creemos firmemente que 
+                    la solidaridad es una piedra angular que contribuye a crear un entorno escolar enriquecedor.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6">
-            <div class="single_feature">
-              <div class="icon d-flex justify-content-center">
-                <img src="img/fotosColegio/disciplina.png" alt=""  width="100px">
-              </div>
-              <div class="desc">
-                <h4 class="mt-3 mb-2">Disciplina</h4>
-                <p class="text-justify">
-                  Un entorno educativo cuidadosamente estructurado y organizado establece
-                  los cimientos esenciales para un aprendizaje efectivo y un crecimiento personal enriquecedor. La disciplina, en nuestro enfoque, va más allá de la simple conformidad con normas; 
-                  se trata de cultivar una cultura arraigada en el respeto mutuo.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="single_feature">
-              <div class="icon d-flex justify-content-center">
-                <img src="img/fotosColegio/respeto.png" alt="imgen-respeto"  width="100px">
-              </div>
-              <div class="desc">
-                <h4 class="mt-3 mb-2">Respeto</h4>
-                <p class="text-justify">
-                  En nuestro colegio, el respeto es un valor fundamental que se promueve con el máximo 
-                  respeto hacia todos los miembros de la comunidad educativa. Creemos firmemente que un ambiente escolar en el que se fomente el respeto mutuo es esencial 
-                  para el aprendizaje efectivo y el crecimiento personal de nuestros estudiantes.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="single_feature">
-              <div class="icon d-flex justify-content-center">
-                <img src="img/fotosColegio/solidaridad.png" alt="imagen-solidaridad"  width="100px">
-              </div>
-              <div class="desc">
-                <h4 class="mt-3 mb-2">Solidaridad</h4>
-                <p class="text-justify">
-                  En nuestro colegio, la solidaridad ocupa un lugar central en nuestra filosofía educativa. 
-                  Valoramos y promovemos este principio con un profundo sentido de compromiso. Creemos firmemente que 
-                  la solidaridad es una piedra angular que contribuye a crear un entorno escolar enriquecedor.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
     <!--================ End Feature Area =================-->
 
-    <!--================ Start Popular Courses Area =================-->
+    <!--================ Enventos Inmportantes start =================-->
     <div class="popular_courses">
       <div class="container">
+        <!-- titulo start -->
         <div class="row justify-content-center">
           <div class="col-lg-5">
             <div class="main_title">
@@ -111,64 +112,84 @@
             </div>
           </div>
         </div>
+        <!-- titulo end -->
         <div class="row">
           <!-- single course -->
           <div class="col-lg-12">
             <div class="owl-carousel active_course">
               <div class="single_course">
                 <div class="course_head">
-                  <img class="img-fluid" src="img/fotosColegio/diaIdioma.jpg" alt="" />
+                  <img class="img-fluid" src="img/fotosColegio/eventos/diaIdioma.jpg" alt="" />
                 </div>
                 <div class="course_content">
-                  <div class="col-12">
-                    DIA DEL IDIOMA
-                  </div>
+                  <span class="price">
+                    <img src="img/iconos/eventos/mujer-espanola.png" alt="">
+                  </span>
+                  <h4 class="mb-3">
+                    <a href="course-details.html">Dia de la lengua española</a>
+                  </h4>
+                  <p class="text-justify">
+                    En nuestra institución, celebramos el Día del Idioma Español para destacar la importancia 
+                    y belleza de nuestra lengua materna.
+                  </p>
+                </div>
+              </div>
+              
+
+              <div class="single_course">
+                <div class="course_head">
+                  <img class="img-fluid" src="img/fotosColegio/eventos/diaMaestro.jpg" alt="" />
+                </div>
+                <div class="course_content">
+                  <span class="price">
+                    <img src="img/iconos/eventos/maestro.png" alt="">
+                  </span>
+                  <h4 class="mb-3">
+                    <a href="course-details.html">Dia del profesor</a>
+                  </h4>
+                  <p>
+                    El Día del Profesor en nuestra escuela es un día especial para honrar y agradecer
+                    a nuestros dedicados educadores. Reconocemos su valioso compromiso en la formación
+                    de futuras generaciones.
+                  </p>
                 </div>
               </div>
 
               <div class="single_course">
                 <div class="course_head">
-                  <img class="img-fluid" src="img/fotosColegio/diaMaestro.jpg" alt="" />
+                  <img class="img-fluid" src="img/fotosColegio/eventos/deportivoMestros.jpg" alt="" />
                 </div>
                 <div class="course_content">
-                  <div class="col-12 row">
-                    DIA DEL MAESTRO
-                  </div>
+                  <span class="price">
+                    <img src="img/iconos/eventos/maestro.png" alt="">
+                  </span>
+                  <h4 class="mb-3">
+                    <a href="course-details.html">Custom Product Design</a>
+                  </h4>
+                  <p>
+                    One make creepeth man bearing their one firmament won't fowl
+                    meat over sea
+                  </p>
                 </div>
               </div>
 
               <div class="single_course">
                 <div class="course_head">
-                  <img class="img-fluid" src="img/fotosColegio/deportivoMestros.jpg" alt="" />
+                  <img class="img-fluid" src="img/fotosColegio/eventos/basar.jpg" alt="" />
                 </div>
                 <div class="course_content">
-                  <div class="col-12 row">
-                    EVENTO DEPORTIVO DE DOCENCIA
-                  </div>
+                  <span class="price">
+                    <img src="img/iconos/eventos/maestro.png" alt="">
+                  </span>
+                  <h4 class="mb-3">
+                    <a href="course-details.html">Custom Product Design</a>
+                  </h4>
+                  <p>
+                    One make creepeth man bearing their one firmament won't fowl
+                    meat over sea
+                  </p>
                 </div>
               </div>
-
-              <div class="single_course">
-                <div class="course_head">
-                  <img class="img-fluid" src="img/fotosColegio/basar.jpg" alt="" />
-                </div>
-                <div class="course_content">
-                  <div class="col-12 row">
-                    GRAN COMPARTIR
-                  </div>
-                </div>
-              </div>
-
-              <!-- <div class="single_course">
-                <div class="course_head">
-                  <img class="img-fluid" src="img/courses/c2.jpg" alt="" />
-                </div>
-                <div class="course_content">
-                  <div class="col-12 row">
-                    JESUS
-                  </div>
-                </div>
-              </div> -->
             </div>
             <div class="col-12 row d-flex justify-content-sm-center">
               <a href="#" class="primary-btn">Ver más detalles</a>
@@ -177,9 +198,9 @@
         </div>
       </div>
     </div>
-    <!--================ End Popular Courses Area =================-->
+    <!--================ Eventos Importantes end =================-->
 
-    <!--================ Start Registration Area =================-->
+    <!--================ Estudiantes startat =================-->
     <div class="section_gap registration_area">
       <div class="container">
         <div class="row align-items-center">
@@ -233,7 +254,7 @@
         </div>
       </div>
     </div>
-    <!--================ End Registration Area =================-->
+    <!--================ Estudiantes end =================-->
 
     <!--================ Start Trainers Area =================-->
     <section class="trainer_area section_gap_top">

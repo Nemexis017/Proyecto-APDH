@@ -640,8 +640,8 @@ button:focus {
   margin-bottom: 0px;
 }
 .single_feature:hover {
-  -webkit-box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.1);
-          box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.6784313725);
+          box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.6784313725);
 }
 
 /* End Features Area css
@@ -722,14 +722,12 @@ button:focus {
   top: -34px;
   right: 15px;
   z-index: 2;
-  color: rgb(255, 255, 255);
   display: inline-block;
   height: 65px;
   line-height: 65px;
   width: 65px;
   text-align: center;
   border-radius: 50px;
-  background: rgb(11, 108, 32);
   font-family: "Rubik", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -745,13 +743,15 @@ button:focus {
   padding: 30px 26px;
   background: #f9f9ff;
   position: relative;
+  max-height: 260px;
+  height: 260px;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
 .single_course .course_content .tag {
   padding: 2px 21px;
   font-size: 13px;
-  color: #fff;
+  color: #000000;
   background: rgb(255, 255, 255);
   text-transform: uppercase;
 }
@@ -760,7 +760,7 @@ button:focus {
   font-weight: 500;
 }
 .single_course .course_content h4 a {
-  color: rgb(255, 255, 255);
+  color: #002347;
 }
 .single_course .course_content p {
   margin: 0;
@@ -769,7 +769,7 @@ button:focus {
   margin-top: 25px;
 }
 .single_course .course_content .course_meta .meta_info a {
-  color: rgb(255, 255, 255);
+  color: #002347;
 }
 .single_course .authr_meta img {
   width: auto !important;
@@ -780,8 +780,8 @@ button:focus {
   font-weight: 500;
 }
 .single_course:hover {
-  -webkit-box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.1);
-          box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: 4px 6px 15px #000000;
+          box-shadow: 4px 6px 15px #000000;
 }
 .single_course:hover .course_head img {
   -webkit-transform: scale(1.2);
@@ -790,10 +790,6 @@ button:focus {
 }
 .single_course:hover .course_content {
   background: #fff;
-}
-.single_course:hover .price {
-  background: rgb(255, 255, 255);
-  color: rgb(11, 108, 32);
 }
 .single_course:hover h4 a {
   color: rgb(11, 108, 32);
@@ -961,7 +957,7 @@ button:focus {
 /* Start Registration Area css
 ============================================================================================ */
 .registration_area {
-  background-image: url(../img/fotosColegio/escuela.jpg);
+  background-image: url(../img/fotosColegio/colegio/escuela.jpg);
   background-blend-mode: soft-light;
   background-color: rgba(0, 0, 0, 0.5921568627);
 }
@@ -1144,7 +1140,7 @@ button:focus {
 ============================================================================================ */
 .events_area {
   padding: 130px 0 100px;
-  background-image: url(../img/fotosColegio/canchaMicro.jpg);
+  background-image: url(../img/fotosColegio/instalaciones/canchaMicro.jpg);
   background-size: 100%;
   background-color: rgba(0, 0, 0, 0.785);
   background-blend-mode: soft-light;
