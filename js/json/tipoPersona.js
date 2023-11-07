@@ -6,8 +6,8 @@ function tipoPersona(id_tipoPersona){
     .then(data => {
         data.forEach(item => {
             const option = document.createElement('option');
-            option.value = item.tipoPersonaId;
-            option.innerHTML = item.tipoPersonaNombre;
+            option.value =item.tipoPersonaId;
+            option.innerHTML =item.tipoPersonaNombre;
             select.appendChild(option);
         });
     })

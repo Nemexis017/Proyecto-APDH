@@ -2909,7 +2909,7 @@ a.text-danger:hover, a.text-danger:focus {
         border-color: #f75a5f; }
   .header .navbar-search {
     padding: 0 15px; }
-    .header .navbar-search .search-icon {
+    .navbar-search .search-icon {
       position: absolute;
       top: 0;
       height: 100%;
@@ -2927,7 +2927,7 @@ a.text-danger:hover, a.text-danger:focus {
       -ms-flex-align: center;
       align-items: center;
       color: #6d7c85; }
-    .header .navbar-search .form-control {
+    .navbar-search .form-control {
       border: 0;
       padding: .65rem 1.25rem .65rem 40px;
       -webkit-border-radius: 200px !important;

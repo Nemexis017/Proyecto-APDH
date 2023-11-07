@@ -130,7 +130,13 @@ $(function () {
     $('.ibox-collapse').click(function(){
     	var ibox = $(this).closest('div.ibox');
         ibox.toggleClass('collapsed-mode').children('.ibox-body').slideToggle(200);
+        // ibox.removeClass('collapsed-mode').children('.ibox-body');
     });
+    // $('.ibox-collapse-close').click(function(){
+    // 	var ibox2 = $(this).closest('div.ibox');
+    //     ibox2.removeClass('collapsed-mode');
+    //     ibox2.children('.ibox-body').slideToggle(200);
+    // });
     $('.ibox-remove').click(function(){
     	$(this).closest('div.ibox').remove();
     });

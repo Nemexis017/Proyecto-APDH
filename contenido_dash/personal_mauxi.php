@@ -5,7 +5,7 @@
 </head>
     <script src="../bootstrap/js/bootstrap.js"></script>
 
-<body class="fixed-navbar">
+<body class="fixed-navbar sidebar-mini">
     <div class="page-wrapper">
         <!-- barra superio inicio -->
         <header class="header">
@@ -37,6 +37,32 @@
                                 <!-- cuerpo del caja modal -->
                                 <div class="ibox-body">
                                     <div class="col-md-12">
+                                        <div class="col-12">
+                                            <div class="row m-3">
+                                                <div class="col-5">
+                                                    <form class="navbar-search" action="javascript:;">
+                                                        <div class="rel">
+                                                            <span class="search-icon"><i class="ti-search"></i></span>
+                                                            <input class="form-control" placeholder="Busca aquí..." id="buscarPersonal">
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <div class="col-3"></div>
+                                                <div class="col-4 d-flex justify-content-end">
+                                                    <div class="herramientas">
+                                                        <button class="btn btn-rounded">
+                                                            <i class="fa-solid fa-eye"></i>
+                                                        </button>
+                                                        <!-- <button class="btn btn-default">
+
+                                                        </button>
+                                                        <button class="btn btn-default">
+
+                                                        </button> -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                         <div class="table-responsive">
                                             <table class="table tabla-usuarios" id="tabla-usuarios">
                                                 <thead>
@@ -48,13 +74,14 @@
                                                         <th>Nombres</th>
                                                         <th>Primer apellido</th>
                                                         <th>Segundo Apellido</th>
+                                                        <th>Telefono</th>
                                                         <th></th>
                                                     </tr>
                                                 </thead>
-                                                <tbody>
+                                                <tbody id="personalGeneral">
 
                                                 <!-- js muestra la tabla -->
-                            
+                                                    <td id="noResult" style="display: none;">No Hay resultado</td>
                                                 </tbody>
                                             </table>
                                         </div>
@@ -81,7 +108,28 @@
                                 </div>
                                 <!-- cuerpo del caja modal -->
                                 <div class="ibox-body">
-                                    
+                                    <div class="col-md-12">
+                                        <div class="table-responsive">
+                                            <table class="table tabla-directivos" id="tabla-directivos">
+                                                <thead>
+                                                    <tr>
+                                                        <th width="50px">N°</th>
+                                                        <th>Clasificacion</th>
+                                                        <th>Tipo Identificación</th>
+                                                        <th>Numero Identificación</th>
+                                                        <th>Nombres</th>
+                                                        <th>Primer apellido</th>
+                                                        <th>Segundo Apellido</th>
+                                                        <th>Telefono</th>
+                                                        <th></th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <!-- js muestra la tabla -->
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
                                 </div>  
                             </div>
                             <!-- caja modal 2 inicio-->
@@ -99,7 +147,28 @@
                                 </div>
                                 <!-- cuerpo del caja modal -->
                                 <div class="ibox-body">
-                                    
+                                    <div class="col-md-12">
+                                        <div class="table-responsive">
+                                            <table class="table tabla-personalPlanta" id="tabla-personalPlanta">
+                                                <thead>
+                                                    <tr>
+                                                        <th width="50px">N°</th>
+                                                        <th>Clasificacion</th>
+                                                        <th>Tipo Identificación</th>
+                                                        <th>Numero Identificación</th>
+                                                        <th>Nombres</th>
+                                                        <th>Primer apellido</th>
+                                                        <th>Segundo Apellido</th>
+                                                        <th>Telefono</th>
+                                                        <th></th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <!-- js muestra la tabla -->
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
                                 </div>  
                             </div>
                             <!-- caja modal 2 inicio-->
@@ -365,6 +434,9 @@
     <script src="../js/json/registrarJson.js"></script>
     <script src="../js/json/eliminarPersonal.js"></script>
     <script src="../js/json/actualizar.js"></script>
+    <script src="../js/agregadosConsult/directivosQuery.js"></script>
+    <script src="../js/agregadosConsult/personalPlanta.js"></script>
+    <script src="../js/complementos/busqueda.js"></script>
 
     <!-- scripts generales -->
     <?php include('../componentes_dash/scripts.php')?>

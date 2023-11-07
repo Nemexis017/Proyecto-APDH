@@ -11,7 +11,7 @@
 <head>
     <?php include('../componentes_dash/head_dash.php')?>
 </head>
-<body class="fixed-navbar">
+<body class="fixed-navbar sidebar-mini">
     <div class="page-wrapper">
 
         <!-- ENCABEZADO DE INICIO-->
