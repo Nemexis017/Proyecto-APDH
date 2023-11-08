@@ -17,6 +17,7 @@ function tablaPersonal(){
                             <td >${item.personalMauxiNombres}</td>
                             <td >${item.personalMauxiPrimerApellido}</td>
                             <td >${item.personalMauxiSegundoApellido}</td>
+                            <td >${item.personalMauxiTelefono}</td>
                             <td>
                                 <button  onclick="update_modal(${item.personalMauxiId});" class='btn btn-default btn-xs m-r-5' data-bs-toggle="modal" data-bs-target="#modal-3"><i class='fa fa-pencil font-14'></i></button>
                                 <button id="delete" onclick="eliminarRegistro(${item.personalMauxiId});" class='btn btn-default btn-xs' data-bs-toggle="modal" data-bs-target="#modal-2"><i class='fa fa-trash font-14'></i></button>
@@ -26,5 +27,6 @@ function tablaPersonal(){
     })
     .catch(error => console.error('Error:', error));
 
+    consultaPersonalPlant();
 }
 window.addEventListener("load", tablaPersonal);

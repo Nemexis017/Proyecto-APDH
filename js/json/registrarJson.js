@@ -54,6 +54,7 @@ document.getElementById('btnRegistrar').onclick = function(){
     .then(data => {
         if(data.registroEjecutado == "OK"){
             tablaPersonal();
+            consultaPersonalPlant();
             limpiar();
             botonCerrar.click();
         }else{
