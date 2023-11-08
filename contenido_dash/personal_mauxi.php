@@ -53,12 +53,6 @@
                                                         <button class="btn btn-rounded">
                                                             <i class="fa-solid fa-eye"></i>
                                                         </button>
-                                                        <!-- <button class="btn btn-default">
-
-                                                        </button>
-                                                        <button class="btn btn-default">
-
-                                                        </button> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -107,7 +101,7 @@
                                     </div>
                                 </div>
                                 <!-- cuerpo del caja modal -->
-                                <div class="ibox-body">
+                                <div class="ibox-body" style="display: none">
                                     <div class="col-md-12">
                                         <div class="table-responsive">
                                             <table class="table tabla-directivos" id="tabla-directivos">
@@ -146,7 +140,7 @@
                                     </div>
                                 </div>
                                 <!-- cuerpo del caja modal -->
-                                <div class="ibox-body">
+                                <div class="ibox-body" style="display: none">
                                     <div class="col-md-12">
                                         <div class="table-responsive">
                                             <table class="table tabla-personalPlanta" id="tabla-personalPlanta">
