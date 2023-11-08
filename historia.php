@@ -89,121 +89,143 @@
                                     </div>
                                 </div>
                             </article>
-                            <article class="row blog_item">
-                                <div class="section-top-border">
-                                    <h3 class="mb-30">
-                                        <ul class="blog_meta list">
-                                            <li><a href="#">20 de febrero de 1967 <i class="ti-calendar"></i></a></li>
-                                        </ul>
-                                    </h3>
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <blockquote class="generic-blockquote">
-                                                se contaba con los grados 5º de primaria y 1º de bachillerato, bajo la rectoría del Presbítero
-                                                José Vicente Pérez y las profesoras María Elena Zúñiga y Ana Silvia Pérez, en propiedades del municipio, 
-                                                antigua Escuela de Artes y Oficios, al frente de donde hoy funciona la Sede Central de la Institución 
-                                                Educativa María Auxiliadora, en el local que se demolió para construir en el 2003 el CREM (Centro de Recursos 
-                                                Educativos del Municipio). Era de una sola planta con dos salones divididos en cuatro partes para albergar los 
-                                                dos cursos: Quinto con 9 estudiantes y Sexto con 20 alumnos.
+                                                    
+                            <div class="popular_courses">
+                            <div class="container">
+                                <!-- titulo start -->
+                                <div class="row justify-content-center">
+                                <div class="col-lg-5">
+                                    <div class="main_title">
+                                    <h2 class="mb-3">Recuerdos</h2>
+                                    </div>
+                                </div>
+                                </div>
+                                <!-- titulo end -->
+                                <div class="row">
+                                <!-- single course -->
+                                <div class="col-lg-12">
+                                    <div class="owl-carousel active_course">
 
-                                                En 1968 inició a funcionar el Colegio Mixto con 68 alumnos, bajo la rectoría del Pbro. Pérez y los profesores 
-                                                Leónidas Perdomo, María Luz Manchola y Cecilio Molano.
+                                    <div class="single_course">
+                                        <div class="course_head">
+                                        <img class="img-fluid" src="img/fotosHistoria/img1.jpeg" alt="" />
+                                        </div>
+                                        <div class="course_content">
+                                        <h4 class="mb-3">
+                                            <a href="course-details.html">Historia</a>
+                                        </h4>
+                                        </div>
+                                    </div>
+                                    
 
-                                                En 1969 iniciaron clases con 70 alumnos repartidos entre primero, segundo y tercero bachillerato, con el mismo 
-                                                rector y docentes del año anterior. Debido a la renuncia del padre Pérez, asume la rectoría el Doc. Hernando Toro.
+                                    <div class="single_course">
+                                        <div class="course_head">
+                                        <img class="img-fluid" src="img/fotosHistoria/img2.jpeg" alt="" />
+                                        </div>
+                                        <div class="course_content">
+                                        <h4 class="mb-3">
+                                            <a href="course-details.html">Historia</a>
+                                        </h4>
+                                        </div>
+                                    </div>
 
-                                            </blockquote>
+                                    <div class="single_course">
+                                        <div class="course_head">
+                                        <img class="img-fluid" src="img/fotosHistoria/img3.jpeg" alt="" />
+                                        </div>
+                                        <div class="course_content">
+                                        <h4 class="mb-3">
+                                            <a href="course-details.html">Historia</a>
+                                        </h4>
                                         </div>
                                     </div>
-                                </div>
-                            </article>
-                            <article class="row blog_item">
-                                <div class="col-md-3">
-                                    <div class="blog_info text-right">
-                                        <div class="post_tag">
-                                            <a href="#">Food,</a>
-                                            <a class="active" href="#">Technology,</a>
-                                            <a href="#">Politics,</a>
-                                            <a href="#">Lifestyle</a>
+
+                                    <div class="single_course">
+                                        <div class="course_head">
+                                        <img class="img-fluid" src="img/fotosHistoria/img4.jpeg" alt="" />
                                         </div>
-                                        <ul class="blog_meta list">
-                                            <li><a href="#">Mark wiens<i class="ti-user"></i></a></li>
-                                            <li><a href="#">12 Dec, 2017<i class="ti-calendar"></i></a></li>
-                                            <li><a href="#">1.2M Views<i class="ti-eye"></i></a></li>
-                                            <li><a href="#">06 Comments<i class="ti-comment"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-md-9">
-                                    <div class="blog_post">
-                                        <img src="img/blog/main-blog/m-blog-4.jpg" alt="">
-                                        <div class="blog_details">
-                                            <a href="single-blog.html">
-                                                <h2>The Night Sky</h2>
-                                            </a>
-                                            <p>MCSE boot camps have its supporters and its detractors. Some people do not
-                                                understand why you should have to spend money on boot camp when you can get
-                                                the MCSE study materials yourself at a fraction.</p>
-                                            <a href="single-blog.html" class="blog_btn">View More</a>
+                                        <div class="course_content">
+                                        <h4 class="mb-3">
+                                            <a href="course-details.html">Historia</a>
+                                        </h4>
                                         </div>
                                     </div>
-                                </div>
-                            </article>
-                            <article class="row blog_item">
-                                <div class="col-md-3">
-                                    <div class="blog_info text-right">
-                                        <div class="post_tag">
-                                            <a href="#">Food,</a>
-                                            <a class="active" href="#">Technology,</a>
-                                            <a href="#">Politics,</a>
-                                            <a href="#">Lifestyle</a>
+
+                                    <div class="single_course">
+                                        <div class="course_head">
+                                        <img class="img-fluid" src="img/fotosHistoria/img5.jpeg" alt="" />
                                         </div>
-                                        <ul class="blog_meta list">
-                                            <li><a href="#">Mark wiens<i class="ti-user"></i></a></li>
-                                            <li><a href="#">12 Dec, 2017<i class="ti-calendar"></i></a></li>
-                                            <li><a href="#">1.2M Views<i class="ti-eye"></i></a></li>
-                                            <li><a href="#">06 Comments<i class="ti-comment"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-md-9">
-                                    <div class="blog_post">
-                                        <img src="img/blog/main-blog/m-blog-5.jpg" alt="">
-                                        <div class="blog_details">
-                                            <a href="single-blog.html">
-                                                <h2>Telescopes 101</h2>
-                                            </a>
-                                            <p>MCSE boot camps have its supporters and its detractors. Some people do not
-                                                understand why you should have to spend money on boot camp when you can get
-                                                the MCSE study materials yourself at a fraction.</p>
-                                            <a href="single-blog.html" class="blog_btn">View More</a>
+                                        <div class="course_content">
+                                        <h4 class="mb-3">
+                                            <a href="course-details.html">Historia</a>
+                                        </h4>
                                         </div>
                                     </div>
+                                    <div class="single_course">
+                                        <div class="course_head">
+                                        <img class="img-fluid" src="img/fotosHistoria/img6.jpeg" alt="" />
+                                        </div>
+                                        <div class="course_content">
+                                        <h4 class="mb-3">
+                                            <a href="course-details.html">Historia</a>
+                                        </h4>
+                                        </div>
+                                    </div>
+                                    <div class="single_course">
+                                        <div class="course_head">
+                                        <img class="img-fluid" src="img/fotosHistoria/img7.jpeg" alt="" />
+                                        </div>
+                                        <div class="course_content">
+                                        <h4 class="mb-3">
+                                            <a href="course-details.html">Historia</a>
+                                        </h4>
+                                        </div>
+                                    </div>
+                                    <div class="single_course">
+                                        <div class="course_head">
+                                        <img class="img-fluid" src="img/fotosHistoria/img8.jpeg" alt="" />
+                                        </div>
+                                        <div class="course_content">
+                                        <h4 class="mb-3">
+                                            <a href="course-details.html">Historia</a>
+                                        </h4>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="single_course">
+                                        <div class="course_head">
+                                        <img class="img-fluid" src="img/fotosHistoria/img9.jpeg" alt="" />
+                                        </div>
+                                        <div class="course_content">
+                                        <h4 class="mb-3">
+                                            <a href="course-details.html">Historia</a>
+                                        </h4>
+                                        </div>
+                                    </div>
+
+                                    <div class="single_course">
+                                        <div class="course_head">
+                                        <img class="img-fluid" src="img/fotosHistoria/img10.jpeg" alt="" />
+                                        </div>
+                                        <div class="course_content">
+                                        <h4 class="mb-3">
+                                            <a href="course-details.html">Historia</a>
+                                        </h4>
+                                        </div>
+                                    </div>
+
+                                    <div class="single_course">
+                                        <div class="course_head">
+                                        <img class="img-fluid" src="img/fotosHistoria/img11.jpeg" alt="" />
+                                        </div>
+                                        <div class="course_content">
+                                        <h4 class="mb-3">
+                                            <a href="course-details.html">Historia</a>
+                                        </h4>
+                                        </div>
+                                    </div>
+                                    </div>
                                 </div>
-                            </article>
-                            <nav class="blog-pagination justify-content-center d-flex">
-                                <ul class="pagination">
-                                    <li class="page-item">
-                                        <a href="#" class="page-link" aria-label="Previous">
-                                            <span aria-hidden="true">
-                                                <i class="ti-angle-left"></i>
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="page-item"><a href="#" class="page-link">01</a></li>
-                                    <li class="page-item active"><a href="#" class="page-link">02</a></li>
-                                    <li class="page-item"><a href="#" class="page-link">03</a></li>
-                                    <li class="page-item"><a href="#" class="page-link">04</a></li>
-                                    <li class="page-item"><a href="#" class="page-link">09</a></li>
-                                    <li class="page-item">
-                                        <a href="#" class="page-link" aria-label="Next">
-                                            <span aria-hidden="true">
-                                                <i class="ti-angle-right"></i>
-                                            </span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </nav>
                         </div>
                     </div>
                 </div>
