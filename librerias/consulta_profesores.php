@@ -24,7 +24,7 @@
                             `profesores`.`profesoresTitulos`,
                             `profesores`.`gobiernoEstudiantilId`,
                             gobiernoEstudiantilNombre,
-                            sede_instutucionalNombre
+                            sede_institucionalNombre
                         FROM `mauxi`.`profesores`
                         INNER JOIN tipopersona
                         ON profesores.tipoPersonaId = tipopersona.tipoPersonaId
@@ -36,8 +36,8 @@
                         ON profesoresMunicipioNacimiento = MN.municipioId
                         INNER JOIN gobiernoestudiantil
                         ON profesores.gobiernoEstudiantilId = gobiernoestudiantil.gobiernoEstudiantilId
-                        INNER JOIN sede_instutucional
-                        ON profesores.sede_institucionalId = sede_instutucional.sede_instutucionalId";
+                        INNER JOIN sede_institucional
+                        ON profesores.sede_institucionalId = sede_institucional.sede_institucionalId";
 
     $resultado_profesores= $conexion->consulta($sql_consulta_profesores);
 
@@ -65,7 +65,7 @@
             "profesoresTitulos" => $filaResultado['profesoresTitulos'],
             "gobiernoEstudiantilId" => $filaResultado['gobiernoEstudiantilId'],
             "gobiernoEstudiantilNombre" => $filaResultado['gobiernoEstudiantilNombre'],
-            "sede_instutucionalNombre" => $filaResultado['sede_instutucionalNombre'],
+            "sede_institucionalNombre" => $filaResultado['sede_institucionalNombre'],
     
         ];
     }

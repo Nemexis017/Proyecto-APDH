@@ -17,6 +17,7 @@ function consultaProfesores(){
                             <td>${item.profesoresPrimerApellido}</td>
                             <td>${item.profesoresSegundoApellido}</td>
                             <td>${item.profesoresEmail}</td>
+                            <td>${item.sede_institucionalNombre}</td>
             `; 
             tableProfesores.appendChild(row);
         });
