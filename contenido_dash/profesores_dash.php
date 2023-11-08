@@ -153,17 +153,17 @@
                             <i class="aviso-obligacion">los campos obligatorios contienen<i class="obligacion">*</i></i>
                         </div>
                         <div class="col-md-12">
-                            <label for="selTipoIdentificacion" class="form-label"><i class="obligacion">*</i> Tipo de Persona</label>
-                            <select class="form-select" aria-label="Default select example" id="txtTipoPersonaId"
-                                name="txtTipoPersonaId" required>
+                            <label for="prTipoPersonaId" class="form-label"><i class="obligacion">*</i> Tipo de Persona</label>
+                            <select class="form-select" aria-label="Default select example" id="prTipoPersonaId"
+                                name="prTipoPersonaId" required>
                                 <option value="" selected>Seleccione...</option>
                             </select>
 
                         </div>
                         <div class="col-md-12">
-                            <label for="txtTipoDocumentoId" class="form-label"><i class="obligacion">*</i> Tipo de Persona</label>
-                            <select class="form-select" aria-label="Default select example" id="txtTipoDocumentoId"
-                                name="txtTipoDocumentoId" required>
+                            <label for="prTipoDocumentoId" class="form-label"><i class="obligacion">*</i> Tipo Documento</label>
+                            <select class="form-select" aria-label="Default select example" id="prTipoDocumentoId"
+                                name="prTipoDocumentoId" required>
                                 <option value="" selected>Seleccione...</option>
                                 
                             </select>
@@ -211,6 +211,23 @@
                             </div>
                         </div>
                         <div class="col-md-12">
+                            <label for="sedeInstitucionalId" class="form-label"><i class="obligacion">*</i>Sede intitucional</label>
+                            <select class="form-select" aria-label="Default select example" id="sedeInstitucionalId"
+                                name="sedeInstitucionalId" required>
+                                <option value="" selected>Seleccione...</option>
+                                
+                            </select>
+
+                        </div>
+                        <div class="col-md-12">
+                            <label for="prMateria" class="form-label"><i class="obligacion">*</i>Materias asignada</label>
+                            <input type="text" class="form-control" id="prMateria" name="prMateria"
+                                required>
+                            <div class="valid-feedback">
+                                Digite la materia
+                            </div>
+                        </div>
+                        <div class="col-md-12">
                             <label for="setMunicipioResidencia" class="form-label"><i class="obligacion">*</i> Municipio Residencia </label>
                             <select class="form-select municipioResidencia" aria-label="Default select example" id="setMunicipioResidencia"
                                 name="setMunicipioResidencia" required>
@@ -220,22 +237,22 @@
                         </div>
                         <div class="col-md-12">
                             <label for="selMunicipioNacimiento" class="form-label"><i class="obligacion">*</i> Municipio Nacimiento</label>
-                            <select class="form-select municipioNacimiento" aria-label="Default select example" id="selMunicipioNacimiento"
-                                name="selMunicipioNacimiento" required>
+                            <select class="form-select prMunicipioNacimiento" aria-label="Default select example" id="prMunicipioNacimiento"
+                                name="prMunicipioNacimiento" required>
                                 <option value="" selected>Seleccione...</option>
                             
                             </select>
                         </div>
                         <div class="col-md-12">
-                            <label for="txtTelefono" class="form-label"><i class="obligacion">*</i> Telefono</label>
-                            <input type="text" class="form-control" id="txtTelefono" name="txtTelefono" required>
+                            <label for="prTelefono" class="form-label"><i class="obligacion">*</i> Telefono</label>
+                            <input type="text" class="form-control" id="prTelefono" name="prTelefono" required>
                             <div class="valid-feedback">
                                 Digitar el telefono
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <label for="selFechaNacimiento" class="form-label"> <i class="obligacion">*</i> Fecha Nacimieto</label>
-                            <input type="date" class="form-control" id="selFechaNacimiento" name="selFechaNacimiento"
+                            <label for="prFechaNacimiento" class="form-label"> <i class="obligacion">*</i> Fecha Nacimieto</label>
+                            <input type="date" class="form-control" id="prFechaNacimiento" name="prFechaNacimiento"
                                 required>
                             <div class="valid-feedback">
                                 Seleccione la fecha de nacimiento
@@ -247,14 +264,6 @@
                                 required>
                             <div class="valid-feedback">
                                 Digitar el correo eletronico
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <label for="txtExperiencia" class="form-label"><i class="obligacion">*</i> Experiencia Laboral</label>
-                            <textarea type="text" class="form-control" id="txtExperiencia" name="txtExperiencia"
-                                required></textarea>
-                            <div class="valid-feedback">
-                                Digitar Experiencia Laboral
                             </div>
                         </div>
                         <div class="col-md-12">
@@ -272,6 +281,14 @@
                             <div class="valid-feedback">
                                 Digitar Los Estudios Realizados
                             </div>
+                        </div>
+                        <div class="col-md-12">
+                            <label for="prGobierno" class="form-label"><i class="obligacion">*</i>Gobireno Institucional</label>
+                            <select class="form-select prGobiernoEstudiantil" aria-label="Default select example" id="prGobierno"
+                                name="prGobierno" required>
+                                <option value="" selected>Seleccione...</option>
+                            </select>
+                        
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" id="botonCerrar" data-bs-dismiss="modal">Cerrar</button>
