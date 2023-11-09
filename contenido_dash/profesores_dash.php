@@ -43,8 +43,8 @@
                                                 <tr>
                                                     <th width="50px">N°</th>
                                                     <th>Tipo Documento</th>
-                                                    <th>Identificación</th>
                                                     <th>Materia</th>
+                                                    <th>Identificación</th>
                                                     <th>Nombres</th>
                                                     <th>Primer apellido</th>
                                                     <th>Segundo Apellido</th>
@@ -148,7 +148,7 @@
                 </div>
                 <div class="modal-body">
                     <!-- *************************************** cuerpo del modal(inicio) *************************************** -->
-                    <form id="form-registrar" method="post" class="row g-3 needs-validation" novalidate>
+                    <form id="form-registrarProfesores" method="post" class="row g-3 needs-validation" novalidate>
                         <div class="col-md-12">
                             <i class="aviso-obligacion">los campos obligatorios contienen<i class="obligacion">*</i></i>
                         </div>
@@ -170,32 +170,24 @@
 
                         </div>
                         <div class="col-md-12">
-                            <label for="txtIdentificacion" class="form-label"><i class="obligacion">*</i> Identificación</label>
-                            <input type="text" class="form-control" id="txtIdentificacion" name="txtIdentificacion"
+                            <label for="prIdentificacion" class="form-label"><i class="obligacion">*</i> Identificación</label>
+                            <input type="text" class="form-control" id="prIdentificacion" name="prIdentificacion"
                                 required>
                             <div class="valid-feedback">
                                 Digitar el numero de Indentificacion
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <label for="txtCargo" class="form-label"><i class="obligacion">*</i> Cargo</label>
-                            <input type="text" class="form-control" id="txtCargo" name="txtCargo"
-                                required>
-                            <div class="valid-feedback">
-                                Digitar El cargo
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <label for="txtNombres" class="form-label"><i class="obligacion">*</i> Primer nombre</label>
-                            <input type="text" class="form-control" id="txtNombres" name="txtNombres"
+                            <label for="prNombres" class="form-label"><i class="obligacion">*</i> Primer nombre</label>
+                            <input type="text" class="form-control" id="prNombres" name="prNombres"
                                 required>
                             <div class="valid-feedback">
                                 Digitar sus nombres
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <label for="txtPrimerApellido" class="form-label"><i class="obligacion">*</i> Primer apellido</label>
-                            <input type="text" class="form-control" id="txtPrimerApellido" name="txtPrimerApellido"
+                            <label for="prPrimerApellido" class="form-label"><i class="obligacion">*</i> Primer apellido</label>
+                            <input type="text" class="form-control" id="prPrimerApellido" name="prPrimerApellido"
                                 required>
                             <div class="valid-feedback">
                                 Digitar el primer apellido
@@ -259,7 +251,7 @@
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <label for="txtCorreoEletronico" class="form-label"><i class="obligacion">*</i> Correo Eletronico</label>
+                            <label for="txtCorreoEletronico" class="form-label"><i class="obligacion">*</i> Correo Electrónico</label>
                             <input type="text" class="form-control" id="txtCorreoEletronico" name="txtCorreoEletronico"
                                 required>
                             <div class="valid-feedback">
@@ -274,8 +266,18 @@
                                 Digitar Años De Experiencia
                             </div>
                         </div>
+
                         <div class="col-md-12">
-                            <label for="txtCorreoEletronico" class="form-label"><i class="obligacion">*</i> Estudios Realizados</label>
+                            <label for="prExperiencia" class="form-label"><i class="obligacion">*</i>Experiencia</label>
+                            <textarea type="text" class="form-control" id="prExperiencia" name="prExperiencia"
+                                required></textarea>
+                            <div class="valid-feedback">
+                                Digitar Los Estudios Realizados
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-12">
+                            <label for="txtCorreoEletronico" class="form-label"><i class="obligacion">*</i>Titulos</label>
                             <textarea type="text" class="form-control" id="txtEstudiosRealizados" name="txtEstudiosRealizados"
                                 required></textarea>
                             <div class="valid-feedback">
@@ -283,7 +285,7 @@
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <label for="prGobierno" class="form-label"><i class="obligacion">*</i>Gobireno Institucional</label>
+                            <label for="prGobierno" class="form-label"><i class="obligacion">*</i>Gobierno Institucional</label>
                             <select class="form-select prGobiernoEstudiantil" aria-label="Default select example" id="prGobierno"
                                 name="prGobierno" required>
                                 <option value="" selected>Seleccione...</option>
@@ -360,6 +362,14 @@
     </div>
 
     <script src="../js/agregadosConsult/prConsulta.js"></script>
+    <script src="../js/agregadosConsult/gobiernoOption.js"></script>
+    <script src="../js/agregadosConsult/sedeOption.js"></script>
+
+    <script src="../js/json/municipio.js"></script>
+    <script src="../js/json/tipoDocumento.js"></script>
+    <script src="../js/json/tipoPersona.js"></script>
+
+    <script src="../js/jscrudProfesoreson/registrarPr.js"></script>
     
 
     <!-- script general -->
