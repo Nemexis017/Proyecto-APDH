@@ -27,7 +27,7 @@
         margin-left: -104px;
         position: relative;
         z-index: 1;
-        border: 10px solid $offwhite;
+        border: 10px solid #ffffff;
         @media (max-width: 991px) {
           margin-left: 0px;
         }
@@ -165,7 +165,46 @@
     background: $offwhite;
     position: relative;
     max-height: 260px;
-    height: 120px;
+    height: 260px;
+    @include transition();
+    .tag {
+      padding: 2px 21px;
+      font-size: 13px;
+      color: #000000;
+      background: $title-color;
+      text-transform: uppercase;
+    }
+    h4 {
+      font-size: 20px;
+      font-weight: 500;
+      a {
+        color: $letra;
+      }
+    }
+    p {
+      margin: 0;
+    }
+    .course_meta {
+      margin-top: 25px;
+      .meta_info {
+        a {
+          color: $letra;
+        }
+      }
+    }
+  }
+
+
+  .sufro{
+    width: 320px;
+  }
+
+  .course_contenthistoria {
+    padding: 30px 26px;
+    background: $offwhite;
+    position: relative;
+    max-height: 260px;
+    height: 90px;
     @include transition();
     .tag {
       padding: 2px 21px;
