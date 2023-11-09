@@ -5,26 +5,24 @@
     $data = json_decode(file_get_contents('php://input'), true);
     
     $values_profesores= array(
-        ":tipoDocumentoId" => $data_profesores[''],
-        ":tipoPersonaId" => $data_profesores[''],
-        ":profesoresDocumento" => $data_profesores[''],
-        ":profesoresNombres" => $data_profesores[''],
-        ":profesoresPrimerApellido" => $data_profesores[''],
-        ":profesoresSegundoApellido" => $data_profesores[''],
-        ":profesoresMunicipioResidencia" => $data_profesores[''],
-        ":profesoresMunicipioNacimiento" => $data_profesores[''],
-        ":profesoresTelefono" => $data_profesores[''],
-        ":profesoresFechaNacimiento" => $data_profesores[''],
-        ":profesoresEmail" => $data_profesores[''],
-        ":profesoresMateria" => $data_profesores[''],
-        ":profesoresExperiencia" => $data_profesores[''],
-        ":profesoresAnoExperiencia" => $data_profesores[''],
-        ":profesoresTitulos" => $data_profesores[''],
-        ":gobiernoEstudiantilId" => $data_profesores[''],
-        ":sede_institucionalId" => $data_profesores['']
+        ":tipoDocumentoId" => $data_profesores['prtipoDocumentoId'],
+        ":tipoPersonaId" => $data_profesores['prtipoPersonaId'],
+        ":profesoresDocumento" => $data_profesores['profesoresDocumento'],
+        ":profesoresNombres" => $data_profesores['profesoresNombres'],
+        ":profesoresPrimerApellido" => $data_profesores['profesoresPrimerApellido'],
+        ":profesoresSegundoApellido" => $data_profesores['profesoresSegundoApellido'],
+        ":profesoresMunicipioResidencia" => $data_profesores['profesoresMunicipioResidencia'],
+        ":profesoresMunicipioNacimiento" => $data_profesores['profesoresMunicipioNacimiento'],
+        ":profesoresTelefono" => $data_profesores['profesoresTelefono'],
+        ":profesoresFechaNacimiento" => $data_profesores['profesoresFechaNacimiento'],
+        ":profesoresEmail" => $data_profesores['profesoresEmail'],
+        ":profesoresMateria" => $data_profesores['profesoresMateria'],
+        ":profesoresExperiencia" => $data_profesores['profesoresExperiencia'],
+        ":profesoresAnoExperiencia" => $data_profesores['profesoresAnoExperiencia'],
+        ":profesoresTitulos" => $data_profesores['profesoresTitulos'],
+        ":gobiernoEstudiantilId" => $data_profesores['gobiernoEstudiantilId'],
+        ":sede_institucionalId" => $data_profesores['sede_institucionalId']
     );
-
-                        
 
     $sqlInsertProfesor= "INSERT INTO `mauxi`.`profesores`
                         (
@@ -84,3 +82,4 @@
     echo json_encode($response)
     
 ?>
+
