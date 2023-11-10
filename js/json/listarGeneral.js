@@ -19,7 +19,7 @@ function tablaPersonal(){
                             <td >${item.personalMauxiSegundoApellido}</td>
                             <td >${item.personalMauxiTelefono}</td>
                             <td>
-                                <button  onclick="update_modal(${item.personalMauxiId});" class='btn btn-default btn-xs m-r-5' data-bs-toggle="modal" data-bs-target="#modal-3"><i class='fa fa-pencil font-14'></i></button>
+                                <button onclick="update_modal(${item.personalMauxiId});" class='btn btn-default btn-xs m-r-5' data-bs-toggle="modal" data-bs-target="#modal-3"><i class='fa fa-pencil font-14'></i></button>
                                 <button id="delete" onclick="eliminarRegistro(${item.personalMauxiId});" class='btn btn-default btn-xs' data-bs-toggle="modal" data-bs-target="#modal-2"><i class='fa fa-trash font-14'></i></button>
                             </td>`; 
             tablaBody.appendChild(row);
@@ -29,4 +29,3 @@ function tablaPersonal(){
 
     consultaPersonalPlant();
 }
-window.addEventListener("load", tablaPersonal);
