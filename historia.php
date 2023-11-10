@@ -107,7 +107,7 @@
                                         </div>
                                         <div class="course_contenthistoria">
                                         <h4 class="mb-3">
-                                            <a href="course-details.html">Historia</a>
+                                            <a href="course-details.html">Actividad recreacional INEMAUXI</a>
                                         </h4>
                                         </div>
                                     </div>
@@ -119,7 +119,7 @@
                                         </div>
                                         <div class="course_contenthistoria">
                                         <h4 class="mb-3">
-                                            <a href="course-details.html">Historia</a>
+                                            <a href="course-details.html">Marcha institucional</a>
                                         </h4>
                                         </div>
                                     </div>
@@ -130,7 +130,7 @@
                                         </div>
                                         <div class="course_contenthistoria">
                                         <h4 class="mb-3">
-                                            <a href="course-details.html">Historia</a>
+                                            <a href="course-details.html">Rally</a>
                                         </h4>
                                         </div>
                                     </div>
@@ -141,7 +141,7 @@
                                         </div>
                                         <div class="course_contenthistoria">
                                         <h4 class="mb-3">
-                                            <a href="course-details.html">Historia</a>
+                                            <a href="course-details.html">Recreación de profesores</a>
                                         </h4>
                                         </div>
                                     </div>
@@ -152,7 +152,7 @@
                                         </div>
                                         <div class="course_contenthistoria">
                                         <h4 class="mb-3">
-                                            <a href="course-details.html">Historia</a>
+                                            <a href="course-details.html">Graduación</a>
                                         </h4>
                                         </div>
                                     </div>
@@ -162,7 +162,7 @@
                                         </div>
                                         <div class="course_contenthistoria">
                                         <h4 class="mb-3">
-                                            <a href="course-details.html">Historia</a>
+                                            <a href="course-details.html">Actividad recreacional INEMAUCI</a>
                                         </h4>
                                         </div>
                                     </div>
@@ -172,7 +172,7 @@
                                         </div>
                                         <div class="course_contenthistoria">
                                         <h4 class="mb-3">
-                                            <a href="course-details.html">Historia</a>
+                                            <a href="course-details.html">Actividad recreacional Daniel Castro</a>
                                         </h4>
                                         </div>
                                     </div>
@@ -183,7 +183,7 @@
                                         </div>
                                         <div class="course_contenthistoria">
                                         <h4 class="mb-3">
-                                            <a href="course-details.html">Historia</a>
+                                            <a href="course-details.html">Profesores</a>
                                         </h4>
                                         </div>
                                     </div>
@@ -194,7 +194,7 @@
                                         </div>
                                         <div class="course_contenthistoria">
                                         <h4 class="mb-3">
-                                            <a href="course-details.html">Historia</a>
+                                            <a href="course-details.html">Graduación</a>
                                         </h4>
                                         </div>
                                     </div>
@@ -205,7 +205,7 @@
                                         </div>
                                         <div class="course_contenthistoria">
                                         <h4 class="mb-3">
-                                            <a href="course-details.html">Historia</a>
+                                            <a href="course-details.html">Izada de bandera</a>
                                         </h4>
                                         </div>
                                     </div>
