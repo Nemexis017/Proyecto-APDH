@@ -80,7 +80,7 @@
                                             </table>
                                         </div>
                                         <div class="col-md-12 d-flex justify-content-end">
-                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">
+                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1" id="registarPersonal">
                                                 <i class="fa-solid fa-user-plus"></i> registrar
                                             </button>
                                         </div>
@@ -218,14 +218,14 @@
                                 <label for="selTipoIdentificacion" class="form-label"><i class="obligacion">*</i> Tipo de Persona</label>
                                 <select class="form-select" aria-label="Default select example" id="txtTipoPersonaId"
                                     name="txtTipoPersonaId" required>
-                                    <option value="" selected>Seleccione...</option>
-                                    <option value="1" selected>directivos</option>
+                                    <option value="0" selected>Seleccione...</option>
+                                    <option value="1" selected>directivo</option>
                                     <option value="4" selected>Personal De planta</option>
                                 </select>
 
                             </div>
                             <div class="col-md-12">
-                                <label for="txtTipoDocumentoId" class="form-label"><i class="obligacion">*</i> Tipo de Persona</label>
+                                <label for="txtTipoDocumentoId" class="form-label"><i class="obligacion">*</i>Tipo identificación</label>
                                 <select class="form-select" aria-label="Default select example" id="txtTipoDocumentoId"
                                     name="txtTipoDocumentoId" required>
                                     <option value="" selected>Seleccione...</option>
@@ -422,9 +422,9 @@
     <!-- script individuales -->
 
     <script src="../js/json/listarGeneral.js"></script>
-    <script src="../js/json/tipoPersona.js"></script>
-    <script src="../js/json/tipoDocumento.js"></script>
-    <script src="../js/json/municipio.js"></script>
+    <script src="../js/json/ejecutador.js"></script>
+    <script src="../js/json/consultasOption.js"></script>
+
     <script src="../js/json/registrarJson.js"></script>
     <script src="../js/json/eliminarPersonal.js"></script>
     <script src="../js/json/actualizar.js"></script>

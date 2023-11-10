@@ -48,8 +48,8 @@
                                                     <th>Nombres</th>
                                                     <th>Primer apellido</th>
                                                     <th>Segundo Apellido</th>
-                                                    <th>Email</th>
                                                     <th>sede</th>
+                                                    <th></th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -60,7 +60,7 @@
                                         </table>
                                     </div>
                                     <div class="col-md-12 d-flex justify-content-end">
-                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">
+                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1" id="registrarProfesores">
                                             <i class="fa-solid fa-user-plus"></i> registrar
                                         </button>
                                     </div>
@@ -305,16 +305,16 @@
 
 
     <!-- Modal Alerta de borrar -->
-    <div class="modal fade" id="modal-2" tabindex="-1" aria-labelledby="modal-2" aria-hidden="true">
+    <div class="modal fade" id="profesores-delete" tabindex="-1" aria-labelledby="profesores-delete" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">¿Estas seguro de eliminar este registro?</h1>
+                    <h1 class="modal-title fs-5" id="profesores-delete">¿Estas seguro de eliminar este registro?</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <div class="table-responsive">
-                        <table class="table " id="tabla-">
+                        <table class="table tablaVerifProfesores" id="">
                             <thead>
                                 <tr>
                                     <th>N° Identificacion</th>
@@ -330,8 +330,8 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button id="cerrar_veri" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                    <button id="aceptar_veri" type="button" class="btn btn-primary">Aceptar</button>
+                    <button id="closeDeletePr" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button id="deleteProfesor" type="button" class="btn btn-primary">Aceptar</button>
                 </div>
             </div>
         </div>
@@ -362,14 +362,11 @@
     </div>
 
     <script src="../js/agregadosConsult/prConsulta.js"></script>
-    <script src="../js/agregadosConsult/gobiernoOption.js"></script>
-    <script src="../js/agregadosConsult/sedeOption.js"></script>
+    <script src="../js/agregadosConsult/mainRegistar.js"></script>
 
-    <script src="../js/json/municipio.js"></script>
-    <script src="../js/json/tipoDocumento.js"></script>
-    <script src="../js/json/tipoPersona.js"></script>
-
+    <script src="../js/json/consultasOption.js"></script>
     <script src="../js/crudProfesores/registrarPr.js"></script>
+    <script src="../js/crudProfesores/borrrar.js"></script>
     
 
     <!-- script general -->

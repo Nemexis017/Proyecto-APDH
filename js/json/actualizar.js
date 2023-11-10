@@ -172,6 +172,10 @@ function update_modal(id_personal_update){
         });
     })
     .catch(error => console.log(error)) 
+
+    // document.getElementById('').addEventListener('click', ()=>{
+
+    // })
 }
 
 function actualizar_personal(id_personal){
