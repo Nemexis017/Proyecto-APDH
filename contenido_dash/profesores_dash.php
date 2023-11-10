@@ -30,7 +30,7 @@
                             <div class="ibox-head">
                                 <div class="ibox-title">Registros de Profesores</div>
                                 <div class="ibox-tools">
-                                    <a class="ibox-collapse"><i class="fa fa-minus"></i></a>
+                                    <a class="ibox-collapseIn"><i class="fa fa-minus"></i></a>
                                 </div>
                             </div>
                             
@@ -105,7 +105,7 @@
                                             </ul>
                                         </div>
                                         <div class="tab-pane" id="tab-11-2" aria-expanded="false">
-    
+                                            
                                         </div>
                                         <div class="tab-pane fade" id="tab-11-3" aria-expanded="true">
     

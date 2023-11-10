@@ -50,15 +50,19 @@
                                                 <div class="col-3"></div>
                                                 <div class="col-4 d-flex justify-content-end">
                                                     <div class="herramientas">
-                                                        <button class="btn btn-rounded">
+                                                        <button class="btn btn-default" data-toggle="tooltip" title="ver detalles">
                                                             <i class="fa-solid fa-eye"></i>
                                                         </button>
+                                                        <button class="btn btn-default" data-toggle="tooltip" title="agragar" data-bs-toggle="modal" data-bs-target="#modal-1" id="registarPersonal">
+                                                            <i class="fa-solid fa-plus"></i>
+                                                        </button>
+                                
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="table-responsive">
-                                            <table class="table tabla-usuarios" id="tabla-usuarios">
+                                            <table class="table table-striped tabla-usuarios" id="tabla-usuarios">
                                                 <thead>
                                                     <tr>
                                                         <th width="50px">N°</th>
@@ -80,10 +84,10 @@
                                             </table>
                                         </div>
                                         <div class="col-md-12 d-flex justify-content-end">
-                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1" id="registarPersonal">
+                                            <!-- <button type="button" class="btn btn-primary" >
                                                 <i class="fa-solid fa-user-plus"></i> registrar
-                                            </button>
-                                            <button id="update">hola</button>
+                                            </button> -->
+
                                         </div>
                                     </div>
                                 </div>  
@@ -98,11 +102,11 @@
                                 <div class="ibox-head">
                                     <div class="ibox-title">Directivos</div>
                                     <div class="ibox-tools">
-                                        <a class="ibox-collapse"><i class="fa fa-minus"></i></a>
+                                        <a class="ibox-collapseIn"><i class="fa fa-plus"></i></a>
                                     </div>
                                 </div>
                                 <!-- cuerpo del caja modal -->
-                                <div class="ibox-body" style="display: none">
+                                <div class="ibox-body collapsed-modeIn" style="display: none">
                                     <div class="col-md-12">
                                         <div class="table-responsive">
                                             <table class="table tabla-directivos" id="tabla-directivos">
@@ -137,14 +141,14 @@
                                 <div class="ibox-head">
                                     <div class="ibox-title">Personal de planta</div>
                                     <div class="ibox-tools">
-                                        <a class="ibox-collapse"><i class="fa fa-minus"></i></a>
+                                        <a class="ibox-collapseIn"><i class="fa fa-plus"></i></a>
                                     </div>
                                 </div>
                                 <!-- cuerpo del caja modal -->
-                                <div class="ibox-body" style="display: none">
+                                <div class="ibox-body collapsed-modeIn" style="display: none">
                                     <div class="col-md-12">
                                         <div class="table-responsive">
-                                            <table class="table tabla-personalPlanta" id="tabla-personalPlanta">
+                                            <table class="table  tabla-personalPlanta" id="tabla-personalPlanta">
                                                 <thead>
                                                     <tr>
                                                         <th width="50px">N°</th>
