@@ -1,8 +1,8 @@
 <?php 
-    include('conexion.php');
+    include('../conexion.php');
     $conexion= new conexion();
     
-    $data = json_decode(file_get_contents('php://input'), true);
+    $data_profesores= json_decode(file_get_contents('php://input'), true);
     
     $values_profesores= array(
         ":tipoDocumentoId" => $data_profesores['prtipoDocumentoId'],
@@ -65,17 +65,17 @@
                             :sede_institucionalId
                         );"; 
 
-    if(empty(array_filter($values))){
-        $registrarProfosores= "";
+    if(empty(array_filter($values_profesores))){
+        $sqlInsertProfesor= "";
     }else{
-        $registrarProfosores=$conexion->ejecutar($sqlInsertProfesor,$values_profesores);
+        $sqlInsertProfesor=$conexion->ejecutar($sqlInsertProfesor,$values_profesores);
     }
 
     
-    if($registrarProfosores == 1){
-        $responsePr = ["registroEjecutadoPr"=> "OK"];
+    if($sqlInsertProfesor == 1){
+        $response = ["registoProfesores"=> "OK"];
     }else{
-        $responsePr = ["registroEjecutadoPr"=> "NO"];
+        $response = ["registoProfesores"=> "NO"];
     }
         
     header('Content-type:application/json');

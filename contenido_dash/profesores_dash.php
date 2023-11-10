@@ -294,7 +294,7 @@
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" id="botonCerrar" data-bs-dismiss="modal">Cerrar</button>
-                            <button type="button" class="btn btn-primary btn_registrar" id="btnRegistrar">Registrar</button>
+                            <button type="button" class="btn btn-primary btn_registrar" id="recordTeacher">Registrar</button>
                         </div>
                     </form>
                     <!-- *************************************** cuerpo del modal(Fin) *************************************** -->
@@ -369,7 +369,7 @@
     <script src="../js/json/tipoDocumento.js"></script>
     <script src="../js/json/tipoPersona.js"></script>
 
-    <script src="../js/jscrudProfesoreson/registrarPr.js"></script>
+    <script src="../js/crudProfesores/registrarPr.js"></script>
     
 
     <!-- script general -->

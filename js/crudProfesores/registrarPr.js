@@ -1,8 +1,9 @@
 function limpiar(){
     const formulario = document.getElementById("form-registrarProfesores").reset();    
 }
-document.getElementById('btnRegistrar').onclick = function(){
-     // event.preventDefault(); 
+document.getElementById('recordTeacher').onclick = function(){
+    //  event.preventDefault(); 
+
     const botonCerrar = document.getElementById("botonCerrar");
 
     const prtipoDocumentoId = document.getElementById("prTipoDocumentoId").value;
@@ -17,14 +18,15 @@ document.getElementById('btnRegistrar').onclick = function(){
     const profesoresFechaNacimiento = document.getElementById("prFechaNacimiento").value;
     const profesoresEmail = document.getElementById("txtCorreoEletronico").value;
     const profesoresMateria = document.getElementById("prMateria").value;
-    const profesoresExperiencia = document.getElementById("").value;
+    const profesoresExperiencia = document.getElementById("prExperiencia").value;
     const profesoresAnoExperiencia = document.getElementById("numAnosExperiencia").value;
     const profesoresTitulos = document.getElementById("txtEstudiosRealizados").value;
-    const gobiernoEstudiantilId = document.getElementById("prGobiernoEstudiantil").value;
+    const gobiernoEstudiantilId = document.getElementById("prGobierno").value;
     const sede_institucionalId = document.getElementById("sedeInstitucionalId").value;
 
+    console.log(profesoresDocumento);
     // Crear un objeto con los datos
-    const dataPersonal = {
+    const dataProfesores = {
         prtipoDocumentoId, 
         prtipoPersonaId, 
         profesoresDocumento, 
@@ -44,9 +46,9 @@ document.getElementById('btnRegistrar').onclick = function(){
         sede_institucionalId
     };
 
-    fetch('../librerias/registrar.php', {
+    fetch('../librerias/crudProfesoresPhp/registrarPr.php', {
         method: 'POST',
-        body: JSON.stringify(dataPersonal),
+        body: JSON.stringify(dataProfesores),
         headers: {
             'Content-Type': 'application/json'
         },
@@ -54,7 +56,7 @@ document.getElementById('btnRegistrar').onclick = function(){
     
     .then(response => response.json())
     .then(data => {
-        if(data.registroEjecutado == "OK"){
+        if(data.registoProfesores == "OK"){
             consultaProfesores();
             limpiar();
             botonCerrar.click();
