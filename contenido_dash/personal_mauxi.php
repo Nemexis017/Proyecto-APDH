@@ -83,6 +83,7 @@
                                             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1" id="registarPersonal">
                                                 <i class="fa-solid fa-user-plus"></i> registrar
                                             </button>
+                                            <button id="update">hola</button>
                                         </div>
                                     </div>
                                 </div>  

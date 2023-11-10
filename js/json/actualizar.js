@@ -220,7 +220,7 @@ function actualizar_personal(id_personal){
             personalMauxiEstudios:personalMauxiEstudios,
         };
     
-        fetch('librerias/actualizar_personal.php', {
+        fetch('../librerias/actualizar_personal.php', {
             method: 'POST',
             body: JSON.stringify(dataPersonal_update),
             headers: {

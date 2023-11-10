@@ -63,12 +63,18 @@
                                         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1" id="registrarProfesores">
                                             <i class="fa-solid fa-user-plus"></i> registrar
                                         </button>
+                                        
                                     </div>
                                 </div>
                             </div>  
                         </div>
                         <!-- caja modal 2 inicio-->
-                    </div>    
+                    </div>
+                    <div class="container">
+                        <div class="col-12">
+                            
+                        </div>
+                    </div>
                 </div>
                 <div class="row">
                     <div class="col-md-6">
