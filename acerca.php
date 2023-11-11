@@ -64,7 +64,7 @@
             <div class="col-12">
                 <div class="col-lg-12 course_details_left">
                     <div class="content_wrapper">
-                        <h6 class="title">Personajes</h6>
+                        <h4 class="title">Personajes</h4>
                         <div class="content text-justify">
                         <p> 
                         Hablar de personajes importantes para la Institución Educativa María Auxiliadora, ya que cada uno de los estudiantes, docentes, padres de familia y directivos que han pasado por allí son importantes. Sin embargo, mencionaré algunos de ellos. Los fundadores y los primeros integrantes de la Conciliatura merecen ser destacados, ya que conformaron la primera directiva que dio inicio al colegio en 1967. Florezmiro Pérez Silva, el Registrador, el fotógrafo, el radioaficionado, el deportista y el líder escondido que tanto hizo por Iquira, entre otras cosas ayudó a dar los primeros pasos del Colegio María Auxiliadora.
@@ -99,7 +99,7 @@
             <div class="single_feature">
               <div class="icon"><span class="flaticon-book"></span></div>
               <div class="desc">
-                <h4 class="mt-3 mb-2">VISION</h4>
+                <h4 class="mt-3 mb-2">VISIÓN</h4>
                 <p class="text-justify">   
                 Será una institución líder en la educación del noroccidente del departamento del Huila, con un modelo de calidad de educación basado en los avances científicos, técnicos y tecnológicos. Además, será gestora del hombre renovado que tanto añora la actual sociedad para un mundo moderno,formadora de cultura ecológica y ambiental, y con excelentes resultados en las ICFES.
                 </p>
@@ -128,9 +128,9 @@
     <section class="about_area section_gap">
       <div class="container">
         <div class="row h_blog_item">
-          <div class="col-lg-9">
-            <div class="h_blog_text">
-              <div class="h_blog_text_inner left right text-justify">
+          <div class="col-lg-9 ">
+            <div class="h_blog_text ">
+              <div class="h_blog_text_inner left right text-justify ">
                 <h4>EDITORIAL</h4>
                <p>
                La imaginación nos permite remontamos 50 años atrás en la historia del municipio de Iquira y encontrar en un recinto comunal, una reunión de siete honorables personalidades, que muy preocupados por el futuro de sus hijos y en general por la formación de los iquireños, sesionan como primera junta pro-colegio para el municipio, pues corría el mes de octubre del año 1966 y había que pensar desde ya, dónde y cómo se organizaría el estudio de los niños que terminarían su primaria. Esta honorable junta estaba integrada por el Presbítero José Vicente Pérez y los señores Miguel Cedeño, Arcesio Andrade, Floresmiro Pérez, Ignacio A. Cadena, Leonardo Córdoba, Carlos Julio Salazar y Jaime Perdomo. Su buena gestión y su empeño logró que el 20 de febrero del año 1967 se iniciara con los grados 5º de primaria y 1° de bachillerato, bajo la rectoría del Presbítero José Vicente Pérez y las profesoras María Elena Zúñiga y Ana Silvia Pérez, en propiedades del municipio, antigua Escuela de Artes y Oficios, frente a donde hoy funciona la Sede Central de la Institución Educativa María Auxiliadora.
@@ -204,10 +204,7 @@
       </div>
     </section>
        <!--================ End Feature Area =================-->
-       <!--================ Start Popular Courses Area =================-->
-    <!--================ End Popular Courses Area =================-->
-
-
+ 
     <!--================ Start Testimonial Area =================-->
     <div class="testimonial_area section_gap">
       <div class="container">
@@ -260,7 +257,7 @@
                   <div class="testi_text">
                     <h4>CANCHA</h4>
                     <p>
-                      Se realizan encuentros deportivos. Tambien se realizan las actividades programadas del colegio e izadas de bandera y educacion física.
+                      Se realizan encuentros deportivos. Tambien se realizan las actividades programadas del colegio e izadas de bandera y educación física.
                     </p>
                   </div>
                 </div>
@@ -275,12 +272,13 @@
                   <div class="testi_text">
                     <h4>AUDITORIO</h4>
                     <p>
-                     En esta instalación se proyectan peliculas o presentaciones programadas.Inclusive se desarrollan exposiciones importantes.
+                     En esta instalación se proyectan películas o presentaciones programadas.Inclusive se desarrollan exposiciones importantes.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
+        
             <div class="testi_item">
               <div class="row">
                 <div class="col-lg-6 col-md-6">
@@ -303,9 +301,9 @@
                 </div>
                 <div class="col-lg-6">
                   <div class="testi_text">
-                    <h4>COMPUTACION </h4>
+                    <h4>COMPUTACIÓN </h4>
                     <p>
-                      Esta zona es utilizada lara hacer exposiciones porgramadas por profesores, y se desarrollan actividades complementarias 
+                      Esta zona es utilizada para hacer exposiciones programadas por profesores, y se desarrollan actividades complementarias. 
                     </p>
                   </div>
                 </div>
