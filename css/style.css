@@ -2898,8 +2898,81 @@ h6 {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
+*{
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+}
 
-.single-gallery-image:hover {
+.conrtenedor{
+  position: relative;
+  min-height: 100vh;
+  background-color: #00000060;
+}
+
+.contenedor .image-contenedor{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  padding: 10px;
+
+}
+
+.contenedor .image-contenedor .imagen{
+  height: 250px;
+  width: 350px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.1);
+  overflow: hidden;
+  cursor: pointer;
+
+}
+
+.contenedor .image-contenedor .imagen img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: .2s linear;
+}
+
+.contenedor .image-contenedor .imagen:hover img{
+transform: scale(1.1);
+}
+
+.contenedor .popup-image{
+  position: fixed;
+  top: 0; left: 0;
+  background-color: rgba(0, 0, 0, .9);
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  display: none;
+}
+
+.contenedor .popup-image span{
+  position: absolute;
+  top: 0; right: 10px;
+  font-size: 40px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.contenedor .popup-image img{
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 7px;
+  width: 750px;
+  object-fit: cover;
+}
+
+@media (max-whith:768px){
+  .contenedor .popup-image img{
+    width: 80%;
+  }
+}
+
+.single-gallery-image:hover{
   opacity: 0.8;
 }
 

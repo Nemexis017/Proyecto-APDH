@@ -346,7 +346,28 @@
       </div>
     </div>
     <!--================ End Testimonial Area =================-->
+    <!--=============== Galeria ==================-->
 
+      <div class="contenedor">
+        <div class="image-contenedor">
+          <div class=" col-md-4 imagen"><img src="img/fotosColegio/colegio/ENTRADA.jpg" alt=""></div>
+          <div class=" col-md-4 imagen"><img src="img/fotosColegio/colegio/escuela.jpg" alt=""></div>
+          <div class=" col-md-4 imagen"><img src="img/fotosColegio/colegio/fotoColegio01.jpg" alt=""></div>
+          <div class=" col-md-4 imagen"><img src="img/fotosColegio/colegio/ZONACENTRAL.jpg" alt=""></div>
+          <div class=" col-md-4 imagen"><img src="img/fotosColegio/instalaciones/cancha.jpg" alt=""></div>
+          <div class=" col-md-4 imagen"><img src="img/fotosColegio/instalaciones/canchaDaniel.jpg" alt=""></div>
+          <div class=" col-md-4 imagen"><img src="img/fotosColegio/instalaciones/AUDITORIO2.jpg" alt=""></div>
+          <div class=" col-md-4 imagen"><img src="img/fotosColegio/biblioteca/BIBLIOTECA1.jpg" alt=""></div>
+        </div>
+
+        <div class="popup-image">
+          <span>&times;</span>
+          <img src="img/fotosColegio/colegio/ENTRADA.jpg" alt="">
+        </div>
+
+      </div>
+
+    <!--=============== End Galeria ==================-->
     <!--================ Start footer Area  =================-->
 
     <footer class="footer-area section_gap">
@@ -458,5 +479,6 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
     <script src="js/gmaps.min.js"></script>
     <script src="js/theme.js"></script>
+    <script src="js/complemento.js"></script>
   </body>
 </html>
