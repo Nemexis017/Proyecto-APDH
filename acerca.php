@@ -363,14 +363,15 @@
 
       <div class="contenedor">
         <div class="image-contenedor">
-          <div class=" col-md-4 imagen"><img src="img/fotosColegio/colegio/ENTRADA.jpg" alt=""></div>
-          <div class=" col-md-4 imagen"><img src="img/fotosColegio/colegio/escuela.jpg" alt=""></div>
-          <div class=" col-md-4 imagen"><img src="img/fotosColegio/colegio/fotoColegio01.jpg" alt=""></div>
-          <div class=" col-md-4 imagen"><img src="img/fotosColegio/colegio/ZONACENTRAL.jpg" alt=""></div>
-          <div class=" col-md-4 imagen"><img src="img/fotosColegio/instalaciones/cancha.jpg" alt=""></div>
-          <div class=" col-md-4 imagen"><img src="img/fotosColegio/instalaciones/canchaDaniel.jpg" alt=""></div>
-          <div class=" col-md-4 imagen"><img src="img/fotosColegio/instalaciones/AUDITORIO2.jpg" alt=""></div>
-          <div class=" col-md-4 imagen"><img src="img/fotosColegio/biblioteca/BIBLIOTECA1.jpg" alt=""></div>
+          <div class=" col-md-3 imagen"><img src="img/fotosColegio/colegio/ENTRADA.jpg" alt=""></div>
+          <div class=" col-md-3 imagen"><img src="img/fotosColegio/colegio/escuela.jpg" alt=""></div>
+          <div class=" col-md-3 imagen"><img src="img/fotosColegio/colegio/fotoColegio01.jpg" alt=""></div>
+          <div class=" col-md-3 imagen"><img src="img/fotosColegio/colegio/ZONACENTRAL.jpg" alt=""></div>
+          <div class=" col-md-3 imagen"><img src="img/fotosColegio/instalaciones/cancha.jpg" alt=""></div>
+          <div class=" col-md-3 imagen"><img src="img/fotosColegio/instalaciones/canchaDaniel.jpg" alt=""></div>
+          <div class=" col-md-3 imagen"><img src="img/fotosColegio/instalaciones/AUDITORIO2.jpg" alt=""></div>
+          <div class=" col-md-3 imagen"><img src="img/fotosColegio/biblioteca/BIBLIOTECA1.jpg" alt=""></div>
+          <div class=" col-md-3 imagen"><img src="img/fotosColegio/instalaciones/saladesarrollo.jpg" alt=""></div>
         </div>
 
         <div class="popup-image">

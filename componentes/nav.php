@@ -65,7 +65,7 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="single-blog.php"
-                                        >Blog Details</a
+                                        >Galeria</a
                                     >
                                 </li>
                             </ul>
