@@ -216,19 +216,19 @@
                 </p>
               </div>
               <div class="col clockinner1 clockinner">
-                <h1 class="days">150</h1>
+                <h1 class="days">430</h1>
                 <p class="smalltext">Secundaria</p>
               </div>
               <div class="col clockinner clockinner1">
-                <h1 class="hours">34</h1>
+                <h1 class="hours">250</h1>
                 <p class="smalltext">Primaria</p>
               </div>
               <div class="col clockinner clockinner1">
-                <h1 class="minutes">47</h1>
+                <h1 class="minutes">35</h1>
                 <p class="smalltext">Rural</p>
               </div>
               <div class="col clockinner clockinner1">
-                <h1 class="seconds">59</h1>
+                <h1 class="seconds">60</h1>
                 <p class="smalltext">Pre-Escolar</p>
               </div>
             </div>
@@ -263,9 +263,6 @@
           <div class="col-lg-5">
             <div class="main_title">
               <h2 class="mb-3">Directivos</h2>
-              <p>
-                Replenish man have thing gathering lights yielding shall you
-              </p>
             </div>
           </div>
         </div>
@@ -274,13 +271,12 @@
             <div class="thumb d-flex justify-content-sm-center">
               <img class="img-fluid" src="img/.jpeg" alt="" />
             </div>
-            <div class="meta-text text-sm-center">
+            <div class="meta-text text-sm-center ">
               <h4>Alirio Guevara Sanchez</h4>
               <p class="designation">Rector</p>
               <div class="mb-4">
                 <p>
-                  If you are looking at blank cassettes on the web, you may be
-                  very confused at the.
+                  Mantiene el control y el orden de colegio y sus intituciones,cuida y ama a maria auxiliadora, es el pilar de los estudiantes.
                 </p>
               </div>
               <div class="align-items-center justify-content-center d-flex">
@@ -301,8 +297,7 @@
               <p class="designation">Coordinadora Disciplinaria</p>
               <div class="mb-4">
                 <p>
-                  If you are looking at blank cassettes on the web, you may be
-                  very confused at the.
+                 Encargada de mantener la disciplina adentro de la institución.Hacer protocolos y mantener control, vela por el bienestar de los estudiantes .
                 </p>
               </div>
               <div class="align-items-center justify-content-center d-flex">
@@ -323,8 +318,7 @@
               <p class="designation">Coordinador Académico</p>
               <div class="mb-4">
                 <p>
-                  If you are looking at blank cassettes on the web, you may be
-                  very confused at the.
+                  Organiza los horarios y planifica los periodos y habilita la plataforma de evaluación.Ayuda a mantener el orden en la intitución.
                 </p>
               </div>
               <div class="align-items-center justify-content-center d-flex">
@@ -345,8 +339,7 @@
               <p class="designation">Secretaria</p>
               <div class="mb-4">
                 <p>
-                  If you are looking at blank cassettes on the web, you may be
-                  very confused at the.
+                  Lleva todo el registro del colegio organizado por años y hace las matriculas para los nuevos y viejos estudiantes de la institución.
                 </p>
               </div>
               <div class="align-items-center justify-content-center d-flex">
@@ -379,7 +372,7 @@
           <div class="col-lg-6 col-md-6">
             <div class="single_event position-relative">
               <div class="event_thumb">
-                <img src="img/event/e1.jpg" alt="" />
+                <img src="img/fotosColegio/colegio/dia1.jpg" width="550px"  height="400px" alt="" />
               </div>
               <div class="event_details">
                 <div class="d-flex mb-4">
@@ -397,8 +390,7 @@
                   </div>
                 </div>
                 <p>
-                  One make creepeth man for so bearing their firmament won't
-                  fowl meat over seas great
+                  En esta estan la mayoría de estudiantes,estudian más horas y presentan trabajos diariamente.
                 </p>
                 <a href="#" class="primary-btn rounded-0 mt-3">View Details</a>
               </div>
@@ -407,7 +399,7 @@
           <div class="col-lg-6 col-md-6">
             <div class="single_event position-relative">
               <div class="event_thumb">
-                <img src="img/event/e2.jpg" alt="" />
+                <img src="img/fotosColegio/colegio/noche1.jpg"  height="400px"  alt="" />
               </div>
               <div class="event_details">
                 <div class="d-flex mb-4">
@@ -418,16 +410,15 @@
 
                   <div class="time-location">
                     <p>
-                      <span class="ti-time mr-2"></span> 12:00 AM - 12:30 AM
+                      <span class="ti-time mr-2"></span>5:00 PM - 9:00 PM  
                     </p>
                     <p>
-                      <span class="ti-location-pin mr-2"></span> Hilton Quebec
+                       JORNADA NOCTURNA
                     </p>
                   </div>
                 </div>
                 <p>
-                  One make creepeth man for so bearing their firmament won't
-                  fowl meat over seas great
+                 Los estudiantes de la nocturna tienen clases y presentan trabajos de la misma manera que la jornada diurna.
                 </p>
                 <a href="#" class="primary-btn rounded-0 mt-3">View Details</a>
               </div>
