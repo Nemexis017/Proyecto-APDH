@@ -24,9 +24,7 @@
                         Usuario  <i class="fa-solid fa-caret-down"></i>
                 </button>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item active" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="../librerias/cerrar.php"><i class="fa fa-power-off"></i> Cerrar sesión</a></li>
                 </ul>
