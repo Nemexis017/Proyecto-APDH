@@ -36,7 +36,7 @@ function sedeInstitucional(selector){
 }
 
 window.addEventListener('load', ()=>{
-    document.getElementById('registrarProfesores').addEventListener('click', ()=>{
+   
         let gobiernoRegistrar = '#prGobierno';
         let municipioResidencia = '#setMunicipioResidencia';
         let municipioNacimiento = '#prMunicipioNacimiento';
@@ -50,6 +50,6 @@ window.addEventListener('load', ()=>{
         gobiernoEstudiantil(gobiernoRegistrar);
         municipio(municipioResidencia);
         municipio(municipioNacimiento);
-    })
+    
 })
 

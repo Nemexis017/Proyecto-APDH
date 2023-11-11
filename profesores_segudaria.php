@@ -53,7 +53,7 @@
           </div>
         </div>
         <div class="row justify-content-center d-flex align-items-center">
-          <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
+          <!-- <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
             <div class="thumb d-flex justify-content-sm-center">
               <img class="img-fluid" src="img/fotos_profesores/secundaria/vicente.jpeg" alt="" />
             </div>
@@ -210,7 +210,7 @@
                 <a href="#"><i class="ti-pinterest"></i></a>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <?php 
             foreach($resultadoProfesores as $filaProfesores){
