@@ -36,31 +36,31 @@
                                 
                                 <!-- cuerpo del caja modal -->
                                 <div class="ibox-body">
-                                    <div class="col-md-12">
-                                        <div class="col-12">
-                                            <div class="row m-3">
-                                                <div class="col-5">
-                                                    <form class="navbar-search" action="javascript:;">
-                                                        <div class="rel">
-                                                            <span class="search-icon"><i class="ti-search"></i></span>
-                                                            <input class="form-control" placeholder="Busca aquí..." id="buscarPersonal">
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                                <div class="col-3"></div>
-                                                <div class="col-4 d-flex justify-content-end">
-                                                    <div class="herramientas">
-                                                        <button class="btn btn-default" data-toggle="tooltip" title="ver detalles">
-                                                            <i class="fa-solid fa-eye"></i>
-                                                        </button>
-                                                        <button class="btn btn-default" data-toggle="tooltip" title="agragar" data-bs-toggle="modal" data-bs-target="#modal-1" id="registarPersonal">
-                                                            <i class="fa-solid fa-plus"></i>
-                                                        </button>
-                                
+                                    <div class="col-12">
+                                        <div class="row m-3">
+                                            <div class="col-5">
+                                                <form class="navbar-search" action="javascript:;">
+                                                    <div class="rel">
+                                                        <span class="search-icon"><i class="ti-search"></i></span>
+                                                        <input class="form-control" placeholder="Busca aquí..." id="buscarPersonal">
                                                     </div>
+                                                </form>
+                                            </div>
+                                            <div class="col-3"></div>
+                                            <div class="col-4 d-flex justify-content-end">
+                                                <div class="herramientas">
+                                                    <button class="btn btn-default" data-toggle="tooltip" title="ver detalles">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                    </button>
+                                                    <button class="btn btn-default" data-toggle="tooltip" title="agragar" data-bs-toggle="modal" data-bs-target="#modal-1" id="registarPersonal">
+                                                        <i class="fa-solid fa-plus"></i>
+                                                    </button>
+                            
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
+                                    <div class="col-md-12">
                                         <div class="table-responsive">
                                             <table class="table table-striped tabla-usuarios" id="tabla-usuarios">
                                                 <thead>
