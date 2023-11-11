@@ -354,7 +354,7 @@
 
     <script src="../js/json/consultasOption.js"></script>
     <script src="../js/crudEstudiantes/ejecutador.js"></script>
-    <!-- <script src="../js/crudProfesores/registrarPr.js"></script> -->
+    <script src="../js/crudEstudiantes/registrarEstudiantes.js"></script>
     <!-- <script src="../js/crudProfesores/borrrar.js"></script> --> -->
     <!-- <script src="../js/complementos/buesquedaEstudiantes.js"></script> -->
     

@@ -5,24 +5,22 @@
     $data_estudiantes= json_decode(file_get_contents('php://input'), true);
     
     $values_estudiantes = array(
-        ":estudiantesId" => $data_estudiantes[''],
-        ":tipoDocumentoId" => $data_estudiantes[''],
-        ":tipoPersonaId" => $data_estudiantes[''],
-        ":estudiantesNumeroDocumento" => $data_estudiantes[''],
-        ":estudiantesNombres" => $data_estudiantes[''],
-        ":estudiantesPrimerApellido" => $data_estudiantes[''],
-        ":estudiantesSegundoApellido" => $data_estudiantes[''],
-        ":estudiantesMunicipioResidencia" => $data_estudiantes[''],
-        ":estudiantesMunicipoNacimiento" => $data_estudiantes[''],
-        ":estudiantesTelefono" => $data_estudiantes[''],
-        ":estudiantesFechaNacimiento" => $data_estudiantes[''],
-        ":estudiantesEmail" => $data_estudiantes[''],
-        ":gobiernoEstudiantilId" => $data_estudiantes[''],
+        ":tipoDocumentoId" => $data_estudiantes['tipoDocumentoId'],
+        ":tipoPersonaId" => $data_estudiantes['tipoPersonaId'],
+        ":estudiantesNumeroDocumento" => $data_estudiantes['estudiantesNumeroDocumento'],
+        ":estudiantesNombres" => $data_estudiantes['estudiantesNombres'],
+        ":estudiantesPrimerApellido" => $data_estudiantes['estudiantesPrimerApellido'],
+        ":estudiantesSegundoApellido" => $data_estudiantes['estudiantesSegundoApellido'],
+        ":estudiantesMunicipioResidencia" => $data_estudiantes['estudiantesMunicipioResidencia'],
+        ":estudiantesMunicipoNacimiento" => $data_estudiantes['estudiantesMunicipoNacimiento'],
+        ":estudiantesTelefono" => $data_estudiantes['estudiantesTelefono'],
+        ":estudiantesFechaNacimiento" => $data_estudiantes['estudiantesFechaNacimiento'],
+        ":estudiantesEmail" => $data_estudiantes['estudiantesEmail'],
+        ":gobiernoEstudiantilId" => $data_estudiantes['gobiernoEstudiantilId'],
     );
 
     $sqlInsertEstudiantes= "INSERT INTO `mauxi`.`estudiantes`
                         (
-                            `estudiantesId`,
                             `tipoDocumentoId`,
                             `tipoPersonaId`,
                             `estudiantesNumeroDocumento`,
@@ -38,7 +36,6 @@
                         )
                         VALUES
                         (
-                            :estudiantesId
                             :tipoDocumentoId
                             :tipoPersonaId
                             :estudiantesNumeroDocumento
@@ -53,17 +50,17 @@
                             :gobiernoEstudiantilId
                         )"; 
 
-    if(empty(array_filter($values_profesores))){
+    if(empty(array_filter($values_estudiantes))){
         $resgistroEstudiante= "";
     }else{
         $resgistroEstudiante= $conexion->ejecutar($sqlInsertEstudiantes,$values_estudiantes);
     }
 
     
-    if($sqlInsertProfesor == 1){
-        $response = ["registoProfesores"=> "OK"];
+    if($resgistroEstudiante == 1){
+        $response = ["registroEstudiantes"=> "OK"];
     }else{
-        $response = ["registoProfesores"=> "NO"];
+        $response = ["registroEstudiantes"=> "NO"];
     }
         
     header('Content-type:application/json');

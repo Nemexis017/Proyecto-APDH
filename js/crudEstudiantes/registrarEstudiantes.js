@@ -1,54 +1,43 @@
 function limpiar(){
     const formulario = document.getElementById("form-registrarEstudiantes").reset();    
 }
-document.getElementById('recordTeacher').onclick = function(){
+document.getElementById('recordStudent').onclick = function(){
     //  event.preventDefault(); 
 
     const botonCerrar = document.getElementById("botonCerrar");
 
-    const prtipoDocumentoId = document.getElementById("prTipoDocumentoId").value;
-    const prtipoPersonaId = document.getElementById("prTipoPersonaId").value;
-    const profesoresDocumento = document.getElementById("prIdentificacion").value;
-    const profesoresNombres = document.getElementById("prNombres").value;
-    const profesoresPrimerApellido = document.getElementById("prPrimerApellido").value;
-    const profesoresSegundoApellido = document.getElementById("txtSegundoApellido").value;
-    const profesoresMunicipioResidencia = document.getElementById("setMunicipioResidencia").value;
-    const profesoresMunicipioNacimiento = document.getElementById("prMunicipioNacimiento").value;
-    const profesoresTelefono = document.getElementById("prTelefono").value;
-    const profesoresFechaNacimiento = document.getElementById("prFechaNacimiento").value;
-    const profesoresEmail = document.getElementById("txtCorreoEletronico").value;
-    const profesoresMateria = document.getElementById("prMateria").value;
-    const profesoresExperiencia = document.getElementById("prExperiencia").value;
-    const profesoresAnoExperiencia = document.getElementById("numAnosExperiencia").value;
-    const profesoresTitulos = document.getElementById("txtEstudiosRealizados").value;
-    const gobiernoEstudiantilId = document.getElementById("prGobierno").value;
-    const sede_institucionalId = document.getElementById("sedeInstitucionalId").value;
+    const tipoDocumentoId = document.getElementById('esTipoDocumentoId').value; 
+    const tipoPersonaId = document.getElementById('esTipoPersonaId').value; 
+    const estudiantesNumeroDocumento = document.getElementById('esIdentificacion').value; 
+    const estudiantesNombres = document.getElementById('esNombres').value; 
+    const estudiantesPrimerApellido = document.getElementById('esPrimerApellido').value; 
+    const estudiantesSegundoApellido = document.getElementById('txtSegundoApellidoEs').value; 
+    const estudiantesMunicipioResidencia = document.getElementById('setMunicipioResidenciaEs').value; 
+    const estudiantesMunicipoNacimiento = document.getElementById('esMunicipioNacimiento').value; 
+    const estudiantesTelefono = document.getElementById('esTelefono').value; 
+    const estudiantesFechaNacimiento = document.getElementById('esFechaNacimiento').value; 
+    const estudiantesEmail = document.getElementById('txtCorreoEletronicoEs').value; 
+    const gobiernoEstudiantilId = document.getElementById('esGobierno').value; 
 
-    console.log(profesoresDocumento);
     // Crear un objeto con los datos
-    const dataProfesores = {
-        prtipoDocumentoId, 
-        prtipoPersonaId, 
-        profesoresDocumento, 
-        profesoresNombres, 
-        profesoresPrimerApellido, 
-        profesoresSegundoApellido, 
-        profesoresMunicipioResidencia,
-        profesoresMunicipioNacimiento, 
-        profesoresTelefono,
-        profesoresFechaNacimiento, 
-        profesoresEmail, 
-        profesoresMateria, 
-        profesoresExperiencia ,
-        profesoresAnoExperiencia,
-        profesoresTitulos, 
-        gobiernoEstudiantilId ,
-        sede_institucionalId
+    const dataEstudiante = {
+        tipoDocumentoId,
+        tipoPersonaId,
+        estudiantesNumeroDocumento,
+        estudiantesNombres,
+        estudiantesPrimerApellido,
+        estudiantesSegundoApellido,
+        estudiantesMunicipioResidencia,
+        estudiantesMunicipoNacimiento,
+        estudiantesTelefono,
+        estudiantesFechaNacimiento,
+        estudiantesEmail,
+        gobiernoEstudiantilId
     };
 
-    fetch('../librerias/crudProfesoresPhp/registrarPr.php', {
+    fetch('../librerias/crudEsudiantes.php/registrarEstudiantes.php', {
         method: 'POST',
-        body: JSON.stringify(dataProfesores),
+        body: JSON.stringify(dataEstudiante),
         headers: {
             'Content-Type': 'application/json'
         },
@@ -56,8 +45,8 @@ document.getElementById('recordTeacher').onclick = function(){
     
     .then(response => response.json())
     .then(data => {
-        if(data.registoProfesores == "OK"){
-            consultaProfesores();
+        if(data.registroEstudiantes == "OK"){
+            consultaEstudiantes();
             limpiar();
             botonCerrar.click();
         }else{
