@@ -36,17 +36,17 @@
                         )
                         VALUES
                         (
-                            :tipoDocumentoId
-                            :tipoPersonaId
-                            :estudiantesNumeroDocumento
-                            :estudiantesNombres
-                            :estudiantesPrimerApellido
-                            :estudiantesSegundoApellido
-                            :estudiantesMunicipioResidencia
-                            :estudiantesMunicipoNacimiento
-                            :estudiantesTelefono
-                            :estudiantesFechaNacimiento
-                            :estudiantesEmail
+                            :tipoDocumentoId,
+                            :tipoPersonaId,
+                            :estudiantesNumeroDocumento,
+                            :estudiantesNombres,
+                            :estudiantesPrimerApellido,
+                            :estudiantesSegundoApellido,
+                            :estudiantesMunicipioResidencia,
+                            :estudiantesMunicipoNacimiento,
+                            :estudiantesTelefono,
+                            :estudiantesFechaNacimiento,
+                            :estudiantesEmail,
                             :gobiernoEstudiantilId
                         )"; 
 

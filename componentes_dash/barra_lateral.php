@@ -32,7 +32,7 @@
                 <span class="nav-label">Visualizar</span><i class="fa fa-angle-left arrow"></i></a>
             <ul class="nav-2-level collapse">
                 <li>
-                    <a href="#">Informacion Disponible</a>
+                    <a href="informacion.php">Informacion Disponible</a>
                 </li>
             </ul>
         </li>

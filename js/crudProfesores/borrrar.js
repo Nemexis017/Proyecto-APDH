@@ -45,7 +45,7 @@ function deleteTeacher(profesorId){
         .then(response => response.json())
         .then(data => {
             if(data.deleteTeacher == "OK"){
-                // consultaProfesores();
+                consultaProfesores();
                 botoCerrar.click();
             }else{
                 alert("error al borrar el registro")
