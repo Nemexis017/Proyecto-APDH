@@ -1273,6 +1273,8 @@ btn .caret {
       content: "\f066"; }
   .ibox.collapsed-mode .ibox-collapse > i::before {
     content: "\f067"; }
+  .ibox.collapsed-modeIn .ibox-collapseIn > i::before {
+    content: "\f068"; }
 
 .ibox-primary .ibox-head {
   color: #fff;

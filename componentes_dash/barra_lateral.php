@@ -22,7 +22,7 @@
                     <a href="profesores_dash.php">Profesores</a>
                 </li>
                 <li>
-                    <a href="#">Estudiantes (G)</a>
+                    <a href="estudiantes_dash.php">Estudiantes (G)</a>
                 </li>
             </ul>
         </li>

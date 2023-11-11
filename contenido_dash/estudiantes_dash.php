@@ -28,7 +28,7 @@
                     <div class="col-md-12">
                         <div class="ibox">
                             <div class="ibox-head">
-                                <div class="ibox-title">Registros de Profesores</div>
+                                <div class="ibox-title">Registros de Estudiantes Gobierno</div>
                                 <div class="ibox-tools">
                                     <a class="ibox-collapse"><i class="fa fa-minus"></i></a>
                                 </div>
@@ -42,7 +42,7 @@
                                             <form class="navbar-search" action="javascript:;">
                                                 <div class="rel">
                                                     <span class="search-icon"><i class="ti-search"></i></span>
-                                                    <input class="form-control" placeholder="Busca aquí..." id="buscarProfesores">
+                                                    <input class="form-control" placeholder="Busca aquí..." id="buscarEstudiantes">
                                                 </div>
                                             </form>
                                         </div>
@@ -52,10 +52,9 @@
                                                 <button class="btn btn-default" data-toggle="tooltip" title="ver detalles">
                                                     <i class="fa-solid fa-eye"></i>
                                                 </button>
-                                                <button class="btn btn-default" data-toggle="tooltip" title="agragar" data-bs-toggle="modal" data-bs-target="#modal-1" id="registrarProfesores">
+                                                <button class="btn btn-default" data-toggle="tooltip" title="agregar" data-bs-toggle="modal" data-bs-target="#modalRc-estudiantes" id="registarEstudiantes">
                                                     <i class="fa-solid fa-plus"></i>
                                                 </button>
-                        
                                             </div>
                                         </div>
                                     </div>
@@ -63,21 +62,21 @@
                                 <div class="col-md-12">
 
                                     <div class="table-responsive">
-                                        <table class="table table-striped tabla-profesores">
+                                        <table class="table table-striped tabla-estudiantes">
                                             <thead>
                                                 <tr>
                                                     <th width="50px">N°</th>
                                                     <th>Tipo Documento</th>
-                                                    <th>Materia</th>
+                                                    <th>Participacion</th>
                                                     <th>Identificación</th>
                                                     <th>Nombres</th>
                                                     <th>Primer apellido</th>
                                                     <th>Segundo Apellido</th>
-                                                    <th>sede</th>
+                                                    <th>Email</th>
                                                     <th></th>
                                                 </tr>
                                             </thead>
-                                            <tbody id="profesoresGeneral">
+                                            <tbody id="estudiantesGeneral">
 
                                             <!-- js muestra la tabla -->
                         
@@ -170,55 +169,55 @@
 
 
     <!-- modal para registro de profesores -->
-    <div class="modal fade" id="modal-1" tabindex="-1" aria-labelledby="label-modal-1" aria-hidden="true">
+    <div class="modal fade" id="modalRc-estudiantes" tabindex="-1" aria-labelledby="label-modal-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Registro de profesores</h1>
+                    <h1 class="modal-title fs-5" id="modalRc-estudiantes">Registro de Estudiantes</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <!-- *************************************** cuerpo del modal(inicio) *************************************** -->
-                    <form id="form-registrarProfesores" method="post" class="row g-3 needs-validation" novalidate>
+                    <form id="form-registrarEstudiantes" method="post" class="row g-3 needs-validation" novalidate>
                         <div class="col-md-12">
                             <i class="aviso-obligacion">los campos obligatorios contienen<i class="obligacion">*</i></i>
                         </div>
                         <div class="col-md-12">
-                            <label for="prTipoPersonaId" class="form-label"><i class="obligacion">*</i> Tipo de Persona</label>
-                            <select class="form-select" aria-label="Default select example" id="prTipoPersonaId"
-                                name="prTipoPersonaId" required>
+                            <label for="esTipoPersonaId" class="form-label"><i class="obligacion">*</i> Tipo de Persona</label>
+                            <select class="form-select" aria-label="Default select example" id="esTipoPersonaId"
+                                name="esTipoPersonaId" required>
                                 <option value="" selected>Seleccione...</option>
                             </select>
 
                         </div>
                         <div class="col-md-12">
-                            <label for="prTipoDocumentoId" class="form-label"><i class="obligacion">*</i> Tipo Documento</label>
-                            <select class="form-select" aria-label="Default select example" id="prTipoDocumentoId"
-                                name="prTipoDocumentoId" required>
+                            <label for="esTipoDocumentoId" class="form-label"><i class="obligacion">*</i> Tipo Documento</label>
+                            <select class="form-select" aria-label="Default select example" id="esTipoDocumentoId"
+                                name="esTipoDocumentoId" required>
                                 <option value="" selected>Seleccione...</option>
                                 
                             </select>
 
                         </div>
                         <div class="col-md-12">
-                            <label for="prIdentificacion" class="form-label"><i class="obligacion">*</i> Identificación</label>
-                            <input type="text" class="form-control" id="prIdentificacion" name="prIdentificacion"
+                            <label for="esIdentificacion" class="form-label"><i class="obligacion">*</i> Identificación</label>
+                            <input type="text" class="form-control" id="esIdentificacion" name="esIdentificacion"
                                 required>
                             <div class="valid-feedback">
                                 Digitar el numero de Indentificacion
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <label for="prNombres" class="form-label"><i class="obligacion">*</i> Primer nombre</label>
-                            <input type="text" class="form-control" id="prNombres" name="prNombres"
+                            <label for="esNombres" class="form-label"><i class="obligacion">*</i> Primer nombre</label>
+                            <input type="text" class="form-control" id="esNombres" name="esNombres"
                                 required>
                             <div class="valid-feedback">
                                 Digitar sus nombres
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <label for="prPrimerApellido" class="form-label"><i class="obligacion">*</i> Primer apellido</label>
-                            <input type="text" class="form-control" id="prPrimerApellido" name="prPrimerApellido"
+                            <label for="esPrimerApellido" class="form-label"><i class="obligacion">*</i> Primer apellido</label>
+                            <input type="text" class="form-control" id="esPrimerApellido" name="esPrimerApellido"
                                 required>
                             <div class="valid-feedback">
                                 Digitar el primer apellido
@@ -226,106 +225,64 @@
                         </div>
 
                         <div class="col-md-12">
-                            <label for="txtSegundoApellido" class="form-label"><i class="obligacion">*</i> Segundo apellido</label>
-                            <input type="text" class="form-control" id="txtSegundoApellido" name="txtSegundoApellido"
+                            <label for="txtSegundoApellidoEs" class="form-label"><i class="obligacion">*</i> Segundo apellido</label>
+                            <input type="text" class="form-control" id="txtSegundoApellidoEs" name="txtSegundoApellidoEs"
                                 required>
                             <div class="valid-feedback">
                                 Digitar el segundo apellido
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <label for="sedeInstitucionalId" class="form-label"><i class="obligacion">*</i>Sede intitucional</label>
-                            <select class="form-select" aria-label="Default select example" id="sedeInstitucionalId"
-                                name="sedeInstitucionalId" required>
-                                <option value="" selected>Seleccione...</option>
-                                
-                            </select>
-
-                        </div>
-                        <div class="col-md-12">
-                            <label for="prMateria" class="form-label"><i class="obligacion">*</i>Materias asignada</label>
-                            <input type="text" class="form-control" id="prMateria" name="prMateria"
-                                required>
-                            <div class="valid-feedback">
-                                Digite la materia
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <label for="setMunicipioResidencia" class="form-label"><i class="obligacion">*</i> Municipio Residencia </label>
-                            <select class="form-select municipioResidencia" aria-label="Default select example" id="setMunicipioResidencia"
-                                name="setMunicipioResidencia" required>
+                            <label for="setMunicipioResidenciaEs" class="form-label"><i class="obligacion">*</i> Municipio Residencia </label>
+                            <select class="form-select municipioResidencia" aria-label="Default select example" id="setMunicipioResidenciaEs"
+                                name="setMunicipioResidenciaEs" required>
                                 <option value="" selected>Seleccione...</option>
                                 
                             </select>
                         </div>
                         <div class="col-md-12">
-                            <label for="selMunicipioNacimiento" class="form-label"><i class="obligacion">*</i> Municipio Nacimiento</label>
-                            <select class="form-select prMunicipioNacimiento" aria-label="Default select example" id="prMunicipioNacimiento"
-                                name="prMunicipioNacimiento" required>
+                            <label for="esMunicipioNacimiento" class="form-label"><i class="obligacion">*</i> Municipio Nacimiento</label>
+                            <select class="form-select prMunicipioNacimiento" aria-label="Default select example" id="esMunicipioNacimiento"
+                                name="esMunicipioNacimiento" required>
                                 <option value="" selected>Seleccione...</option>
                             
                             </select>
                         </div>
                         <div class="col-md-12">
-                            <label for="prTelefono" class="form-label"><i class="obligacion">*</i> Telefono</label>
-                            <input type="text" class="form-control" id="prTelefono" name="prTelefono" required>
+                            <label for="esTelefono" class="form-label"><i class="obligacion">*</i> Telefono</label>
+                            <input type="text" class="form-control" id="esTelefono" name="esTelefono" required>
                             <div class="valid-feedback">
                                 Digitar el telefono
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <label for="prFechaNacimiento" class="form-label"> <i class="obligacion">*</i> Fecha Nacimieto</label>
-                            <input type="date" class="form-control" id="prFechaNacimiento" name="prFechaNacimiento"
+                            <label for="esFechaNacimiento" class="form-label"> <i class="obligacion">*</i> Fecha Nacimieto</label>
+                            <input type="date" class="form-control" id="esFechaNacimiento" name="esFechaNacimiento"
                                 required>
                             <div class="valid-feedback">
                                 Seleccione la fecha de nacimiento
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <label for="txtCorreoEletronico" class="form-label"><i class="obligacion">*</i> Correo Electrónico</label>
-                            <input type="text" class="form-control" id="txtCorreoEletronico" name="txtCorreoEletronico"
+                            <label for="txtCorreoEletronicoEs" class="form-label"><i class="obligacion">*</i> Correo Electrónico</label>
+                            <input type="text" class="form-control" id="txtCorreoEletronicoEs" name="txtCorreoEletronicoEs"
                                 required>
                             <div class="valid-feedback">
                                 Digitar el correo eletronico
                             </div>
                         </div>
+                    
                         <div class="col-md-12">
-                            <label for="numAnosExperiencia" class="form-label"><i class="obligacion">*</i> Años De Experiencia</label>
-                            <input type="number" class="form-control" id="numAnosExperiencia" name="numAnosExperiencia"
-                                required>
-                            <div class="valid-feedback">
-                                Digitar Años De Experiencia
-                            </div>
-                        </div>
-
-                        <div class="col-md-12">
-                            <label for="prExperiencia" class="form-label"><i class="obligacion">*</i>Experiencia</label>
-                            <textarea type="text" class="form-control" id="prExperiencia" name="prExperiencia"
-                                required></textarea>
-                            <div class="valid-feedback">
-                                Digitar Los Estudios Realizados
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-12">
-                            <label for="txtCorreoEletronico" class="form-label"><i class="obligacion">*</i>Titulos</label>
-                            <textarea type="text" class="form-control" id="txtEstudiosRealizados" name="txtEstudiosRealizados"
-                                required></textarea>
-                            <div class="valid-feedback">
-                                Digitar Los Estudios Realizados
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <label for="prGobierno" class="form-label"><i class="obligacion">*</i>Gobierno Institucional</label>
-                            <select class="form-select prGobiernoEstudiantil" aria-label="Default select example" id="prGobierno"
-                                name="prGobierno" required>
+                            <label for="esGobierno" class="form-label"><i class="obligacion">*</i>Gobierno Institucional</label>
+                            <select class="form-select prGobiernoEstudiantil" aria-label="Default select example" id="esGobierno"
+                                name="esGobierno" required>
                                 <option value="" selected>Seleccione...</option>
                             </select>
                         
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" id="botonCerrar" data-bs-dismiss="modal">Cerrar</button>
-                            <button type="button" class="btn btn-primary btn_registrar" id="recordTeacher">Registrar</button>
+                            <button type="button" class="btn btn-primary btn_registrar" id="recordStudent">Registrar</button>
                         </div>
                     </form>
                     <!-- *************************************** cuerpo del modal(Fin) *************************************** -->
@@ -392,13 +349,14 @@
         </div>
     </div>
 
-    <script src="../js/agregadosConsult/prConsulta.js"></script>
-    <script src="../js/agregadosConsult/mainRegistar.js"></script>
+    <script src="../js/agregadosConsult/queryEstudiantes.js"></script>
+    <!-- <!-- <script src="../js/agregadosConsult/mainRegistar.js"></script> -->
 
     <script src="../js/json/consultasOption.js"></script>
-    <script src="../js/crudProfesores/registrarPr.js"></script>
-    <script src="../js/crudProfesores/borrrar.js"></script>
-    <script src="../js/complementos/busquedaTeachers.js"></script>
+    <script src="../js/crudEstudiantes/ejecutador.js"></script>
+    <!-- <script src="../js/crudProfesores/registrarPr.js"></script> -->
+    <!-- <script src="../js/crudProfesores/borrrar.js"></script> --> -->
+    <!-- <script src="../js/complementos/buesquedaEstudiantes.js"></script> -->
     
 
     <!-- script general -->

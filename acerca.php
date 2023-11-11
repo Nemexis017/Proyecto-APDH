@@ -329,6 +329,21 @@
             <div class="testi_item">
               <div class="row">
                 <div class="col-lg-6 col-md-6">
+                <img src="img/fotosColegio/instalaciones/saladesarrollo.jpg" alt="" />
+                </div>
+                <div class="col-lg-6">
+                  <div class="testi_text">
+                    <h4>SALA DE DESARROLLO</h4>
+                    <p>
+                      En esta sala se desarrolla todo lo que tenga ver con sistema, exposiciones de diferentes materias y también es utilizada para robotica.
+                   </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="testi_item">
+              <div class="row">
+                <div class="col-lg-6 col-md-6">
                  <img src="img/fotosColegio/instalaciones/INGLES.jpg" alt="" />
                 </div>
                 <div class="col-lg-6 " >

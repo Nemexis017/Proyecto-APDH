@@ -1,4 +1,5 @@
 window.addEventListener('load', ()=>{
+    tablaPersonal();
     document.getElementById('registarPersonal').addEventListener('click', ()=>{
         // ejecutar option de registrar
         let tipoDocumentoMauxi = '#txtTipoDocumentoId'
@@ -11,8 +12,18 @@ window.addEventListener('load', ()=>{
 
     })
 
+    document.getElementById('update').addEventListener('click', function(){
+        let tipoDocumentoMauxi = '#txtTipoDocumentoId_update';
+        let tipoPersona = '#txtTipoPersonaId_update';
+        let municipioResidencia = '#setMunicipioResidencia_update';
+        let municipioNacimiento ='#selMunicipioNacimiento_update';
 
+        municipio(municipioResidencia);
+        municipio(municipioNacimiento);
+        tipoDocumento(tipoDocumentoMauxi); 
+        tipoPersona(tipoPersona);
 
+    })
 })
 
 
