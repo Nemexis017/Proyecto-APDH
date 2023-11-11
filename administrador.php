@@ -18,8 +18,8 @@
                         <div class="banner_content text-center">
                             <h2>ADM</h2>
                             <div class="page_link">
-                                <a href="index.php">Inicio</a>
-                                <a href="administrador.php">Administrador</a>
+                                <a href="index">Inicio</a>
+                                <a href="administrador">Administrador</a>
                             </div>
                         </div>
                         
@@ -46,7 +46,7 @@
                             de inicio de sesión. Si no eres un directivo, te solicitamos amablemente que regreses al inicio.
                             </p>
                             
-                            <a class="primary-btn" href="login.php">
+                            <a class="primary-btn" href="login">
                                 Iniciar Sesión 
                                 <i class="ti-arrow-right ml-1"></i>
                             </a>

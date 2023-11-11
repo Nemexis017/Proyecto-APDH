@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteRule ^index$ index.php
+RewriteRule ^acerca$ acerca.php
+RewriteRule ^profesores_primaria$ profesores_primaria.php
+RewriteRule ^profesores_segudaria$ profesores_segudaria.php
+RewriteRule ^profesores_rurales$ profesores_rurales.php
+RewriteRule ^single-blog$ single-blog.php
+RewriteRule ^contact$ contact.php
+RewriteRule ^administrador$ administrador.php
+RewriteRule ^historia$ historia.php
+RewriteRule ^login$ login.php

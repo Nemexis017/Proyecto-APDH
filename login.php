@@ -51,7 +51,7 @@
             </div>
             <div class="text-center">
                 Vuleve al inicio
-                <a class="color-blue" href="index.php">Inicio</a>
+                <a class="color-blue" href="index">Inicio</a>
             </div>
         </form>
     </div>
