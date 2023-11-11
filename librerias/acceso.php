@@ -6,7 +6,8 @@
     $datosAcceso= new acceso();
 
     session_start();
-    if(isset($_POST['txtUsuario'])== false && isset($_POST['txtClave']) == false){
+    if( (empty($_POST['txtUsuario']) || empty($_POST['txtPassword'])) ){
+        // echo 'esta vacio esto';
         header('location:../login.php');
     }else{
         $usuario= $_POST['txtUsuario'];
@@ -31,7 +32,6 @@
                     AND loginClave = md5(:loginSystemClave);";
 
         $numeroFilas= $conexion->numeroRegistro($sqlAcceso, $values);
-        // echo $numeroFilas; 
         if($numeroFilas == 1){
             $loginPersona= $conexion->consultaValor($sqlAcceso, $values);
 
@@ -41,7 +41,7 @@
                 $_SESSION['personaPrimerApellido'] = $datosLogin['personalMauxiPrimerApellido'];
             }
             
-            header('Location:../principal_info');
+            header('Location:../contenido_dash/principal_info');
 
         }
         else{

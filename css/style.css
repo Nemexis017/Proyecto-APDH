@@ -587,7 +587,7 @@ button:focus {
   margin-left: -104px;
   position: relative;
   z-index: 1;
-  border: 10px solid #f9f9ff;
+  border: 10px solid #ffffff;
 }
 @media (max-width: 991px) {
   .h_blog_item .h_blog_text .h_blog_text_inner.right {
@@ -640,8 +640,8 @@ button:focus {
   margin-bottom: 0px;
 }
 .single_feature:hover {
-  -webkit-box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.1);
-          box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.6784313725);
+          box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.6784313725);
 }
 
 /* End Features Area css
@@ -722,14 +722,12 @@ button:focus {
   top: -34px;
   right: 15px;
   z-index: 2;
-  color: rgb(255, 255, 255);
   display: inline-block;
   height: 65px;
   line-height: 65px;
   width: 65px;
   text-align: center;
   border-radius: 50px;
-  background: rgb(11, 108, 32);
   font-family: "Rubik", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -745,13 +743,15 @@ button:focus {
   padding: 30px 26px;
   background: #f9f9ff;
   position: relative;
+  max-height: 260px;
+  height: 260px;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
 .single_course .course_content .tag {
   padding: 2px 21px;
   font-size: 13px;
-  color: #fff;
+  color: #000000;
   background: rgb(255, 255, 255);
   text-transform: uppercase;
 }
@@ -760,7 +760,7 @@ button:focus {
   font-weight: 500;
 }
 .single_course .course_content h4 a {
-  color: rgb(255, 255, 255);
+  color: #002347;
 }
 .single_course .course_content p {
   margin: 0;
@@ -769,7 +769,42 @@ button:focus {
   margin-top: 25px;
 }
 .single_course .course_content .course_meta .meta_info a {
-  color: rgb(255, 255, 255);
+  color: #002347;
+}
+.single_course .sufro {
+  width: 320px;
+}
+.single_course .course_contenthistoria {
+  padding: 30px 26px;
+  background: #f9f9ff;
+  position: relative;
+  max-height: 260px;
+  height: 90px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.single_course .course_contenthistoria .tag {
+  padding: 2px 21px;
+  font-size: 13px;
+  color: #000000;
+  background: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+.single_course .course_contenthistoria h4 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.single_course .course_contenthistoria h4 a {
+  color: #002347;
+}
+.single_course .course_contenthistoria p {
+  margin: 0;
+}
+.single_course .course_contenthistoria .course_meta {
+  margin-top: 25px;
+}
+.single_course .course_contenthistoria .course_meta .meta_info a {
+  color: #002347;
 }
 .single_course .authr_meta img {
   width: auto !important;
@@ -780,8 +815,8 @@ button:focus {
   font-weight: 500;
 }
 .single_course:hover {
-  -webkit-box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.1);
-          box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: 4px 6px 15px #000000;
+          box-shadow: 4px 6px 15px #000000;
 }
 .single_course:hover .course_head img {
   -webkit-transform: scale(1.2);
@@ -790,10 +825,6 @@ button:focus {
 }
 .single_course:hover .course_content {
   background: #fff;
-}
-.single_course:hover .price {
-  background: rgb(255, 255, 255);
-  color: rgb(11, 108, 32);
 }
 .single_course:hover h4 a {
   color: rgb(11, 108, 32);
@@ -961,7 +992,7 @@ button:focus {
 /* Start Registration Area css
 ============================================================================================ */
 .registration_area {
-  background-image: url(../img/fotosColegio/escuela.jpg);
+  background-image: url(../img/fotosColegio/colegio/escuela.jpg);
   background-blend-mode: soft-light;
   background-color: rgba(0, 0, 0, 0.5921568627);
 }
@@ -1144,7 +1175,7 @@ button:focus {
 ============================================================================================ */
 .events_area {
   padding: 130px 0 100px;
-  background-image: url(../img/fotosColegio/canchaMicro.jpg);
+  background-image: url(../img/fotosColegio/instalaciones/canchaMicro.jpg);
   background-size: 100%;
   background-color: rgba(0, 0, 0, 0.785);
   background-blend-mode: soft-light;
@@ -1442,7 +1473,7 @@ button:focus {
   display: inline-block;
 }
 .blog_info .blog_meta li a i {
-  color: rgb(255, 255, 255);
+  color: #002347;
   font-size: 16px;
   font-weight: 600;
   padding-left: 15px;
@@ -1463,7 +1494,7 @@ button:focus {
 .blog_details h2 {
   font-size: 24px;
   line-height: 36px;
-  color: rgb(255, 255, 255);
+  color: #002347;
   font-weight: 600;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
@@ -2867,8 +2898,99 @@ h6 {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
+*{
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+}
 
-.single-gallery-image:hover {
+.bord{
+  border-radius: 4px;
+}
+
+.forma{
+border-radius: 4px;
+}
+
+.forma .image img{
+  height: 325px !important;
+  width: 245px;
+}
+
+.conrtenedor{
+  position: relative;
+  min-height: 100vh;
+  background-color: #000000a9;
+}
+
+.contenedor .image-contenedor{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 50px;
+
+}
+
+
+.contenedor .image-contenedor .imagen{
+  height: 125px;
+  width: 175px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.1);
+  overflow: hidden;
+  cursor: pointer;
+
+}
+
+.contenedor .image-contenedor .imagen img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: .2s linear;
+}
+
+.contenedor .image-contenedor .imagen:hover img{
+transform: scale(1.1);
+}
+
+.contenedor .popup-image{
+  position: fixed;
+  top: 0; left: 0;
+  background-color: rgba(0, 0, 0, .9);
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  display: none;
+}
+
+.contenedor .popup-image span{
+  position: absolute;
+  top: 0; right: 10px;
+  font-size: 40px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.contenedor .popup-image img{
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 7px;
+  width: 690px;
+  
+  max-height: 550px;
+  object-fit: cover;
+}
+
+
+@media (max-whith:768px){
+  .contenedor .popup-image img{
+    width: 80%;
+  }
+}
+
+.single-gallery-image:hover{
   opacity: 0.8;
 }
 
@@ -4108,16 +4230,9 @@ h6 {
 }
 
 /*---------------------------------------------------- */
-.font-img {
-  background-image: url(../img/fotosColegio/colegio/fotoColegio01.jpg) !important;
-  background-color: rgba(0, 0, 0, 0.708);
-  background-blend-mode: soft-light;
-  background-size: 100%;
-  background-position: 0px -60px;
-}
-
 .content form {
   height: 520px;
+  width: 850px;
   padding: 25px 25px 25px 25px;
   margin: 60px 10px 60px 10px;
   background-color: #ffffff;

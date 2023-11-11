@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^principal_info$ principal_info.php
+RewriteRule ^personal_mauxi$ personal_mauxi.php

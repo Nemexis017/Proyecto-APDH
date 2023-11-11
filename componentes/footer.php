@@ -12,10 +12,10 @@
           <div class="col-lg-4 col-md-6 single-footer-widget">
             <h4>Enlaces rápidos</h4>
             <ul>
-              <li><a href="#">Inicio</a></li>
-              <li><a href="#">Sobre Nosotros</a></li>
-              <li><a href="#">Investor Relations</a></li>
-              <li><a href="#">Terms of Service</a></li>
+              <li><a href="index.php">Inicio</a></li>
+              <li><a href="acerca.php">Sobre Nosotros</a></li>
+              <li><a href="blog.php">Blog</a></li>
+              <li><a href="contact.php">Contacto</a></li>
             </ul>
           </div>
           <!-- <div class="col-lg-2 col-md-6 single-footer-widget">

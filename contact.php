@@ -59,22 +59,14 @@
             </div>
           </div>
           <div class="col-lg-9">
-            <form
-              class="row contact_form needs-validation"
-              action="librerias/correo.php"
-              method="post"
-              id="contactForm"
-              novalidate="novalidate"
-              novalidate
-
-            >
+            <form class="row contact_form needs-validation" action="https://formsubmit.co/olpierjesusfernud@gmail.com" method="post" id="contactForm" novalidate >
               <div class="col-md-6">
                 <div class="form-group">
                   <input
                     type="text"
                     class="form-control"
                     id="txtnombre"
-                    name="txtNombre"
+                    name="name"
                     placeholder="Introduzca su nombre"
                     required
                   />
@@ -84,7 +76,7 @@
                     type="email"
                     class="form-control"
                     id="txtEmail"
-                    name="txtEmail"
+                    name="email"
                     placeholder="Introducir la dirección de correo electrónico"
                     required
                   />
@@ -94,7 +86,7 @@
                     type="text"
                     class="form-control"
                     id="txtAsunto"
-                    name="txtAsunto"
+                    name="subject"
                     placeholder="Ingresar Asunto"
                     required=""
                   />
@@ -104,7 +96,7 @@
                 <div class="form-group">
                   <textarea
                     class="form-control"
-                    name="txtMensaje"
+                    name="comments"
                     id="txtMensaje"
                     rows="1"
                     placeholder="Introducir mensaje"
@@ -116,10 +108,13 @@
                 </div>
               </div>
               <div class="col-md-12 text-right">
-                <button type="submit" value="submit" class="btn primary-btn">
+                <button type="submit" value="Enviar" class="btn primary-btn">
                   Enviar mensaje
                 </button>
               </div>
+              <input type="hidden" name="_next" value="http://localhost/proyectoAPDH/proyectoA-APDH/contact.php">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_template" value="box">
             </form>
           </div>
         </div>

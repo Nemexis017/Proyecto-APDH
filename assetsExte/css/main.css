@@ -1273,6 +1273,8 @@ btn .caret {
       content: "\f066"; }
   .ibox.collapsed-mode .ibox-collapse > i::before {
     content: "\f067"; }
+  .ibox.collapsed-modeIn .ibox-collapseIn > i::before {
+    content: "\f068"; }
 
 .ibox-primary .ibox-head {
   color: #fff;
@@ -1771,7 +1773,9 @@ body.fullscreen-mode {
     left: auto; }
   .input-group-icon.right .form-control {
     padding-left: 12px;
-    padding-right: 33px; }
+    padding-right: 33px; 
+    margin-top: 10px;
+  }
 
 .has-success .form-control, .has-success .form-control:focus {
   border-color: #2ecc71; }
@@ -2907,7 +2911,7 @@ a.text-danger:hover, a.text-danger:focus {
         border-color: #f75a5f; }
   .header .navbar-search {
     padding: 0 15px; }
-    .header .navbar-search .search-icon {
+    .navbar-search .search-icon {
       position: absolute;
       top: 0;
       height: 100%;
@@ -2925,7 +2929,7 @@ a.text-danger:hover, a.text-danger:focus {
       -ms-flex-align: center;
       align-items: center;
       color: #6d7c85; }
-    .header .navbar-search .form-control {
+    .navbar-search .form-control {
       border: 0;
       padding: .65rem 1.25rem .65rem 40px;
       -webkit-border-radius: 200px !important;

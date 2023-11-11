@@ -6,4 +6,33 @@
   color: #495057;
   background-color: #e9ecef !important;
 }
-/*# sourceMappingURL=style_private.css.map */
+
+.barra-nav-control {
+  position: relative;
+  left: -10px;
+  top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-log {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.font-img {
+  background-image: url(../img/fotosColegio/colegio/fotoColegio01.jpg) !important;
+  background-color: rgba(0, 0, 0, 0.708);
+  background-blend-mode: soft-light;
+  background-size: 100%;
+  background-position: 0px -60px;
+}
+
+.btn-user {
+  position: relative;
+  left: -20px;
+  border: none;
+  width: 100px;
+  height: 35px;
+  background-color: rgba(255, 255, 255, 0);
+}/*# sourceMappingURL=style_private.css.map */

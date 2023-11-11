@@ -3,7 +3,7 @@ function update_modal(id_personal_update){
         idVerificacion:id_personal_update,
     };
 
-    fetch('librerias/consulta_individual.php', {
+    fetch('../librerias/consulta_individual.php', {
         method: 'POST',
         body: JSON.stringify(data_update),
         headers: {
@@ -172,6 +172,10 @@ function update_modal(id_personal_update){
         });
     })
     .catch(error => console.log(error)) 
+
+    // document.getElementById('').addEventListener('click', ()=>{
+
+    // })
 }
 
 function actualizar_personal(id_personal){
@@ -216,7 +220,7 @@ function actualizar_personal(id_personal){
             personalMauxiEstudios:personalMauxiEstudios,
         };
     
-        fetch('librerias/actualizar_personal.php', {
+        fetch('../librerias/actualizar_personal.php', {
             method: 'POST',
             body: JSON.stringify(dataPersonal_update),
             headers: {

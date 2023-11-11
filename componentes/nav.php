@@ -22,10 +22,10 @@
                     <ul class="nav navbar-nav menu_nav ml-auto">
                         <!-- la clase "active" sirve como marcador de la seccion -->
                         <li class="nav-item ">
-                            <a class="nav-link" href="index.php">Inicio</a>
+                            <a class="nav-link" href="index">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="acerca.php">Sobre nosotros</a>
+                            <a class="nav-link" href="acerca">Sobre nosotros</a>
                         </li>
                         <li class="nav-item submenu dropdown">
                             <a
@@ -39,13 +39,13 @@
                             >
                             <ul class="dropdown-menu">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="profesores_primaria.php">Primaria</a>
+                                    <a class="nav-link" href="profesores_primaria">Primaria</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="profesores_segudaria.php">Secundaria</a>
+                                    <a class="nav-link" href="profesores_segudaria">Secundaria</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="profesores_rurales.php">Rurales</a>
+                                    <a class="nav-link" href="profesores_rurales">Rurales</a>
                                 </li>
                             </ul>
                         </li>
@@ -60,21 +60,21 @@
                                 >Blog</a
                             >
                             <ul class="dropdown-menu">
-                                <li class="nav-item">
+                                <!-- <li class="nav-item">
                                     <a class="nav-link" href="blog.php">Blog</a>
-                                </li>
+                                </li> -->
                                 <li class="nav-item">
-                                    <a class="nav-link" href="single-blog.php"
-                                        >Blog Details</a
+                                    <a class="nav-link" href="single-blog"
+                                        >Galeria</a
                                     >
                                 </li>
                             </ul>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="contact.php">Contacto</a>
+                            <a class="nav-link" href="contact">Contacto</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="administrador.php">ADM</a>
+                            <a class="nav-link" href="administrador">ADM</a>
                         </li>
                     </ul>
                 </div>

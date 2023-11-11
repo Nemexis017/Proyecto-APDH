@@ -24,8 +24,8 @@
                   El camino de la educación
                 </h2>
                 <div>
-                  <a href="#" class="primary-btn2 mb-3 mb-sm-0">Historia</a>
-                  <a href="#" class="primary-btn ml-sm-3 ml-0">Sobre nosotros</a>
+                  <a href="historia.php" class="primary-btn2 mb-3 mb-sm-0">Historia</a>
+                  <a href="acerca.php" class="primary-btn ml-sm-3 ml-0">Sobre nosotros</a>
                 </div>
               </div>
             </div>
@@ -38,72 +38,73 @@
     <!--================ Start Feature Area =================-->
     <section class="feature_area section_gap_top">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-5">
-            <div class="main_title">
-              <h2 class="mb-3">Valores Institucionales</h2>
-              <p>
-                "Educad a los niños, y no será necesario castigar a los hombres"
-              </p>
+          <div class="row justify-content-center">
+            <div class="col-lg-5">
+              <div class="main_title">
+                <h2 class="mb-3">Valores Institucionales</h2>
+                <p>
+                  "Educad a los niños, y no será necesario castigar a los hombres"
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="single_feature font-valores">
+                <div class="icon d-flex justify-content-center">
+                  <img src="img/fotosColegio/disciplina.png" alt=""  width="100px">
+                </div>
+                <div class="desc">
+                  <h4 class="mt-3 mb-2">Disciplina</h4>
+                  <p class="text-justify">
+                    Un entorno educativo cuidadosamente estructurado y organizado establece
+                    los cimientos esenciales para un aprendizaje efectivo y un crecimiento personal enriquecedor. La disciplina, en nuestro enfoque, va más allá de la simple conformidad con normas; 
+                    se trata de cultivar una cultura arraigada en el respeto mutuo.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="single_feature">
+                <div class="icon d-flex justify-content-center">
+                  <img src="img/fotosColegio/respeto.png" alt="imgen-respeto"  width="100px">
+                </div>
+                <div class="desc">
+                  <h4 class="mt-3 mb-2">Respeto</h4>
+                  <p class="text-justify">
+                    En nuestro colegio, el respeto es un valor fundamental que se promueve con el máximo 
+                    respeto hacia todos los miembros de la comunidad educativa. Creemos firmemente que un ambiente escolar en el que se fomente el respeto mutuo es esencial 
+                    para el aprendizaje efectivo y el crecimiento personal de nuestros estudiantes.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="single_feature">
+                <div class="icon d-flex justify-content-center">
+                  <img src="img/fotosColegio/solidaridad.png" alt="imagen-solidaridad"  width="100px">
+                </div>
+                <div class="desc">
+                  <h4 class="mt-3 mb-2">Solidaridad</h4>
+                  <p class="text-justify">
+                    En nuestro colegio, la solidaridad ocupa un lugar central en nuestra filosofía educativa. 
+                    Valoramos y promovemos este principio con un profundo sentido de compromiso. Creemos firmemente que 
+                    la solidaridad es una piedra angular que contribuye a crear un entorno escolar enriquecedor.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6">
-            <div class="single_feature">
-              <div class="icon d-flex justify-content-center">
-                <img src="img/fotosColegio/disciplina.png" alt=""  width="100px">
-              </div>
-              <div class="desc">
-                <h4 class="mt-3 mb-2">Disciplina</h4>
-                <p class="text-justify">
-                  Un entorno educativo cuidadosamente estructurado y organizado establece
-                  los cimientos esenciales para un aprendizaje efectivo y un crecimiento personal enriquecedor. La disciplina, en nuestro enfoque, va más allá de la simple conformidad con normas; 
-                  se trata de cultivar una cultura arraigada en el respeto mutuo.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="single_feature">
-              <div class="icon d-flex justify-content-center">
-                <img src="img/fotosColegio/respeto.png" alt="imgen-respeto"  width="100px">
-              </div>
-              <div class="desc">
-                <h4 class="mt-3 mb-2">Respeto</h4>
-                <p class="text-justify">
-                  En nuestro colegio, el respeto es un valor fundamental que se promueve con el máximo 
-                  respeto hacia todos los miembros de la comunidad educativa. Creemos firmemente que un ambiente escolar en el que se fomente el respeto mutuo es esencial 
-                  para el aprendizaje efectivo y el crecimiento personal de nuestros estudiantes.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="single_feature">
-              <div class="icon d-flex justify-content-center">
-                <img src="img/fotosColegio/solidaridad.png" alt="imagen-solidaridad"  width="100px">
-              </div>
-              <div class="desc">
-                <h4 class="mt-3 mb-2">Solidaridad</h4>
-                <p class="text-justify">
-                  En nuestro colegio, la solidaridad ocupa un lugar central en nuestra filosofía educativa. 
-                  Valoramos y promovemos este principio con un profundo sentido de compromiso. Creemos firmemente que 
-                  la solidaridad es una piedra angular que contribuye a crear un entorno escolar enriquecedor.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
     <!--================ End Feature Area =================-->
 
-    <!--================ Start Popular Courses Area =================-->
+    <!--================ Enventos Inmportantes start =================-->
     <div class="popular_courses">
       <div class="container">
+        <!-- titulo start -->
         <div class="row justify-content-center">
           <div class="col-lg-5">
             <div class="main_title">
@@ -111,64 +112,84 @@
             </div>
           </div>
         </div>
+        <!-- titulo end -->
         <div class="row">
           <!-- single course -->
           <div class="col-lg-12">
             <div class="owl-carousel active_course">
               <div class="single_course">
                 <div class="course_head">
-                  <img class="img-fluid" src="img/fotosColegio/diaIdioma.jpg" alt="" />
+                  <img class="img-fluid" src="img/fotosColegio/eventos/diaIdioma.jpg" alt="" />
                 </div>
                 <div class="course_content">
-                  <div class="col-12">
-                    DIA DEL IDIOMA
-                  </div>
+                  <span class="price">
+                    <img src="img/iconos/eventos/mujer-espanola.png" alt="">
+                  </span>
+                  <h4 class="mb-3">
+                    <a href="course-details.html">Dia de la lengua española</a>
+                  </h4>
+                  <p class="text-justify">
+                    En nuestra institución, celebramos el Día del Idioma Español para destacar la importancia 
+                    y belleza de nuestra lengua materna.
+                  </p>
+                </div>
+              </div>
+              
+
+              <div class="single_course">
+                <div class="course_head">
+                  <img class="img-fluid" src="img/fotosColegio/eventos/diaMaestro.jpg" alt="" />
+                </div>
+                <div class="course_content">
+                  <span class="price">
+                    <img src="img/iconos/eventos/maestro.png" alt="">
+                  </span>
+                  <h4 class="mb-3">
+                    <a href="course-details.html">Dia del profesor</a>
+                  </h4>
+                  <p>
+                    El Día del Profesor en nuestra escuela es un día especial para honrar y agradecer
+                    a nuestros dedicados educadores. Reconocemos su valioso compromiso en la formación
+                    de futuras generaciones.
+                  </p>
                 </div>
               </div>
 
               <div class="single_course">
                 <div class="course_head">
-                  <img class="img-fluid" src="img/fotosColegio/diaMaestro.jpg" alt="" />
+                  <img class="img-fluid" src="img/fotosColegio/eventos/deportivoMestros.jpg" alt="" />
                 </div>
                 <div class="course_content">
-                  <div class="col-12 row">
-                    DIA DEL MAESTRO
-                  </div>
+                  <span class="price">
+                    <img src="img/iconos/eventos/docentePortes.png" alt="">
+                  </span>
+                  <h4 class="mb-3">
+                    <a href="course-details.html">Deporte con docentes</a>
+                  </h4>
+                  <p class="text-justify">
+                    Nuestros profesores se unen en actividades deportivas para fomentar
+                    el compañerismo y el bienestar.
+                  </p>
                 </div>
               </div>
 
               <div class="single_course">
                 <div class="course_head">
-                  <img class="img-fluid" src="img/fotosColegio/deportivoMestros.jpg" alt="" />
+                  <img class="img-fluid" src="img/fotosColegio/eventos/basar.jpg" alt="" />
                 </div>
                 <div class="course_content">
-                  <div class="col-12 row">
-                    EVENTO DEPORTIVO DE DOCENCIA
-                  </div>
+                  <span class="price">
+                    <img src="img/iconos/eventos/compartir.png" alt="">
+                  </span>
+                  <h4 class="mb-3">
+                    <a href="course-details.html">Gran demostracion de comidas tipicas</a>
+                  </h4>
+                  <p>
+                    Realizamos demostraciones de comidas típicas para celebrar la diversidad cultural
+                    y disfrutar de sabores auténticos de todo el mundo.
+                  </p>
                 </div>
               </div>
-
-              <div class="single_course">
-                <div class="course_head">
-                  <img class="img-fluid" src="img/fotosColegio/basar.jpg" alt="" />
-                </div>
-                <div class="course_content">
-                  <div class="col-12 row">
-                    GRAN COMPARTIR
-                  </div>
-                </div>
-              </div>
-
-              <!-- <div class="single_course">
-                <div class="course_head">
-                  <img class="img-fluid" src="img/courses/c2.jpg" alt="" />
-                </div>
-                <div class="course_content">
-                  <div class="col-12 row">
-                    JESUS
-                  </div>
-                </div>
-              </div> -->
             </div>
             <div class="col-12 row d-flex justify-content-sm-center">
               <a href="#" class="primary-btn">Ver más detalles</a>
@@ -177,9 +198,9 @@
         </div>
       </div>
     </div>
-    <!--================ End Popular Courses Area =================-->
+    <!--================ Eventos Importantes end =================-->
 
-    <!--================ Start Registration Area =================-->
+    <!--================ Estudiantes startat =================-->
     <div class="section_gap registration_area">
       <div class="container">
         <div class="row align-items-center">
@@ -195,19 +216,19 @@
                 </p>
               </div>
               <div class="col clockinner1 clockinner">
-                <h1 class="days">150</h1>
+                <h1 class="days">430</h1>
                 <p class="smalltext">Secundaria</p>
               </div>
               <div class="col clockinner clockinner1">
-                <h1 class="hours">34</h1>
+                <h1 class="hours">250</h1>
                 <p class="smalltext">Primaria</p>
               </div>
               <div class="col clockinner clockinner1">
-                <h1 class="minutes">47</h1>
+                <h1 class="minutes">35</h1>
                 <p class="smalltext">Rural</p>
               </div>
               <div class="col clockinner clockinner1">
-                <h1 class="seconds">59</h1>
+                <h1 class="seconds">60</h1>
                 <p class="smalltext">Pre-Escolar</p>
               </div>
             </div>
@@ -233,7 +254,7 @@
         </div>
       </div>
     </div>
-    <!--================ End Registration Area =================-->
+    <!--================ Estudiantes end =================-->
 
     <!--================ Start Trainers Area =================-->
     <section class="trainer_area section_gap_top">
@@ -242,9 +263,6 @@
           <div class="col-lg-5">
             <div class="main_title">
               <h2 class="mb-3">Directivos</h2>
-              <p>
-                Replenish man have thing gathering lights yielding shall you
-              </p>
             </div>
           </div>
         </div>
@@ -253,13 +271,12 @@
             <div class="thumb d-flex justify-content-sm-center">
               <img class="img-fluid" src="img/.jpeg" alt="" />
             </div>
-            <div class="meta-text text-sm-center">
+            <div class="meta-text text-sm-center ">
               <h4>Alirio Guevara Sanchez</h4>
               <p class="designation">Rector</p>
               <div class="mb-4">
                 <p>
-                  If you are looking at blank cassettes on the web, you may be
-                  very confused at the.
+                  Mantiene el control y el orden de colegio y sus intituciones,cuida y ama a maria auxiliadora, es el pilar de los estudiantes.
                 </p>
               </div>
               <div class="align-items-center justify-content-center d-flex">
@@ -280,8 +297,7 @@
               <p class="designation">Coordinadora Disciplinaria</p>
               <div class="mb-4">
                 <p>
-                  If you are looking at blank cassettes on the web, you may be
-                  very confused at the.
+                 Encargada de mantener la disciplina adentro de la institución.Hacer protocolos y mantener control, vela por el bienestar de los estudiantes .
                 </p>
               </div>
               <div class="align-items-center justify-content-center d-flex">
@@ -302,8 +318,7 @@
               <p class="designation">Coordinador Académico</p>
               <div class="mb-4">
                 <p>
-                  If you are looking at blank cassettes on the web, you may be
-                  very confused at the.
+                  Organiza los horarios y planifica los periodos y habilita la plataforma de evaluación.Ayuda a mantener el orden en la intitución.
                 </p>
               </div>
               <div class="align-items-center justify-content-center d-flex">
@@ -324,8 +339,7 @@
               <p class="designation">Secretaria</p>
               <div class="mb-4">
                 <p>
-                  If you are looking at blank cassettes on the web, you may be
-                  very confused at the.
+                  Lleva todo el registro del colegio organizado por años y hace las matriculas para los nuevos y viejos estudiantes de la institución.
                 </p>
               </div>
               <div class="align-items-center justify-content-center d-flex">
@@ -358,7 +372,7 @@
           <div class="col-lg-6 col-md-6">
             <div class="single_event position-relative">
               <div class="event_thumb">
-                <img src="img/event/e1.jpg" alt="" />
+                <img src="img/fotosColegio/colegio/dia1.jpg" width="550px"  height="400px" alt="" />
               </div>
               <div class="event_details">
                 <div class="d-flex mb-4">
@@ -376,8 +390,7 @@
                   </div>
                 </div>
                 <p>
-                  One make creepeth man for so bearing their firmament won't
-                  fowl meat over seas great
+                  En esta estan la mayoría de estudiantes,estudian más horas y presentan trabajos diariamente.
                 </p>
                 <a href="#" class="primary-btn rounded-0 mt-3">View Details</a>
               </div>
@@ -386,7 +399,7 @@
           <div class="col-lg-6 col-md-6">
             <div class="single_event position-relative">
               <div class="event_thumb">
-                <img src="img/event/e2.jpg" alt="" />
+                <img src="img/fotosColegio/colegio/noche1.jpg"  height="400px"  alt="" />
               </div>
               <div class="event_details">
                 <div class="d-flex mb-4">
@@ -397,16 +410,15 @@
 
                   <div class="time-location">
                     <p>
-                      <span class="ti-time mr-2"></span> 12:00 AM - 12:30 AM
+                      <span class="ti-time mr-2"></span>5:00 PM - 9:00 PM  
                     </p>
                     <p>
-                      <span class="ti-location-pin mr-2"></span> Hilton Quebec
+                       JORNADA NOCTURNA
                     </p>
                   </div>
                 </div>
                 <p>
-                  One make creepeth man for so bearing their firmament won't
-                  fowl meat over seas great
+                 Los estudiantes de la nocturna tienen clases y presentan trabajos de la misma manera que la jornada diurna.
                 </p>
                 <a href="#" class="primary-btn rounded-0 mt-3">View Details</a>
               </div>
@@ -426,127 +438,34 @@
     <!--================ End Events Area =================-->
 
     <!--================ Start Testimonial Area =================-->
-    <div class="testimonial_area section_gap">
+    <section class="about_area section_gap">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-5">
-            <div class="main_title">
-              <h2 class="mb-3">Client say about me</h2>
-              <p>
-                Replenish man have thing gathering lights yielding shall you
-              </p>
+        <div class="row h_blog_item">
+          <div class="col-lg-6">
+            <div class="h_blog_img">
+              <img class="img-fluid" src="img/csmEducativo3.jpg" alt="" width="760px" >
             </div>
           </div>
-        </div>
-
-        <div class="row">
-          <div class="testi_slider owl-carousel">
-            <div class="testi_item">
-              <div class="row">
-                <div class="col-lg-4 col-md-6">
-                  <img src="img/testimonials/t1.jpg" alt="" />
-                </div>
-                <div class="col-lg-8">
-                  <div class="testi_text">
-                    <h4>Elite Martin</h4>
-                    <p>
-                      Him, made can't called over won't there on divide there
-                      male fish beast own his day third seed sixth seas unto.
-                      Saw from
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="testi_item">
-              <div class="row">
-                <div class="col-lg-4 col-md-6">
-                  <img src="img/testimonials/t2.jpg" alt="" />
-                </div>
-                <div class="col-lg-8">
-                  <div class="testi_text">
-                    <h4>Davil Saden</h4>
-                    <p>
-                      Him, made can't called over won't there on divide there
-                      male fish beast own his day third seed sixth seas unto.
-                      Saw from
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="testi_item">
-              <div class="row">
-                <div class="col-lg-4 col-md-6">
-                  <img src="img/testimonials/t1.jpg" alt="" />
-                </div>
-                <div class="col-lg-8">
-                  <div class="testi_text">
-                    <h4>Elite Martin</h4>
-                    <p>
-                      Him, made can't called over won't there on divide there
-                      male fish beast own his day third seed sixth seas unto.
-                      Saw from
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="testi_item">
-              <div class="row">
-                <div class="col-lg-4 col-md-6">
-                  <img src="img/testimonials/t2.jpg" alt="" />
-                </div>
-                <div class="col-lg-8">
-                  <div class="testi_text">
-                    <h4>Davil Saden</h4>
-                    <p>
-                      Him, made can't called over won't there on divide there
-                      male fish beast own his day third seed sixth seas unto.
-                      Saw from
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="testi_item">
-              <div class="row">
-                <div class="col-lg-4 col-md-6">
-                  <img src="img/testimonials/t1.jpg" alt="" />
-                </div>
-                <div class="col-lg-8">
-                  <div class="testi_text">
-                    <h4>Elite Martin</h4>
-                    <p>
-                      Him, made can't called over won't there on divide there
-                      male fish beast own his day third seed sixth seas unto.
-                      Saw from
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="testi_item">
-              <div class="row">
-                <div class="col-lg-4 col-md-6">
-                  <img src="img/testimonials/t2.jpg" alt="" />
-                </div>
-                <div class="col-lg-8">
-                  <div class="testi_text">
-                    <h4>Davil Saden</h4>
-                    <p>
-                      Him, made can't called over won't there on divide there
-                      male fish beast own his day third seed sixth seas unto.
-                      Saw from
-                    </p>
-                  </div>
-                </div>
+          <div class="col-lg-6">
+            <div class="h_blog_text">
+              <div class="h_blog_text_inner left right">
+                <h4>Plataforma de notas</h4>
+                <p class="text-justify">
+                  Nuestra institución educativa ha implementado una plataforma de calificaciones llamada CSM. 
+                  Con esta herramienta, mantenemos un registro preciso del rendimiento de los estudiantes, permitiendo 
+                  un acceso sencillo a calificaciones, asistencia y comunicación con los docentes. CSM es una solución 
+                  eficaz para mantener a todos informados sobre el progreso académico de nuestros alumnos.
+                </p>
+                <a class="primary-btn" href="https://play.google.com/store/apps/details?id=com.csm.educativo&hl=es_CO&gl=US" TARGET="_BLANK" >
+                  Descarga la aplicacion
+                  <i class="ti-arrow-right ml-1"></i>
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <!--================ End Testimonial Area =================-->
 
     <!--================ Start footer Area  =================-->

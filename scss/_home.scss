@@ -27,7 +27,7 @@
         margin-left: -104px;
         position: relative;
         z-index: 1;
-        border: 10px solid $offwhite;
+        border: 10px solid #ffffff;
         @media (max-width: 991px) {
           margin-left: 0px;
         }
@@ -78,9 +78,11 @@
     margin-bottom: 0px;
   }
   &:hover {
-    box-shadow: 0px 10px 30px rgba($title-color, 0.1);
+    box-shadow: 0px 10px 30px #000000ad;
   }
 }
+
+
 
 /* End Features Area css
 ============================================================================================ */
@@ -131,6 +133,7 @@
   .course_head {
     position: relative;
     overflow: hidden;
+    // object-fit: cover;
     img {
       @include transition();
     }
@@ -141,17 +144,16 @@
     top: -34px;
     right: 15px;
     z-index: 2;
-    color: $title-color;
     display: inline-block;
     height: 65px;
     line-height: 65px;
     width: 65px;
     text-align: center;
     border-radius: 50px;
-    background: $primary-color;
     font-family: $title-font;
     font-weight: 500;
     font-size: 20px;
+    // overflow: hidden;
     @include transition();
     img {
       margin-top: -8px;
@@ -162,11 +164,13 @@
     padding: 30px 26px;
     background: $offwhite;
     position: relative;
+    max-height: 260px;
+    height: 260px;
     @include transition();
     .tag {
       padding: 2px 21px;
       font-size: 13px;
-      color: #fff;
+      color: #000000;
       background: $title-color;
       text-transform: uppercase;
     }
@@ -174,7 +178,7 @@
       font-size: 20px;
       font-weight: 500;
       a {
-        color: $title-color;
+        color: $letra;
       }
     }
     p {
@@ -184,7 +188,46 @@
       margin-top: 25px;
       .meta_info {
         a {
-          color: $title-color;
+          color: $letra;
+        }
+      }
+    }
+  }
+
+
+  .sufro{
+    width: 320px;
+  }
+
+  .course_contenthistoria {
+    padding: 30px 26px;
+    background: $offwhite;
+    position: relative;
+    max-height: 260px;
+    height: 90px;
+    @include transition();
+    .tag {
+      padding: 2px 21px;
+      font-size: 13px;
+      color: #000000;
+      background: $title-color;
+      text-transform: uppercase;
+    }
+    h4 {
+      font-size: 20px;
+      font-weight: 500;
+      a {
+        color: $letra;
+      }
+    }
+    p {
+      margin: 0;
+    }
+    .course_meta {
+      margin-top: 25px;
+      .meta_info {
+        a {
+          color: $letra;
         }
       }
     }
@@ -200,7 +243,7 @@
     }
   }
   &:hover {
-    box-shadow: 0px 10px 30px rgba($title-color, 0.1);
+    box-shadow: 4px 6px 15px #000000;
     .course_head {
       img {
         @include transform(scale(1.2));
@@ -209,10 +252,10 @@
     .course_content {
       background: #fff;
     }
-    .price {
-      background: $title-color;
-      color: $primary-color;
-    }
+    // .price {
+    //   // background: $title-color;
+    //   // color: $primary-color;
+    // }
     h4 {
       a {
         color: $primary-color;
@@ -387,7 +430,7 @@
 ============================================================================================ */
 
 .registration_area {
-  background-image: url(../img/fotosColegio/escuela.jpg);
+  background-image: url(../img/fotosColegio/colegio/escuela.jpg);
   background-blend-mode: soft-light;
   background-color: #00000097;
 }
@@ -533,7 +576,7 @@
 
 .events_area {
   padding: 130px 0 100px;
-  background-image: url(../img/fotosColegio/canchaMicro.jpg);
+  background-image: url(../img/fotosColegio/instalaciones/canchaMicro.jpg);
   background-size: 100%;
   background-color: rgba(0, 0, 0, 0.785);
   background-blend-mode: soft-light;

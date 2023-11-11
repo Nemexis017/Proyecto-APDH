@@ -1,6 +1,6 @@
 <div class="page-brand">
     <div class="col-12 d-flex justify-content-center">
-        <img src="img/iconos/logoMauxi02.icon" width="40px" />
+        <img src="../img/iconos/logoMauxi02.icon" width="40px" />
     </div>
     <a class="link" href="index.html">
         <span class="brand">
@@ -15,15 +15,32 @@
         <li>
             <a class="nav-link sidebar-toggler js-sidebar-toggler"><i class="ti-menu"></i></a>
         </li>
-        <li>
-            <!-- <form class="navbar-search" action="javascript:;">
+    </ul>
+    <ul class="nav navbar-toolbar">
+        <li class="dropdown dropdown-user">
+            <div class="btn-group">
+                <button class="btn-user dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="../assetsExte/img/admin-avatar.png" width="40px">
+                        Usuario  <i class="fa-solid fa-caret-down"></i>
+                </button>
+                <ul class="dropdown-menu">
+
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="../librerias/cerrar.php"><i class="fa fa-power-off"></i> Cerrar sesión</a></li>
+                </ul>
+            </div>
+
+        </li>
+        <!-- <li>
+            <form class="navbar-search" action="javascript:;">
                 <div class="rel">
                     <span class="search-icon"><i class="ti-search"></i></span>
                     <input class="form-control" placeholder="Search here...">
                 </div>
-            </form> -->
-        </li>
+            </form>
+        </li> -->
     </ul>
+    
     <!-- FINAL DE LA BARRA DE HERRAMIENTAS SUPERIOR IZQUIERDA -->
 
     <!-- INICIO BARRA DE HERRAMIENTAS SUPERIOR DERECHA-->

@@ -4,20 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
-    <title>Administrador Institucional</title>
+    <title>Acceso (Admi)</title>
 
     <!-- icono de la institucion -->
     <link rel="icon" href="img/iconos/logoMauxi02.icon" />
 
     <!-- GLOBAL MAINLY STYLES-->
-    <link href="assetsExte/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="assetsExte/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="assetsExte/vendors/font-awesome/css/font-awesome.css" rel="stylesheet" />
     <link href="assetsExte/vendors/themify-icons/css/themify-icons.css" rel="stylesheet" />
-    <!-- THEME STYLES-->
+
     <link href="assetsExte/css/main.css" rel="stylesheet"/>
-    <!-- PAGE LEVEL STYLES-->
     <link href="assetsExte/css/pages/auth-light.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style_private.css">
 </head>
 <body class="font-img">
     <div class="content">
@@ -28,49 +27,38 @@
             </div>
             <div class="form-group">
                 <div class="input-group-icon right">
-                    <div class="input-icon"><i class="fa-solid fa-user"></i></div>
-                    <input class="form-control" type="txtUsuario" name="txtUsuario" placeholder="Usuario" autocomplete="off" required>
-                    <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                    <input class="form-control" type="text" name="txtUsuario" placeholder="Usuario" required>
+                    <div class="invalid-feedback">
                         Ingrese el usuario
                     </div>
                 </div>
             </div>
             <div class="form-group">
                 <div class="input-group-icon right">
-                    <div class="input-icon"><i class="fa fa-lock font-16"></i></div>
                     <input class="form-control" type="password" name="txtPassword" placeholder="Contraseña" required>
-                    <div id="validationServerUsernameFeedback" class="invalid-feedback">
-                        Ingrese su contraseña
+                    <div class="invalid-feedback">
+                        Ingrese la contraseña
                     </div>
                 </div>
             </div>
             <div class="form-group d-flex justify-content-between">
                 <label class="ui-checkbox ui-checkbox-info">
                 </label>
-                <a href="forgot_password.html">¿Has olvidado tu contraseña?</a>
+                <a href="#">¿Has olvidado tu contraseña?</a>
             </div>
             <div class="form-group">
-                <button class="btn btn-info btn-block" type="submit">iniciar sesión</button>
+                <button class="btn btn-info btn-log" type="submit">iniciar sesión</button >
             </div>
             <div class="text-center">
                 Vuleve al inicio
-                <a class="color-blue" href="index.php">Inicio</a>
+                <a class="color-blue" href="index">Inicio</a>
             </div>
         </form>
     </div>
-    <!-- BEGIN PAGA BACKDROPS-->
-    <div class="sidenav-backdrop backdrop"></div>
-    <!-- END PAGA BACKDROPS-->
-    <!-- CORE PLUGINS -->
+
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
     <script src="js/validacion/validacion.js"></script>
-    <script src="./assets/vendors/jquery/dist/jquery.min.js" type="text/javascript"></script>
-    <script src="./assets/vendors/popper.js/dist/umd/popper.min.js" type="text/javascript"></script>
-    <script src="./assets/vendors/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
-    <!-- PAGE LEVEL PLUGINS -->
-    <script src="./assets/vendors/jquery-validation/dist/jquery.validate.min.js" type="text/javascript"></script>
-    <!-- CORE SCRIPTS-->
-    <script src="assets/js/app.js" type="text/javascript"></script>
-    <!-- PAGE LEVEL SCRIPTS-->
 </body>
 
 </html>

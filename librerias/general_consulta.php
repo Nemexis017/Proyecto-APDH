@@ -3,34 +3,34 @@
     $conexion= new conexion(); 
 
     $sqlConsultaGeneral= "SELECT `personalmauxi`.`personalMauxiId`,
-                                `personalmauxi`.`tipoPersonaId`,
-                                tipoPersonaNombre,
-                                `personalmauxi`.`tipoDocumentoId`,
-                                tipoDocumentoSigla,
-                                `personalmauxi`.`personalMauxiDocumento`,
-                                `personalmauxi`.`personalMauxiCargo`,
-                                `personalmauxi`.`personalMauxiNombres`,
-                                `personalmauxi`.`personalMauxiPrimerApellido`,
-                                `personalmauxi`.`personalMauxiSegundoApellido`,
-                                `personalmauxi`.`personalMauxiMunicipioResidencia`,
-                                MR.municipioNombre as MunResidencia ,
-                                `personalmauxi`.`personalMauxiMunicipioNacimiento`,
-                                MN.municipioNombre as MunNacimiento,
-                                `personalmauxi`.`personalMauxiTelefono`,
-                                `personalmauxi`.`personalMauxiFechaNacimiento`,
-                                `personalmauxi`.`personalMauxiEmail`,
-                                `personalmauxi`.`personalMauxiExperiencia`,
-                                `personalmauxi`.`personalMauxiAnosExperiencia`,
-                                `personalmauxi`.`personalMauxiEstudios`
-                            FROM `mauxi`.`personalmauxi`
-                            INNER JOIN tipopersona 
-                                ON personalmauxi.tipoPersonaId = tipopersona.tipoPersonaId 
-                            INNER JOIN tipodocumento 
-                                ON personalmauxi.tipoDocumentoId = tipodocumento.tipoDocumentoId 
-                            INNER JOIN municipio MR
-                                ON personalMauxiMunicipioResidencia = MR.municipioId 
-                            INNER JOIN municipio MN 
-                                ON personalMauxiMunicipioNacimiento = MN.municipioId";
+                            `personalmauxi`.`tipoPersonaId`,
+                            tipoPersonaNombre,
+                            `personalmauxi`.`tipoDocumentoId`,
+                            tipoDocumentoSigla,
+                            `personalmauxi`.`personalMauxiDocumento`,
+                            `personalmauxi`.`personalMauxiCargo`,
+                            `personalmauxi`.`personalMauxiNombres`,
+                            `personalmauxi`.`personalMauxiPrimerApellido`,
+                            `personalmauxi`.`personalMauxiSegundoApellido`,
+                            `personalmauxi`.`personalMauxiMunicipioResidencia`,
+                            MR.municipioNombre as MunResidencia ,
+                            `personalmauxi`.`personalMauxiMunicipioNacimiento`,
+                            MN.municipioNombre as MunNacimiento,
+                            `personalmauxi`.`personalMauxiTelefono`,
+                            `personalmauxi`.`personalMauxiFechaNacimiento`,
+                            `personalmauxi`.`personalMauxiEmail`,
+                            `personalmauxi`.`personalMauxiExperiencia`,
+                            `personalmauxi`.`personalMauxiAnosExperiencia`,
+                            `personalmauxi`.`personalMauxiEstudios`
+                        FROM `mauxi`.`personalmauxi`
+                        INNER JOIN tipopersona 
+                            ON personalmauxi.tipoPersonaId = tipopersona.tipoPersonaId 
+                        INNER JOIN tipodocumento 
+                            ON personalmauxi.tipoDocumentoId = tipodocumento.tipoDocumentoId 
+                        INNER JOIN municipio MR
+                            ON personalMauxiMunicipioResidencia = MR.municipioId 
+                        INNER JOIN municipio MN 
+                            ON personalMauxiMunicipioNacimiento = MN.municipioId";
 
     $resultadoPersonal= $conexion->consulta($sqlConsultaGeneral);
 

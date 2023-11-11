@@ -6,7 +6,7 @@ function eliminarRegistro(personalId){
     };
 
     
-    fetch('librerias/consulta_individual.php',{
+    fetch('../librerias/consulta_individual.php',{
         method: 'POST',
         body: JSON.stringify(data_verificacion),
         headers: {
@@ -34,7 +34,7 @@ function eliminarRegistro(personalId){
             idPersonal:personalId,
         };
 
-        fetch('librerias/borrar_personal.php', {
+        fetch('../librerias/borrar_personal.php', {
             method: 'POST',
             body: JSON.stringify(data_delete),
             headers: {

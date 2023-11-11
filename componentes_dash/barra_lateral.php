@@ -5,7 +5,7 @@
     </div>
     <ul class="side-menu metismenu not-sub">
         <li>
-            <a class="active" href="javascript:void(0);" class="refrescar" data-url="principal_info.php"><i class="sidebar-item-icon fa fa-th-large"></i>
+            <a class="active" href="principal_info.php"><i class="sidebar-item-icon fa fa-th-large"></i>
                 <span class="nav-label not-sub">Inicio</span>
             </a>
         </li>
@@ -16,16 +16,13 @@
                 <span class="nav-label">Panel de control</span><i class="fa fa-angle-left arrow"></i></a>
             <ul class="nav-2-level collapse">
                 <li>
-                    <a href="javascript:void(0);" class="refrescar" data-url="directivos.php">Directivos</a>
+                    <a href="personal_mauxi.php">Personal (general)</a>
                 </li>
                 <li>
-                    <a href="javascript:void(0);" class="refrescar" data-url="">Profesores</a>
+                    <a href="profesores_dash.php">Profesores</a>
                 </li>
                 <li>
-                    <a href="javascript:void(0);" class="refrescar" data-url="personal_mauxi.php">Personal</a>
-                </li>
-                <li>
-                    <a href="javascript:void(0);" class="refrescar" data-url="">Estudiantes</a>
+                    <a href="estudiantes_dash.php">Estudiantes (G)</a>
                 </li>
             </ul>
         </li>
@@ -35,25 +32,16 @@
                 <span class="nav-label">Visualizar</span><i class="fa fa-angle-left arrow"></i></a>
             <ul class="nav-2-level collapse">
                 <li>
-                    <a href="colors.html">Departamentos</a>
-                </li>
-                <li>
-                    <a href="typography.html">Municipios</a>
-                </li>
-                <li>
-                    <a href="panels.html">Tipo de documentos</a>
-                </li>
-                <li>
-                    <a href="buttons.html">Clasificacion de personal</a>
+                    <a href="informacion.php">Informacion Disponible</a>
                 </li>
             </ul>
         </li>
         <li>
-            <a href="icons.html"><i class="sidebar-item-icon fa-solid fa-gear"></i>
-                <span class="nav-label">Configuaración</span>
+            <a href="#"><i class="sidebar-item-icon fa-solid fa-gear"></i>
+                <span class="nav-label">Configuración</span>
             </a>
         </li>
         
     </ul>
 </div>
-<script src="js/complementos/not_refresh.js"></script> 
+<!-- <script src="js/complementos/not_refresh.js"></script>  -->

@@ -42,7 +42,7 @@ document.getElementById('btnRegistrar').onclick = function(){
     };
 
 
-    fetch('librerias/registrar.php', {
+    fetch('../librerias/registrar.php', {
         method: 'POST',
         body: JSON.stringify(dataPersonal),
         headers: {
@@ -54,6 +54,7 @@ document.getElementById('btnRegistrar').onclick = function(){
     .then(data => {
         if(data.registroEjecutado == "OK"){
             tablaPersonal();
+            consultaPersonalPlant();
             limpiar();
             botonCerrar.click();
         }else{
