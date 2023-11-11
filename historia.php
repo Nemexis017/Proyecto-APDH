@@ -258,7 +258,7 @@
                                 <div class="row justify-content-center">
                                 <div class="col-lg-5">
                                     <div class="main_title">
-                                    <h2 class="mb-3">Recuerdos</h2>
+                                    <h2 class="mb-3">PROMOCIONES</h2>
                                     </div>
                                 </div>
                                 </div>
@@ -270,98 +270,66 @@
 
                                     <div class="single_course">
                                         <div class="course_head">
-                                        <img class="img-fluid" src="img/fotosHistoria/img1.jpg" alt="" />
+                                        <img class="img-fluid" src="img/fotosHistoria/g1.jpg" alt="" />
                                         </div>
                                         <div class="course_contenthistoria">
                                         <h4 class="mb-3">
-                                            <a href="course-details.html">Actividad recreacional INEMAUXI</a>
-                                        </h4>
-                                        </div>
-                                    </div>
-                                    
-
-                                    <div class="single_course">
-                                        <div class="course_head">
-                                        <img class="img-fluid" src="img/fotosHistoria/img2.jpg" alt="" />
-                                        </div>
-                                        <div class="course_contenthistoria">
-                                        <h4 class="mb-3">
-                                            <a href="course-details.html">Marcha institucional</a>
-                                        </h4>
-                                        </div>
-                                    </div>
-
-                                    <div class="single_course">
-                                        <div class="sufro">
-                                        <img class="img-fluid" src="img/fotosHistoria/img3.jpg" alt="" />
-                                        </div>
-                                        <div class="course_contenthistoria">
-                                        <h4 class="mb-3">
-                                            <a href="course-details.html">Really</a>
-                                        </h4>
-                                        </div>
-                                    </div>
-
-                                    <div class="single_course">
-                                        <div class="course_head">
-                                        <img class="img-fluid" src="img/fotosHistoria/img4.jpg" alt="" />
-                                        </div>
-                                        <div class="course_contenthistoria">
-                                        <h4 class="mb-3">
-                                            <a href="course-details.html">Recreación de profesores</a>
-                                        </h4>
-                                        </div>
-                                    </div>
-
-                                    <div class="single_course">
-                                        <div class="course_head">
-                                        <img class="img-fluid" src="img/fotosHistoria/img5.jpg" alt="" />
-                                        </div>
-                                        <div class="course_contenthistoria">
-                                        <h4 class="mb-3">
-                                            <a href="course-details.html">Graduación</a>
-                                        </h4>
-                                        </div>
-                                    </div>
-                                    <div class="single_course">
-                                        <div class="course_head">
-                                        <img class="img-fluid" src="img/fotosHistoria/img6.jpg" alt="" />
-                                        </div>
-                                        <div class="course_contenthistoria">
-                                        <h4 class="mb-3">
-                                            <a href="course-details.html">Actividad recreacional INEMAUXI</a>
-                                        </h4>
-                                        </div>
-                                    </div>
-                                    <div class="single_course">
-                                        <div class="course_head">
-                                        <img class="img-fluid" src="img/fotosHistoria/img8.jpg" alt="" />
-                                        </div>
-                                        <div class="course_contenthistoria">
-                                        <h4 class="mb-3">
-                                            <a href="course-details.html">Actividad recreacional Daniel Castro</a>
+                                            <a href="course-details.html"> PROMOCION INEMAUXI</a>
                                         </h4>
                                         </div>
                                     </div>
                                     
                                     <div class="single_course">
                                         <div class="course_head">
-                                        <img class="img-fluid" src="img/fotosHistoria/img5.jpg" alt="" />
+                                        <img class="img-fluid" height="250px"  src="img/fotosHistoria/g2.jpg" alt="" />
                                         </div>
                                         <div class="course_contenthistoria">
                                         <h4 class="mb-3">
-                                            <a href="course-details.html">Graduación</a>
+                                            <a href="course-details.html">PROMOCION INEMAUXI</a>
                                         </h4>
                                         </div>
                                     </div>
 
                                     <div class="single_course">
                                         <div class="course_head">
-                                        <img class="img-fluid" src="img/fotosHistoria/img11.jpg" alt="" />
+                                        <img class="img-fluid" height="200px" src="img/fotosHistoria/g6.jpg" alt="" />
                                         </div>
                                         <div class="course_contenthistoria">
                                         <h4 class="mb-3">
-                                            <a href="course-details.html">Izada de bandera</a>
+                                            <a href="course-details.html">PROMOCION INEMAUXI</a>
+                                        </h4>
+                                        </div>
+                                    </div>
+                                    <div class="single_course">
+                                        <div class="course_head">
+                                        <img class="img-fluid" src="img/fotosHistoria/g7.jpg" alt="" />
+                                        </div>
+                                        <div class="course_contenthistoria">
+                                            <h4 class="mb-3">
+                                                <a href="course-details.html">PROMOCION INEMAUXI</a>
+                                            </h4>
+                                        
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="single_course">
+                                        <div class="course_head">
+                                        <img class="img-fluid"  src="img/fotosHistoria/g8.jpg" alt="" />
+                                        </div>
+                                        <div class="course_contenthistoria">
+                                        <h4 class="mb-3">
+                                            <a href="course-details.html">PROMOCION INEMAUXI</a>
+                                        </h4>
+                                        </div>
+                                    </div>
+
+                                    <div class="single_course">
+                                        <div class="course_head">
+                                        <img class="img-fluid"  src="img/fotosHistoria/g9.jpg" alt="" />
+                                        </div>
+                                        <div class="course_contenthistoria">
+                                        <h4 class="mb-3">
+                                            <a href="course-details.html">PROMOCION INEMAUXI</a>
                                         </h4>
                                         </div>
                                     </div>

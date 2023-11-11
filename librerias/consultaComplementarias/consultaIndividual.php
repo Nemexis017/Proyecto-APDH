@@ -31,7 +31,9 @@
                             `profesores`.`gobiernoEstudiantilId`,
                             gobiernoEstudiantilNombre,
                             `profesores`.`sede_institucionalId`,
-                            sede_institucionalNombre
+                            sede_institucionalNombre,
+                            profesoresFotografia
+                    
                         FROM `mauxi`.`profesores`
                         INNER JOIN tipopersona 
                             ON profesores.tipoPersonaId = tipopersona.tipoPersonaId 
@@ -75,7 +77,8 @@
             "gobiernoEstudiantilId" => $filaIndProfesores['gobiernoEstudiantilId'],
             "gobiernoEstudiantilNombre" => $filaIndProfesores['gobiernoEstudiantilNombre'],
             "sede_institucionalId" => $filaIndProfesores['sede_institucionalId'],
-            "sede_institucionalNombre" => $filaIndProfesores['sede_institucionalNombre']
+            "sede_institucionalNombre" => $filaIndProfesores['sede_institucionalNombre'],
+            "profesoresFotografia" => $filaIndProfesores['profesoresFotografia']
         ];
     }
 

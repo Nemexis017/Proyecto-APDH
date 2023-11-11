@@ -18,7 +18,7 @@ function consultaProfesores(){
                             <td>${item.profesoresSegundoApellido}</td>
                             <td>${item.sede_institucionalNombre}</td>
                             <td>
-                                <button  onclick="update_modal(${item.personalMauxiId});" class='btn btn-default btn-xs m-r-5' data-bs-toggle="modal" data-bs-target="#modal-3"><i class='fa fa-pencil font-14'></i></button>
+                                <button  onclick="updateTeacher(${item.profesoresId});" class='btn btn-default btn-xs m-r-5' data-bs-toggle="modal" data-bs-target="#modal-3"><i class='fa fa-pencil font-14'></i></button>
                                 <button id="delete" onclick="deleteTeacher(${item.profesoresId});" class='btn btn-default btn-xs' data-bs-toggle="modal" data-bs-target="#profesores-delete"><i class='fa fa-trash font-14'></i></button>
                             </td>
             `; 

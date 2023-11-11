@@ -333,7 +333,7 @@
                   <div class="testi_text">
                     <h4>SALA DE DESARROLLO</h4>
                     <p>
-                      En esta sala se desarrolla todo lo que tenga ver con sistema, exposiciones de diferentes materias y también es utilizada para robotica.
+                      En esta sala se desarrolla todo lo que tenga ver con sistema, exposiciones  y también es utilizada para robotica.
                    </p>
                   </div>
                 </div>
