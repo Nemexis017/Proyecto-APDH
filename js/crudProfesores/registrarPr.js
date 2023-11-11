@@ -24,34 +24,38 @@ document.getElementById('recordTeacher').onclick = function(){
     const gobiernoEstudiantilId = document.getElementById("prGobierno").value;
     const sede_institucionalId = document.getElementById("sedeInstitucionalId").value;
 
-    console.log(profesoresDocumento);
-    // Crear un objeto con los datos
-    const dataProfesores = {
-        prtipoDocumentoId, 
-        prtipoPersonaId, 
-        profesoresDocumento, 
-        profesoresNombres, 
-        profesoresPrimerApellido, 
-        profesoresSegundoApellido, 
-        profesoresMunicipioResidencia,
-        profesoresMunicipioNacimiento, 
-        profesoresTelefono,
-        profesoresFechaNacimiento, 
-        profesoresEmail, 
-        profesoresMateria, 
-        profesoresExperiencia ,
-        profesoresAnoExperiencia,
-        profesoresTitulos, 
-        gobiernoEstudiantilId ,
-        sede_institucionalId
-    };
+
+    const formData = new FormData();
+
+    formData.append('prtipoDocumentoId',prtipoDocumentoId)
+    formData.append('prtipoPersonaId',prtipoPersonaId)
+    formData.append('profesoresDocumento',profesoresDocumento)
+    formData.append('profesoresNombres',profesoresNombres)
+    formData.append('profesoresPrimerApellido',profesoresPrimerApellido)
+    formData.append('profesoresSegundoApellido',profesoresSegundoApellido)
+    formData.append('profesoresMunicipioResidencia',profesoresMunicipioResidencia)
+    formData.append('profesoresMunicipioNacimiento',profesoresMunicipioNacimiento)
+    formData.append('profesoresTelefono',profesoresTelefono)
+    formData.append('profesoresFechaNacimiento',profesoresFechaNacimiento)
+    formData.append('profesoresEmail',profesoresEmail)
+    formData.append('profesoresMateria',profesoresMateria)
+    formData.append('profesoresExperiencia',profesoresExperiencia)
+    formData.append('profesoresAnoExperiencia',profesoresAnoExperiencia)
+    formData.append('profesoresTitulos',profesoresTitulos)
+    formData.append('gobiernoEstudiantilId',gobiernoEstudiantilId)
+    formData.append('sede_institucionalId',sede_institucionalId)
+    formData.append('sede_institucionalId',sede_institucionalId)
+
+    const archivoInput = document.getElementById('prFotografia');
+    const archivo = archivoInput.files[0];
+
+    // Añadir el archivo al FormData
+    formData.append('archivo', archivo);
+
 
     fetch('../librerias/crudProfesoresPhp/registrarPr.php', {
         method: 'POST',
-        body: JSON.stringify(dataProfesores),
-        headers: {
-            'Content-Type': 'application/json'
-        },
+        body: formData,
     })
     
     .then(response => response.json())

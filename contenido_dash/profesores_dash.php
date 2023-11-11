@@ -179,7 +179,8 @@
                 </div>
                 <div class="modal-body">
                     <!-- *************************************** cuerpo del modal(inicio) *************************************** -->
-                    <form id="form-registrarProfesores" method="post" class="row g-3 needs-validation" novalidate>
+                    <form id="form-registrarProfesores" method="post" class="row g-3 needs-validation" enctype="multipart/form-data" novalidate>
+
                         <div class="col-md-12">
                             <i class="aviso-obligacion">los campos obligatorios contienen<i class="obligacion">*</i></i>
                         </div>
@@ -321,7 +322,11 @@
                                 name="prGobierno" required>
                                 <option value="" selected>Seleccione...</option>
                             </select>
-                        
+                        </div>
+                        <div class="col-md-12">
+                            <label for="prTipoPersonaId" class="form-label"><i class="obligacion">*</i>Fotografia</label>
+                            <input type="file" class="form-control" name="prFotografia" id="prFotografia">
+
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" id="botonCerrar" data-bs-dismiss="modal">Cerrar</button>

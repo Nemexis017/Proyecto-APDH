@@ -1,3 +1,10 @@
+<?php
+  include('librerias/conexion.php');
+  $conexion = new conexion();
+  $sqlProfesores=  "SELECT * FROM mauxi.profesores"; 
+  $resultadoProfesores= $conexion->consulta($sqlProfesores);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -204,6 +211,39 @@
               </div>
             </div>
           </div>
+
+          <?php 
+            foreach($resultadoProfesores as $filaProfesores){
+              $nombreProfesor = $filaProfesores['profesoresNombres'];
+              $primerApellidoProfesor = $filaProfesores['profesoresPrimerApellido'];
+              $titulosProfesor = $filaProfesores['profesoresTitulos'];
+              $fotografia = $filaProfesores['profesoresFotografia'];
+
+              echo '
+                <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
+                  <div class="thumb d-flex justify-content-sm-center">
+                    <img class="img-fluid" src="'.$fotografia.'" alt="" />
+                  </div>
+                  <div class="meta-text text-sm-center">
+                    <h4>'.$nombreProfesor. $primerApellidoProfesor.'</h4>
+                    <p class="designation">'.$titulosProfesor.'</p>
+                    <div class="mb-4">
+                      <p>
+                      </p>
+                    </div>
+                    <div class="align-items-center justify-content-center d-flex">
+                      <a href="#"><i class="ti-facebook"></i></a>
+                      <a href="#"><i class="ti-twitter"></i></a>
+                      <a href="#"><i class="ti-linkedin"></i></a>
+                      <a href="#"><i class="ti-pinterest"></i></a>
+                    </div>
+                  </div>
+                </div>
+              ';
+            }
+          
+          
+          ?>
           
         </div>
       </div>

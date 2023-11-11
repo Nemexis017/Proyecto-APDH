@@ -2,7 +2,18 @@
     include('../conexion.php');
     $conexion= new conexion();
     
-    $data_profesores= json_decode(file_get_contents('php://input'), true);
+    $data_profesores= $_POST;
+
+    $archivo_temporal = $_FILES['archivo']['tmp_name'];
+    $archivo_nombre = $_FILES['archivo']['name'];
+    $ruta_destino = "../../img/fotos_profesores/secundaria/".$archivo_nombre;
+
+    if($archivo_nombre == null){
+        $archivo_nombre = '';
+    }else{
+        move_uploaded_file($archivo_temporal, $ruta_destino);
+        $ruta_destino = 'img/fotos_profesores/secundaria/'.$archivo_nombre;
+    }
     
     $values_profesores= array(
         ":tipoDocumentoId" => $data_profesores['prtipoDocumentoId'],
@@ -21,7 +32,8 @@
         ":profesoresAnoExperiencia" => $data_profesores['profesoresAnoExperiencia'],
         ":profesoresTitulos" => $data_profesores['profesoresTitulos'],
         ":gobiernoEstudiantilId" => $data_profesores['gobiernoEstudiantilId'],
-        ":sede_institucionalId" => $data_profesores['sede_institucionalId']
+        ":sede_institucionalId" => $data_profesores['sede_institucionalId'],
+        ":profesoresFotografia" => $ruta_destino,
     );
 
     $sqlInsertProfesor= "INSERT INTO `mauxi`.`profesores`
@@ -42,7 +54,8 @@
                         `profesoresAnoExperiencia`,
                         `profesoresTitulos`,
                         `gobiernoEstudiantilId`,
-                        `sede_institucionalId`
+                        `sede_institucionalId`,
+                        `profesoresFotografia`
                         )
                         VALUES
                         (
@@ -62,7 +75,8 @@
                             :profesoresAnoExperiencia,
                             :profesoresTitulos,
                             :gobiernoEstudiantilId,
-                            :sede_institucionalId
+                            :sede_institucionalId,
+                            :profesoresFotografia
                         );"; 
 
     if(empty(array_filter($values_profesores))){
