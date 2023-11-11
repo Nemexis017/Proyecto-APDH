@@ -112,29 +112,55 @@
                                 <div class="clf">
                                     <ul class="nav nav-tabs tabs-line nav-fill">
                                         <li class="nav-item">
-                                            <a class="nav-link active" href="#tab-11-1" data-toggle="tab" aria-expanded="false"><i class="fa fa-line-chart"></i> First</a>
+                                            <a class="nav-link active" href="#tab-11-1" data-toggle="tab" aria-expanded="false"><i class="fa-solid fa-book"></i> Materias</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#tab-11-2" data-toggle="tab" aria-expanded="false"><i class="fa fa-heartbeat"></i> Second</a>
+                                            <a class="nav-link" href="#tab-11-2" data-toggle="tab" aria-expanded="false"><i class="fa-solid fa-school"></i> Sedes Institucional</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#tab-11-3" data-toggle="tab" aria-expanded="true"><i class="fa fa-life-ring"></i> Third</a>
-                                        </li>
+                                
                                     </ul>
                                     <div class="tab-content">
                                         <div class="tab-pane fade show active" id="tab-11-1" aria-expanded="false">
+                                        
                                             <ul class="list-group list-group-bordered">
-                                                <li class="">1</li>
-                                                <li class="">2</li>
-                                                <li class="">3</li>
+                                                
+                                                <?php
+                                                    include('../librerias/consultasInfo.php');
+                                                    $numero = 1; 
+                                                    foreach($materiasDispuestas as $filaResultadoMaterias){
+                                                        $materias= $filaResultadoMaterias['profesoresMateria'];
+
+                                                        echo '
+                                                            <a class="list-group-item">'.$numero.'. '. $materias.'</a>
+                                                        ';
+                                                        $numero++;
+                                                    }
+                                                
+                                                
+                                                ?>
+                                    
                                             </ul>
                                         </div>
                                         <div class="tab-pane" id="tab-11-2" aria-expanded="false">
-                                            
+                                            <ul class="list-group list-group-bordered">
+                                                
+                                                <?php
+                                                    $numero2 = 1; 
+                                                    foreach($sedesDispuestas as $filaSedes){
+                                                        $sedesIn= $filaSedes['sede_institucionalNombre'];
+
+                                                        echo '
+                                                            <a class="list-group-item">'.$numero.'. '. $sedesIn.'</a>
+                                                        ';
+                                                        $numero2++;
+                                                    }
+                                                
+                                                
+                                                ?>
+                                    
+                                            </ul>
                                         </div>
-                                        <div class="tab-pane fade" id="tab-11-3" aria-expanded="true">
-    
-                                        </div>
+                                    
                                     </div>
                                 </div>
                             </div>  
@@ -324,7 +350,7 @@
                             </select>
                         </div>
                         <div class="col-md-12">
-                            <label for="prTipoPersonaId" class="form-label"><i class="obligacion">*</i>Fotografia</label>
+                            <label for="prFotografia" class="form-label"><i class="obligacion">*</i>Fotografia</label>
                             <input type="file" class="form-control" name="prFotografia" id="prFotografia">
 
                         </div>
@@ -383,7 +409,7 @@
                 </div>
                 <div class="modal-body">
                     <!-- *************************************** cuerpo del modal(inicio) *************************************** -->
-                    <form id="form-update" method="post" class="row g-3 needs-validation" novalidate>
+                    <form id="form-updateProfesores" method="post" class="row g-3 needs-validation" novalidate>
                         <div class="col-md-12">
                             <i class="aviso-obligacion">los campos obligatorios contienen<i class="obligacion">*</i></i>
                         </div>
@@ -403,6 +429,7 @@
     <script src="../js/json/consultasOption.js"></script>
     <script src="../js/crudProfesores/registrarPr.js"></script>
     <script src="../js/crudProfesores/borrrar.js"></script>
+    <script src="../js/crudProfesores/actualizar.js"></script>
     <script src="../js/complementos/busquedaTeachers.js"></script>
     
 
